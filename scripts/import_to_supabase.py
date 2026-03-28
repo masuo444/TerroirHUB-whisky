@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-全蒸留所JSONデータをSupabaseのwhisky_distilleriesテーブルにインポート。
+全蒸留所JSONデータをSupabaseのdistilleriesテーブルにインポート。
 既存データはupsert（id一致で上書き）。
 
 使い方:
@@ -34,17 +34,17 @@ headers = {
 total = 0
 errors = 0
 
-for jf in sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_whisky_distilleries.json'))):
-    pref = os.path.basename(jf).replace('data_', '').replace('_whisky_distilleries.json', '')
+for jf in sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_distilleries.json'))):
+    pref = os.path.basename(jf).replace('data_', '').replace('_distilleries.json', '')
     with open(jf, 'r', encoding='utf-8') as f:
-        whisky_distilleries = json.load(f)
+        distilleries = json.load(f)
 
-    if not whisky_distilleries:
+    if not distilleries:
         continue
 
     # バッチでupsert（Supabase REST APIは配列をサポート）
     rows = []
-    for d in whisky_distilleries:
+    for d in distilleries:
         if not d.get('id'):
             continue
         row = {
@@ -77,7 +77,7 @@ for jf in sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_whisky_distillerie
     for i in range(0, len(rows), 50):
         batch = rows[i:i+50]
         resp = requests.post(
-            f'{SB_URL}/rest/v1/whisky_distilleries',
+            f'{SB_URL}/rest/v1/distilleries',
             headers=headers,
             json=batch,
         )
@@ -87,6 +87,6 @@ for jf in sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_whisky_distillerie
             print(f"  ERROR {pref}: {resp.status_code} {resp.text[:200]}")
             errors += len(batch)
 
-    print(f"  {pref}: {len(rows)} whisky_distilleries")
+    print(f"  {pref}: {len(rows)} distilleries")
 
 print(f"\nDone: {total} imported, {errors} errors")
