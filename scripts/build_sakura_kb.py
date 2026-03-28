@@ -69,7 +69,7 @@ print(f"日本酒: {sake_count} 蔵を読み込み")
 # ── 焼酎・泡盛データ読み込み ──
 shochu_count = 0
 awamori_count = 0
-shochu_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_distilleries.json')))
+shochu_files = sorted(glob.glob(os.path.join(os.path.dirname(BASE), 'terroirHUB 焼酎', 'data', 'data_*_distilleries.json')))
 for jf in shochu_files:
     pref = os.path.basename(jf).replace('data_', '').replace('_distilleries.json', '')
     pref_name = PREF_NAMES.get(pref, pref)
@@ -113,7 +113,7 @@ print(f"泡盛: {awamori_count} 蒸留所を読み込み")
 print(f"合計: {sake_count + shochu_count + awamori_count} 蔵・蒸留所")
 
 # ── 出力 ──
-out_path = os.path.join(BASE, 'shochu', 'sakura_kb.json')
+out_path = os.path.join(BASE, 'whisky', 'sakura_kb.json')
 with open(out_path, 'w', encoding='utf-8') as f:
     json.dump(kb, f, ensure_ascii=False, separators=(',', ':'))
 

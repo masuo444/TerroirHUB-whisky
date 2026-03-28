@@ -23,6 +23,13 @@ function getSearchIndex() {
     sakeData.forEach(e => { e._site = 'sake'; });
     searchIndex = searchIndex.concat(sakeData);
   } catch (e) {}
+  // 焼酎インデックス
+  try {
+    const shochuPath = path.join(__dirname, '..', 'whisky', 'search_index_shochu.json');
+    const shochuData = JSON.parse(fs.readFileSync(shochuPath, 'utf-8'));
+    shochuData.forEach(e => { e._site = 'shochu'; });
+    searchIndex = searchIndex.concat(shochuData);
+  } catch (e) {}
   return searchIndex;
 }
 
