@@ -1,0 +1,66 @@
+[
+  {
+    "id": "yamazaki",
+    "name": "山崎蒸溜所",
+    "company": "サントリースピリッツ株式会社",
+    "brand": "山崎",
+    "type": "シングルモルト",
+    "founded": "1923",
+    "founded_era": "大正12年",
+    "address": "大阪府三島郡島本町山崎5-2-1",
+    "tel": "075-962-1423",
+    "url": "https://www.suntory.co.jp/factory/yamazaki/",
+    "area": "島本町",
+    "desc": "1923年、鳥井信治郎が日本初のモルトウイスキー蒸溜所として開設。天王山の麓、桂川・宇治川・木津川の3つの川が合流する湿潤な環境に立地。",
+    "visit": "有料見学ツアー（要予約）、山崎ウイスキー館見学（無料・要予約）、営業時間 10:00-16:45",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "ミズナラ樽,シェリー樽,バーボン樽",
+    "age_statement": "12,18,25,NAS",
+    "abv": "",
+    "brands": [
+      {"name": "山崎 NAS", "type": "シングルモルト", "specs": "43度, ノンエイジ"},
+      {"name": "山崎 12年", "type": "シングルモルト", "specs": "43度, 12年熟成"},
+      {"name": "山崎 18年", "type": "シングルモルト", "specs": "43度, 18年熟成"},
+      {"name": "山崎 25年", "type": "シングルモルト", "specs": "43度, 25年熟成"}
+    ],
+    "features": [
+      "1923年創業、日本初のモルトウイスキー蒸溜所",
+      "天王山の麓、3つの川が合流する湿潤な環境",
+      "ミズナラ樽による独自の熟成",
+      "多彩なポットスチルで多様な原酒を製造"
+    ],
+    "nearest_station": "JR京都線 山崎駅 徒歩約10分、阪急京都線 大山崎駅 徒歩約12分",
+    "source": "https://www.suntory.co.jp/factory/yamazaki/",
+    "name_en": "Yamazaki Distillery"
+  },
+  {
+    "id": "senshu",
+    "name": "泉州蒸溜所",
+    "company": "利休蔵",
+    "brand": "泉州",
+    "type": "シングルモルト",
+    "founded": "2025",
+    "founded_era": "令和7年",
+    "address": "大阪府岸和田市",
+    "tel": "",
+    "url": "https://rikyugura.jp/",
+    "area": "岸和田市",
+    "desc": "2025年3月に開所した南大阪初のウイスキー蒸留所。桃の木樽での熟成にも挑戦。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "2025年3月開所",
+      "南大阪初のウイスキー蒸留所",
+      "桃の木樽での熟成にも挑戦"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/senshu/",
+    "name_en": "Senshu Distillery"
+  }
+]

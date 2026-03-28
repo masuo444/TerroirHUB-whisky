@@ -1,0 +1,30 @@
+[
+  {
+    "id": "awano",
+    "name": "阿波乃蒸溜所",
+    "company": "日新酒類株式会社",
+    "brand": "阿波乃",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "徳島県阿波市土成町",
+    "tel": "088-694-8166",
+    "url": "https://www.nissin-shurui.co.jp/whiskey.html",
+    "area": "阿波市",
+    "desc": "江戸時代から続く総合酒類メーカー日新酒類が2023年3月にウイスキー生産を開始。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "江戸時代創業の老舗酒類メーカーが運営",
+      "2023年3月ウイスキー生産開始"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Awano Distillery"
+  }
+]

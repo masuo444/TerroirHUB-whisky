@@ -1,0 +1,31 @@
+[
+  {
+    "id": "hidatakayama",
+    "name": "飛騨高山蒸溜所",
+    "company": "有限会社舩坂酒造店",
+    "brand": "飛騨高山",
+    "type": "シングルモルト",
+    "founded": "2022",
+    "founded_era": "令和4年",
+    "address": "岐阜県高山市高根町下之向164-2",
+    "tel": "0577-32-0016",
+    "url": "https://www.whisky-hida.com/",
+    "area": "高山市",
+    "desc": "岐阜県初のウイスキー蒸留所。廃校となった小学校をウイスキー蒸留所として再生。飛騨高山で旅館や老舗酒蔵を営むアリスグループが設立。",
+    "visit": "見学あり",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "岐阜県初のウイスキー蒸留所",
+      "廃校の小学校をリノベーション",
+      "飛騨産ウイスキーを目指す"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/hidatakayama/",
+    "name_en": "Hida Takayama Distillery"
+  }
+]

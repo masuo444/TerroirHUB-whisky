@@ -1,0 +1,30 @@
+[
+  {
+    "id": "okayama",
+    "name": "岡山蒸溜所",
+    "company": "宮下酒造株式会社",
+    "brand": "岡山",
+    "type": "シングルモルト",
+    "founded": "2011",
+    "founded_era": "平成23年",
+    "address": "岡山県岡山市中区西川原184",
+    "tel": "086-272-5594",
+    "url": "https://www.msb.co.jp/",
+    "area": "岡山市中区",
+    "desc": "2011年にウイスキー製造免許を取得した宮下酒造が運営。日本酒・焼酎・ビール・ジンも製造する岡山の総合酒類メーカー。",
+    "visit": "酒工房独歩館で工場見学可能",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "日本酒・焼酎・ビールも製造する総合酒類メーカー",
+      "岡山の気候を活かした熟成"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/okayama/",
+    "name_en": "Okayama Distillery"
+  }
+]

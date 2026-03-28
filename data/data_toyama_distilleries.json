@@ -1,0 +1,34 @@
+[
+  {
+    "id": "saburomaru",
+    "name": "三郎丸蒸留所",
+    "company": "若鶴酒造株式会社",
+    "brand": "三郎丸",
+    "type": "シングルモルト",
+    "founded": "1952",
+    "founded_era": "昭和27年",
+    "address": "富山県砺波市三郎丸208",
+    "tel": "",
+    "url": "https://www.wakatsuru.co.jp/",
+    "area": "砺波市",
+    "desc": "1952年にウイスキー製造を開始した北陸最古のウイスキー蒸留所。創業以来の製造技術と素材を守り続ける。",
+    "visit": "工場見学あり（要予約）",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "三郎丸", "type": "シングルモルト", "specs": ""},
+      {"name": "スーパースモーキーハイボール", "type": "ハイボール缶", "specs": ""}
+    ],
+    "features": [
+      "1952年蒸留開始、北陸最古のウイスキー蒸留所",
+      "若鶴酒造が運営",
+      "創業以来の伝統的製造技術"
+    ],
+    "nearest_station": "",
+    "source": "https://www.wakatsuru.co.jp/",
+    "name_en": "Saburomaru Distillery"
+  }
+]

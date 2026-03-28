@@ -1,0 +1,61 @@
+[
+  {
+    "id": "yuza",
+    "name": "遊佐蒸溜所",
+    "company": "株式会社金龍",
+    "brand": "YUZA",
+    "type": "シングルモルト",
+    "founded": "2018",
+    "founded_era": "平成30年",
+    "address": "山形県飽海郡遊佐町吉出地区",
+    "tel": "",
+    "url": "https://yuza-disty.jp/",
+    "area": "遊佐町",
+    "desc": "2018年に竣工し翌月から生産を開始した山形県初の本格ウイスキー蒸留所。鳥海山の豊富な伏流水を使用。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "YUZA シングルモルト", "type": "シングルモルト", "specs": ""}
+    ],
+    "features": [
+      "山形県初の本格ウイスキー蒸留所",
+      "鳥海山の伏流水を使用",
+      "金龍（地元清酒メーカー9社共同出資）が運営"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/yuza/",
+    "name_en": "Yuza Distillery"
+  },
+  {
+    "id": "gakkogawa",
+    "name": "月光川蒸留所",
+    "company": "月光川蒸留所株式会社",
+    "brand": "月光川",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "山形県飽海郡遊佐町菅里字菅野37-14",
+    "tel": "",
+    "url": "https://gakkogawa.com/",
+    "area": "遊佐町",
+    "desc": "2023年に蒸留を開始した山形県庄内地方のクラフトウイスキー蒸留所。山形・庄内の風土と時が生むウイスキーを目指す。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "2023年蒸留開始",
+      "庄内地方の風土を活かしたウイスキー造り"
+    ],
+    "nearest_station": "",
+    "source": "https://gakkogawa.com/",
+    "name_en": "Gakkogawa Distillery"
+  }
+]

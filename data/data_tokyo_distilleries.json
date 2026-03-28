@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hachioji",
+    "name": "東京八王子蒸溜所",
+    "company": "",
+    "brand": "八王子",
+    "type": "シングルモルト",
+    "founded": "",
+    "founded_era": "",
+    "address": "東京都八王子市",
+    "tel": "",
+    "url": "https://www.hachioji-distillery.jp/",
+    "area": "八王子市",
+    "desc": "東京都八王子市に所在するウイスキー蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "東京都内のウイスキー蒸留所"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Tokyo Hachioji Distillery"
+  }
+]

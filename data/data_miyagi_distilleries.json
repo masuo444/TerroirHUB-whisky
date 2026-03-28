@@ -1,0 +1,36 @@
+[
+  {
+    "id": "miyagikyo",
+    "name": "宮城峡蒸溜所",
+    "company": "ニッカウヰスキー株式会社",
+    "brand": "宮城峡",
+    "type": "シングルモルト",
+    "founded": "1969",
+    "founded_era": "昭和44年",
+    "address": "宮城県仙台市青葉区ニッカ1番地",
+    "tel": "022-395-2865",
+    "url": "https://www.nikka.com/distilleries/miyagikyo/",
+    "area": "仙台市青葉区",
+    "desc": "1969年、竹鶴政孝が余市とは異なる個性のモルト原酒を求めて仙台西部の緑豊かな峡谷に開設。広瀬川と新川の2つの清流に恵まれた環境。",
+    "visit": "見学ツアーあり（要予約）、ビジターセンター 9:00-16:00",
+    "spirit_type": "malt,grain",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "シングルモルト宮城峡", "type": "シングルモルト", "specs": "45度, ノンエイジ"},
+      {"name": "カフェグレーン", "type": "グレーン", "specs": "45度"},
+      {"name": "カフェモルト", "type": "モルト", "specs": "45度"}
+    ],
+    "features": [
+      "1969年創業、竹鶴政孝が第二の蒸留所として開設",
+      "スチーム間接蒸留による華やかでフルーティな原酒",
+      "カフェ式連続蒸留器による希少なグレーンウイスキー",
+      "広瀬川と新川の合流地点、自然との調和を重視した設計"
+    ],
+    "nearest_station": "JR仙山線 作並駅 車約10分",
+    "source": "https://www.nikka.com/distilleries/miyagikyo/",
+    "name_en": "Miyagikyo Distillery"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "nanbubijin",
+    "name": "南部美人 本社蔵",
+    "company": "株式会社南部美人",
+    "brand": "南部美人",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "岩手県二戸市福岡字上町13",
+    "tel": "0195-23-3133",
+    "url": "https://www.nanbubijin.co.jp/",
+    "area": "二戸市",
+    "desc": "岩手県二戸市の老舗日本酒蔵「南部美人」が2023年にウイスキー蒸留を開始。岩手県初のウイスキー蒸留所。",
+    "visit": "蔵元直営店「本蔵」で有料試飲可能",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "岩手県初のウイスキー蒸留所",
+      "日本酒蔵の技術を活かしたウイスキー造り"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Nanbu Bijin Distillery"
+  }
+]

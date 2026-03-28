@@ -1,0 +1,59 @@
+[
+  {
+    "id": "nagahama",
+    "name": "長濱蒸溜所",
+    "company": "長濱浪漫ビール株式会社",
+    "brand": "AMAHAGAN",
+    "type": "シングルモルト",
+    "founded": "2016",
+    "founded_era": "平成28年",
+    "address": "滋賀県長浜市朝日町14-1",
+    "tel": "0749-63-4300",
+    "url": "https://www.romanbeer.com/",
+    "area": "長浜市",
+    "desc": "日本最小クラスのポットスチルで造られるクラフトウイスキー。「一醸一樽」の哲学で、100年後に世界中のウイスキーファンに喜ばれることを目指す。",
+    "visit": "蒸留所見学ツアーあり",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt,blended_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "AMAHAGAN", "type": "ブレンデッドモルト", "specs": "47度"},
+      {"name": "長濱シングルモルト", "type": "シングルモルト", "specs": ""}
+    ],
+    "features": [
+      "日本最小クラスのポットスチル",
+      "「一醸一樽」の製造哲学",
+      "多彩なコラボレーションウイスキー"
+    ],
+    "nearest_station": "JR北陸本線 長浜駅 徒歩約5分",
+    "source": "https://www.romanbeer.com/",
+    "name_en": "Nagahama Distillery"
+  },
+  {
+    "id": "biwako",
+    "name": "琵琶湖蒸溜所",
+    "company": "川島酒造株式会社",
+    "brand": "琵琶湖",
+    "type": "シングルモルト",
+    "founded": "",
+    "founded_era": "",
+    "address": "滋賀県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "川島酒造が運営する滋賀県のウイスキー蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Biwako Distillery"
+  }
+]

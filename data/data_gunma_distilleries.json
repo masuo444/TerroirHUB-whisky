@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kitakaruizawa",
+    "name": "北軽井沢蒸留所",
+    "company": "株式会社LINK",
+    "brand": "北軽井沢",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "群馬県吾妻郡長野原町",
+    "tel": "",
+    "url": "",
+    "area": "長野原町",
+    "desc": "2023年に蒸留を開始した群馬県長野原町のクラフトウイスキー蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "2023年蒸留開始",
+      "浅間山麓の冷涼な環境"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Kitakaruizawa Distillery"
+  }
+]

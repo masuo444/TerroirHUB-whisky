@@ -1,0 +1,59 @@
+[
+  {
+    "id": "sakurao",
+    "name": "SAKURAO DISTILLERY（桜尾蒸留所）",
+    "company": "株式会社サクラオブルワリーアンドディスティラリー",
+    "brand": "SAKURAO",
+    "type": "シングルモルト",
+    "founded": "2018",
+    "founded_era": "平成30年",
+    "address": "広島県廿日市市桜尾1-12-1",
+    "tel": "0829-32-2111",
+    "url": "https://www.sakuraodistillery.com/",
+    "area": "廿日市市",
+    "desc": "大正7年創業の中国醸造（現サクラオブルワリーアンドディスティラリー）が2018年に新設したクラフト蒸留所。世界遺産宮島を対岸に望む立地。",
+    "visit": "蒸留所ビジターセンターあり",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "SAKURAO シングルモルト", "type": "シングルモルト", "specs": ""},
+      {"name": "桜尾ジン", "type": "ジン", "specs": "47度"}
+    ],
+    "features": [
+      "大正7年創業の中国醸造がルーツ",
+      "世界遺産宮島を対岸に望む立地",
+      "広島初のシングルモルトウイスキー"
+    ],
+    "nearest_station": "JR山陽本線 廿日市駅",
+    "source": "https://jwic.jp/distillery/sakurao/",
+    "name_en": "Sakurao Distillery"
+  },
+  {
+    "id": "setouchi",
+    "name": "SETOUCHI DISTILLERY（瀬戸内蒸留所）",
+    "company": "三宅本店",
+    "brand": "瀬戸内",
+    "type": "シングルモルト",
+    "founded": "",
+    "founded_era": "",
+    "address": "広島県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "三宅本店が広島県に開設した蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Setouchi Distillery"
+  }
+]

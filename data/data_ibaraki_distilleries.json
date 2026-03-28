@@ -1,0 +1,58 @@
+[
+  {
+    "id": "takazo",
+    "name": "高藏蒸留所",
+    "company": "明利酒類株式会社",
+    "brand": "高藏",
+    "type": "シングルモルト",
+    "founded": "2022",
+    "founded_era": "令和4年",
+    "address": "茨城県水戸市",
+    "tel": "",
+    "url": "",
+    "area": "水戸市",
+    "desc": "明利酒類が2022年にウイスキーづくりを再開。水戸市に所在する蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "明利酒類が運営",
+      "2022年ウイスキー製造再開"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Takazo Distillery"
+  },
+  {
+    "id": "yasato",
+    "name": "八郷蒸溜所",
+    "company": "木内酒造株式会社",
+    "brand": "八郷",
+    "type": "シングルモルト",
+    "founded": "2020",
+    "founded_era": "令和2年",
+    "address": "茨城県石岡市",
+    "tel": "",
+    "url": "",
+    "area": "石岡市",
+    "desc": "クラフトビール「常陸野ネストビール」で知られる木内酒造が石岡市に開設したウイスキー蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "常陸野ネストビールの木内酒造が運営",
+      "クラフトビールの知見を活かしたウイスキー造り"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Yasato Distillery"
+  }
+]

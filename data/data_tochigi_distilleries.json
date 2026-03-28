@@ -1,0 +1,30 @@
+[
+  {
+    "id": "nikko_kaido_oyama",
+    "name": "日光街道 小山蒸溜所",
+    "company": "西堀酒造株式会社",
+    "brand": "日光街道",
+    "type": "シングルモルト",
+    "founded": "2022",
+    "founded_era": "令和4年",
+    "address": "栃木県小山市",
+    "tel": "",
+    "url": "",
+    "area": "小山市",
+    "desc": "西堀酒造が2022年に蒸留を開始した栃木県小山市の蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "西堀酒造が運営",
+      "2022年蒸留開始"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Nikko Kaido Oyama Distillery"
+  }
+]

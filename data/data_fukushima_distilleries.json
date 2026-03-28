@@ -1,0 +1,34 @@
+[
+  {
+    "id": "asaka",
+    "name": "安積蒸溜所",
+    "company": "笹の川酒造株式会社",
+    "brand": "安積",
+    "type": "シングルモルト",
+    "founded": "1946",
+    "founded_era": "昭和21年",
+    "address": "福島県郡山市笹川1丁目178",
+    "tel": "024-945-0261",
+    "url": "https://www.sasanokawa.co.jp/asaka-distillery/",
+    "area": "郡山市",
+    "desc": "東北最古の地ウイスキー蒸溜所。1765年創業の笹の川酒造が1946年からウイスキー製造免許を取得。2016年に蒸留設備を一新しクラフトウイスキーの製造を再開。",
+    "visit": "見学可能",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "安積 ザ・ファースト", "type": "シングルモルト", "specs": "50度"},
+      {"name": "山桜", "type": "ブレンデッド", "specs": "40度"}
+    ],
+    "features": [
+      "東北最古の地ウイスキー蒸溜所",
+      "1765年創業の日本酒蔵がルーツ",
+      "2016年に蒸留設備を一新し再始動"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/asaka/",
+    "name_en": "Asaka Distillery"
+  }
+]

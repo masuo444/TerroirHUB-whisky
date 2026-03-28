@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hakushu",
+    "name": "白州蒸溜所",
+    "company": "サントリースピリッツ株式会社",
+    "brand": "白州",
+    "type": "シングルモルト",
+    "founded": "1973",
+    "founded_era": "昭和48年",
+    "address": "山梨県北杜市白州町鳥原2913-1",
+    "tel": "0551-35-2211",
+    "url": "https://www.suntory.co.jp/factory/hakushu/",
+    "area": "北杜市",
+    "desc": "1973年、サントリーが南アルプスの麓に開設した「森の蒸溜所」。標高約700mの豊かな森に囲まれ、南アルプスの天然水を仕込み水に使用。",
+    "visit": "有料見学ツアー（要予約）、ウイスキー博物館、レストラン・バー併設",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "バーボン樽,シェリー樽,ミズナラ樽",
+    "age_statement": "12,18,25,NAS",
+    "abv": "",
+    "brands": [
+      {"name": "白州 NAS", "type": "シングルモルト", "specs": "43度, ノンエイジ"},
+      {"name": "白州 12年", "type": "シングルモルト", "specs": "43度, 12年熟成"},
+      {"name": "白州 18年", "type": "シングルモルト", "specs": "43度, 18年熟成"},
+      {"name": "白州 25年", "type": "シングルモルト", "specs": "43度, 25年熟成"}
+    ],
+    "features": [
+      "1973年開設、標高約700mの「森の蒸溜所」",
+      "南アルプスの天然水を使用",
+      "爽やかでみずみずしい味わい",
+      "ウイスキー博物館を併設"
+    ],
+    "nearest_station": "JR中央本線 小淵沢駅 タクシー約15分",
+    "source": "https://www.suntory.co.jp/factory/hakushu/",
+    "name_en": "Hakushu Distillery"
+  },
+  {
+    "id": "fugaku",
+    "name": "富嶽蒸溜所",
+    "company": "笹川ウイスキー株式会社",
+    "brand": "富嶽",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "山梨県富士吉田市",
+    "tel": "",
+    "url": "",
+    "area": "富士吉田市",
+    "desc": "2023年に蒸留を開始した山梨県富士吉田市のクラフトウイスキー蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "2023年蒸留開始",
+      "富士山麓に立地"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Fugaku Distillery"
+  },
+  {
+    "id": "far_yeast_genryu",
+    "name": "Far Yeast 源流蒸溜所",
+    "company": "Far Yeast Brewing株式会社",
+    "brand": "源流",
+    "type": "シングルモルト",
+    "founded": "",
+    "founded_era": "",
+    "address": "山梨県",
+    "tel": "",
+    "url": "",
+    "area": "",
+    "desc": "クラフトビールメーカーFar Yeast Brewingが山梨県に開設した蒸留所。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "クラフトビールメーカーが運営"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Far Yeast Genryu Distillery"
+  }
+]

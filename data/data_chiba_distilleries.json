@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sudohonke",
+    "name": "須藤本家蒸溜所",
+    "company": "須藤本家株式会社",
+    "brand": "房総ウイスキー",
+    "type": "シングルモルト",
+    "founded": "2018",
+    "founded_era": "平成30年",
+    "address": "千葉県君津市久留里",
+    "tel": "",
+    "url": "http://www.sudohonke.co.jp/",
+    "area": "君津市",
+    "desc": "明治18年創業の老舗酒蔵が2018年に千葉県内で初めてウイスキーの製造免許を取得。久留里の名水を活かしたウイスキー造り。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [
+      {"name": "房総ウイスキー", "type": "シングルモルト", "specs": ""}
+    ],
+    "features": [
+      "千葉県初のウイスキー製造免許取得（2018年）",
+      "久留里の名水を使用"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Sudohonke Distillery"
+  }
+]

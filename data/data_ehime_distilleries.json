@@ -1,0 +1,29 @@
+[
+  {
+    "id": "umebijin",
+    "name": "梅美人酒造蒸溜所",
+    "company": "梅美人酒造株式会社",
+    "brand": "",
+    "type": "シングルモルト",
+    "founded": "2023",
+    "founded_era": "令和5年",
+    "address": "愛媛県八幡浜市",
+    "tel": "",
+    "url": "https://umebijin.com/",
+    "area": "八幡浜市",
+    "desc": "創業105年の梅美人酒造がウイスキー製造に参入。日本酒・焼酎・リキュール・クラフトジンも製造。",
+    "visit": "",
+    "spirit_type": "malt",
+    "whisky_type": "single_malt",
+    "cask_type": "",
+    "age_statement": "",
+    "abv": "",
+    "brands": [],
+    "features": [
+      "創業105年の老舗酒造がウイスキーに参入"
+    ],
+    "nearest_station": "",
+    "source": "https://jwic.jp/distillery/",
+    "name_en": "Umebijin Distillery"
+  }
+]
