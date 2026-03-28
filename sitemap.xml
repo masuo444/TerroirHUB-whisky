@@ -2099,49 +2099,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://whisky.terroirhub.com/whisky/en/yamanashi/far_yeast_genryu.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://whisky.terroirhub.com/whisky/fr/yamanashi/far_yeast_genryu.html"/>
   </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/best-japanese-whisky-2026.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/japanese-whisky-vs-scotch.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/how-to-drink-japanese-whisky.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/japanese-whisky-distillery-tour.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/mizunara-oak-whisky.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/blog/japanese-whisky-under-100.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://whisky.terroirhub.com/whisky/awards/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url><loc>https://whisky.terroirhub.com/whisky/blog/fr/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://whisky.terroirhub.com/whisky/blog/fr/meilleur-whisky-japonais.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://whisky.terroirhub.com/whisky/blog/fr/whisky-japonais-vs-scotch.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://whisky.terroirhub.com/whisky/blog/fr/visiter-distilleries-japon.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://whisky.terroirhub.com/whisky/blog/fr/chene-mizunara.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://whisky.terroirhub.com/whisky/blog/zh/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://whisky.terroirhub.com/whisky/blog/zh/best-japanese-whisky.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://whisky.terroirhub.com/whisky/blog/zh/distillery-tour-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://whisky.terroirhub.com/whisky/blog/zh/mizunara.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
