@@ -6,3 +6,8 @@ node_modules/
 *.log
 .vercel
 .env*.local
+
+# 楽天API認証情報（push禁止）
+scripts/rakuten_config.json
+rakuten_config.json
+whisky/rakuten_items.backup.json

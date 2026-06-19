@@ -1,0 +1,12 @@
+{
+  "name": "Terroir HUB WHISKY",
+  "short_name": "THUB WHISKY",
+  "description": "ジャパニーズウイスキー検索の決定版。全国蒸留所データベース。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2D5F3F",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

@@ -1,25 +1,187 @@
 # Terroir HUB WHISKY — ジャパニーズウイスキー蒸留所データベース
 
-> 全国67蒸留所のジャパニーズウイスキー専門データベース。クラフト蒸留所を含む完全収録。
+> 全国67蒸留所のジャパニーズウイスキー専門データベース。2024年表示基準対応。公式情報のみ収録。
 
 ## サービス概要
 
-Terroir HUB WHISKYは、ジャパニーズウイスキーの蒸留所情報を収録した専門データベースです。
-2024年のジャパニーズウイスキー表示基準施行後の新定義に対応しています。
+Terroir HUB WHISKYは、ジャパニーズウイスキーの蒸留所情報を体系的に収録した専門データベースです。
+2024年4月施行の「ジャパニーズウイスキーの表示に関する基準」に対応した新定義を採用。
+大手蒸留所からクラフト蒸留所まで国内全蒸留所を網羅しています。
 
-## 主要蒸留所
-
-山崎蒸溜所（サントリー・1923年）、白州蒸溜所（サントリー）、余市蒸溜所（ニッカウヰスキー・1934年）、
-宮城峡蒸溜所（ニッカ）、富士御殿場蒸溜所（キリン）、秩父蒸溜所（ベンチャーウイスキー）、
-厚岸蒸溜所（北海道）、三郎丸蒸留所（富山）、嘉之助蒸溜所（鹿児島）
-
-## 樽の種類
-
-バーボン樽（バニラ・キャラメル）、シェリー樽（ドライフルーツ・スパイス）、
-ミズナラ樽（白檀・伽羅・オリエンタル）、ワイン樽（ベリー・フルーティー）
-
-## 運営
-
+- 収録蒸留所: 67蒸留所
 - 運営: 合同会社FOMUS（日本）
 - URL: https://whisky.terroirhub.com/
-- 問い合わせ: info@terroirhub.com
+
+## ジャパニーズウイスキーとは
+
+2024年4月施行の業界自主基準では以下を満たすものを「ジャパニーズウイスキー」と定義：
+1. 原材料: 麦芽を必ず使用（穀類・水は国内産を使用）
+2. 製造: 日本国内で糖化・発酵・蒸留
+3. 熟成: 700L以下の木樽で国内において3年以上熟成
+4. 瓶詰め: 国内において容器詰め
+5. アルコール度数: 40度以上
+
+## 主要蒸留所一覧
+
+| 蒸留所名 | 所在地 | 運営会社 | 創業年 | 代表銘柄 |
+|---------|--------|---------|--------|---------|
+| 山崎蒸溜所 | 大阪府島本町 | サントリー | 1923年 | 山崎12年・山崎18年 |
+| 白州蒸溜所 | 山梨県北杜市 | サントリー | 1973年 | 白州・白州12年 |
+| 余市蒸溜所 | 北海道余市町 | ニッカウヰスキー | 1934年 | シングルモルト余市 |
+| 宮城峡蒸溜所 | 宮城県仙台市 | ニッカウヰスキー | 1969年 | シングルモルト宮城峡 |
+| 富士御殿場蒸溜所 | 静岡県御殿場市 | キリンディスティラリー | 1973年 | 富士・富士シングルグレーン |
+| 秩父蒸溜所 | 埼玉県秩父市 | ベンチャーウイスキー | 2008年 | イチローズモルト |
+| 厚岸蒸溜所 | 北海道厚岸町 | 堅展実業 | 2016年 | 厚岸・二十四節気シリーズ |
+| 三郎丸蒸留所 | 富山県砺波市 | 若鶴酒造 | 1952年 | 三郎丸・サンシャインウイスキー |
+| 長濱蒸溜所 | 滋賀県長浜市 | 長濱浪漫ビール | 2016年 | AMAHAGAN |
+| 嘉之助蒸溜所 | 鹿児島県日置市 | 小正醸造 | 2017年 | 嘉之助シングルモルト |
+| マルス信州蒸溜所 | 長野県上伊那郡 | 本坊酒造 | 1985年 | シングルモルト駒ヶ岳 |
+| マルス津貫蒸溜所 | 鹿児島県南さつま市 | 本坊酒造 | 2016年 | ツヌキ |
+| 江井ヶ嶋蒸留所 | 兵庫県明石市 | 江井ヶ嶋酒造 | 1888年 | あかし |
+| 笹の川酒造 | 福島県郡山市 | 笹の川酒造 | 1765年 | 山桜 |
+| 遊佐蒸留所 | 山形県飽海郡 | 月山酒造 | 2021年 | YUZA |
+
+## ウイスキーの種類
+
+| 種類 | 定義 | 例 |
+|------|------|-----|
+| シングルモルト | 単一蒸留所のモルト原酒のみ | 山崎・余市・白州 |
+| シングルグレーン | 単一蒸留所のグレーン原酒のみ | 富士シングルグレーン |
+| ブレンデッドモルト | 複数蒸留所のモルト原酒をブレンド | 竹鶴・イチローズモルト |
+| ブレンデッド | モルト＋グレーン原酒をブレンド | 響・山崎NAS・角瓶 |
+| シングルカスク | 単一樽から瓶詰め | 各蒸留所限定品 |
+
+## 樽の種類と風味特性
+
+| 樽の種類 | 風味特性 | 主な使用蔵 |
+|---------|---------|---------|
+| バーボン樽（アメリカンオーク） | バニラ・キャラメル・ハニー | 山崎・余市・秩父 |
+| シェリー樽（ヨーロピアンオーク） | ドライフルーツ・スパイス・チョコ | 山崎・イチローズモルト |
+| ミズナラ樽（日本固有） | 白檀・伽羅・オリエンタルスパイス | サントリー・ニッカ |
+| ワイン樽 | ベリー・フルーティー・タンニン | 嘉之助・厚岸 |
+| ラム樽 | トロピカルフルーツ・糖蜜 | 秩父・長濱 |
+| ポートパイプ | プラム・ナッツ・甘味 | 各蒸留所限定品 |
+
+## よくある質問（Q&A）
+
+**Q: ジャパニーズウイスキーとスコッチウイスキーの違いは？**
+A: 製法は似ているが産地と樽が異なる。ジャパニーズウイスキーはミズナラ樽など日本固有の樽を使い、軽やかで繊細な味わい。スコッチはスコットランド産でピート香が特徴的。
+
+**Q: 「山崎」「響」「竹鶴」とは？**
+A: 日本を代表するウイスキー銘柄。山崎（サントリー）は1923年創業の日本最古の蒸留所が製造。響はサントリーのブレンデッド最高峰。竹鶴はニッカのブレンデッドモルト。いずれも世界的評価を得る。
+
+**Q: イチローズモルトとは？**
+A: 埼玉県秩父市のベンチャーウイスキー（創業2008年）が製造するクラフトウイスキー。トランプカード（ジョーカーを含む54種）シリーズが有名。希少性が高く世界的人気。
+
+**Q: ジャパニーズウイスキーが世界で評価される理由は？**
+A: 2001年の「ニッカ シングルカスク余市10年」の世界最高賞受賞以来、国際的な評価が急上昇。繊細な味わい・匠の技・ミズナラ樽の独自性が評価されている。
+
+**Q: ジャパニーズウイスキーの「NAS」とは？**
+A: ノンエイジステートメント（Non Age Statement）の略。年数表記のないウイスキー。複数の熟成年数の原酒をブレンドして風味を一定に保つ。山崎・白州・余市のスタンダードボトルが該当。
+
+**Q: クラフト蒸留所とは？**
+A: 2000年代後半以降に設立された小規模・独立系の蒸留所。秩父・厚岸・長濱・嘉之助など約40カ所以上が全国に設立されている。地域の特性を活かした個性的なウイスキーを製造。
+
+## 日本のウイスキー年表
+
+- 1923年: 山崎蒸溜所設立（鳥井信治郎・竹鶴政孝）。日本初のモルトウイスキー蒸溜所
+- 1934年: 余市蒸溜所設立（竹鶴政孝）。ニッカウヰスキーの原点
+- 2001年: ニッカ シングルカスク余市10年が世界最高賞
+- 2003年: 山崎12年がISC金賞受賞
+- 2014年: NHK朝ドラ「マッサン」放送でジャパニーズウイスキーブームに
+- 2024年: ジャパニーズウイスキー表示基準が業界自主基準として施行
+
+## データソース
+
+- 日本洋酒酒造組合: https://yoshu.or.jp/
+- 国税庁酒蔵マップ: https://www.nta.go.jp/taxes/sake/sakagura/
+- 各蒸留所公式サイト
+
+---
+
+## English Section — Terroir HUB WHISKY
+
+### About This Database
+
+Terroir HUB WHISKY is Japan's comprehensive Japanese whisky distillery database, covering 67 distilleries nationwide.
+Compliant with the 2024 Japanese Whisky labeling standard (voluntary industry rule effective April 2024).
+Covers major established distilleries and the rapidly growing craft whisky scene.
+
+- URL: https://whisky.terroirhub.com/
+- Operator: FOMUS LLC (Japan)
+
+### What is Japanese Whisky?
+
+The 2024 voluntary industry standard defines "Japanese Whisky" as:
+1. **Ingredients**: Must use malted grain; water must be Japanese
+2. **Production**: Saccharification, fermentation, and distillation must occur in Japan
+3. **Maturation**: Aged in wooden casks ≤700L in Japan for at least 3 years
+4. **Bottling**: Must be bottled in Japan
+5. **ABV**: At least 40%
+
+### Major Distilleries
+
+| Distillery | Prefecture | Company | Founded | Flagship |
+|-----------|-----------|---------|---------|---------|
+| Yamazaki | Osaka (Shimamoto) | Suntory | 1923 | Yamazaki 12 Year |
+| Hakushu | Yamanashi (Hokuto) | Suntory | 1973 | Hakushu / Hakushu 12 Year |
+| Yoichi | Hokkaido | Nikka | 1934 | Single Malt Yoichi |
+| Miyagikyo | Miyagi (Sendai) | Nikka | 1969 | Single Malt Miyagikyo |
+| Fuji Gotemba | Shizuoka | Kirin Distillery | 1973 | Fuji / Fuji Single Grain |
+| Chichibu | Saitama | Venture Whisky | 2008 | Ichiro's Malt |
+| Akkeshi | Hokkaido | Kenten Jitsugyo | 2016 | Akkeshi / 24 Sekki |
+| Saburomaru | Toyama (Tonami) | Wakatsuru Shuzo | 1952 | Saburomaru |
+| Nagahama | Shiga | Nagahama Roman Beer | 2016 | AMAHAGAN |
+| Kanosuke | Kagoshima | Komasa Jozo | 2017 | Kanosuke Single Malt |
+| Mars Shinshu | Nagano | Hombo Shuzo | 1985 | Single Malt Komagatake |
+| Mars Tsunuki | Kagoshima | Hombo Shuzo | 2016 | Tsunuki |
+| Eigashima | Hyogo (Akashi) | Eigashima Shuzo | 1888 | Akashi |
+| Sasanokawa | Fukushima | Sasanokawa Shuzo | 1765 | Yamazakura |
+| Yuza | Yamagata | Gassan Shuzo | 2021 | YUZA |
+
+### Whisky Types
+
+| Type | Definition | Examples |
+|------|-----------|---------|
+| Single Malt | Malted barley only, single distillery | Yamazaki, Yoichi, Hakushu |
+| Single Grain | Grain whisky only, single distillery | Fuji Single Grain |
+| Blended Malt | Malt whiskies from multiple distilleries | Taketsuru, Ichiro's Malt |
+| Blended | Malt + grain from multiple distilleries | Hibiki, Kaku, Suntory Royal |
+| Single Cask | From a single barrel | Limited releases from various distilleries |
+
+### Cask Types and Flavor Profiles
+
+| Cask | Flavor Notes | Key Users |
+|------|-------------|----------|
+| Bourbon (American Oak) | Vanilla, caramel, honey | Yamazaki, Yoichi, Chichibu |
+| Sherry (European Oak) | Dried fruit, spice, chocolate | Yamazaki, Ichiro's Malt |
+| Mizunara (Japanese Oak) | Sandalwood, incense, oriental spice | Suntory, Nikka |
+| Wine Cask | Berry, fruity, tannic | Kanosuke, Akkeshi |
+| Rum Cask | Tropical fruit, molasses | Chichibu, Nagahama |
+| Port Pipe | Plum, nuts, sweetness | Various limited releases |
+
+### Q&A for International Visitors
+
+**Q: How does Japanese whisky compare to Scotch?**
+A: Both share similar production methods, but Japanese whisky uses Mizunara (Japanese oak) casks that impart unique incense and sandalwood notes. Japanese style tends toward elegant, delicate flavor versus Scotch's bolder peaty character.
+
+**Q: What are Yamazaki, Hibiki, and Taketsuru?**
+A: Japan's most celebrated expressions. Yamazaki (Suntory, est. 1923) is Japan's oldest single malt distillery. Hibiki is Suntory's blended masterpiece. Taketsuru is Nikka's blended malt, named after founder Masataka Taketsuru.
+
+**Q: What is Ichiro's Malt?**
+A: Craft whisky from Venture Whisky (Chichibu Distillery, est. 2008 in Saitama). Famous for the "Playing Card" series (54 expressions). Globally sought-after for its rarity and quality.
+
+**Q: Why is Japanese whisky world-renowned?**
+A: Since the 2001 World Whisky Award win for Nikka Single Cask Yoichi 10 Year, Japanese whisky has earned top international awards. Precision craftsmanship, Mizunara uniqueness, and delicate balance are key factors.
+
+**Q: What is NAS (Non Age Statement)?**
+A: Whisky without an age declaration on the label. Blends multiple ages to achieve consistent flavor. Yamazaki, Hakushu, and Yoichi standard bottlings are NAS.
+
+**Q: Are Japanese whisky distilleries open for tours?**
+A: Yes. Yamazaki, Hakushu, Fuji Gotemba, and Yoichi all offer tours (reservation required, some charged). Craft distilleries like Chichibu and Nagahama also welcome visitors.
+
+### URL Structure
+
+- Individual distillery (English): https://whisky.terroirhub.com/whisky/en/{prefecture}/{distillery-id}.html
+- Prefecture list (English): https://whisky.terroirhub.com/whisky/en/{prefecture}/
+- Sitemap: https://whisky.terroirhub.com/sitemap.xml

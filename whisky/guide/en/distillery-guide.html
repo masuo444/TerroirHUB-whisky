@@ -93,22 +93,23 @@
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
 
 <style>
 :root {
-  --bg: #FAFAF8;
+  --bg: #F8F6F3;
   --white: #fff;
-  --warm: #F0F4F1;
-  --accent: #2D5F3F;
-  --accent-hover: #1A3D28;
-  --accent-pale: #EBF3EE;
-  --text: #333;
-  --text-body: #444;
-  --text-muted: #888;
-  --border: #E8E5E0;
-  --border-light: #F0EDE8;
+  --accent: #6B4423;
+  --accent2: #A08040;
+  --accent-hover: #4E2E12;
+  --accent-pale: #F3EDE6;
+  --text: #1A1510;
+  --text-body: #3D3020;
+  --text-muted: #8A7A6A;
+  --border: #E8E0D4;
+  --border-light: #F0EAE0;
   --radius: 10px;
+  --footer-bg: #120E08;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -116,7 +117,7 @@ html { scroll-behavior: smooth; overflow-x: hidden; }
 body {
   background: var(--white);
   color: var(--text);
-  font-family: 'Inter', 'Noto Sans JP', sans-serif;
+  font-family: 'DM Sans', 'Noto Sans JP', sans-serif;
   font-size: 15px;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
@@ -125,11 +126,11 @@ body {
 
 .thub-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);}
 .thub-nav-inner{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 20px;max-width:1200px;margin:0 auto;}
-.thub-nav-logo{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:#333;text-decoration:none;white-space:nowrap;}
-.thub-nav-logo span{color:#2D5F3F;}
+.thub-nav-logo{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#333;text-decoration:none;white-space:nowrap;}
+.thub-nav-logo span{color:var(--accent);}
 .thub-nav-links{display:flex;align-items:center;gap:20px;}
 .thub-nav-links a{font-size:13px;color:#555;text-decoration:none;font-weight:500;transition:color 0.15s;white-space:nowrap;}
-.thub-nav-links a:hover{color:#2D5F3F;}
+.thub-nav-links a:hover{color:var(--accent);}
 .nav-lang{display:flex;align-items:center;gap:4px;margin-left:auto;margin-right:12px;font-size:11px;font-weight:500;letter-spacing:0.1em;}
 .nav-lang a{text-decoration:none;}
 .thub-nav-menu{display:none;background:none;border:none;font-size:22px;cursor:pointer;color:#333;padding:4px 8px;}
@@ -139,15 +140,15 @@ body {
 .thub-mm{position:fixed;top:0;right:0;bottom:0;width:280px;z-index:999;background:#fff;box-shadow:-8px 0 40px rgba(0,0,0,0.1);transform:translateX(100%);transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);display:flex;flex-direction:column;}
 .thub-mm.open{transform:translateX(0);}
 .thub-mm-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #f0f0f0;}
-.thub-mm-logo{font-family:'Shippori Mincho',serif;font-size:16px;font-weight:600;color:#333;}
-.thub-mm-logo span{color:#2D5F3F;}
+.thub-mm-logo{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:600;color:#333;}
+.thub-mm-logo span{color:var(--accent);}
 .thub-mm-close{background:none;border:none;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;color:#999;cursor:pointer;}
 .thub-mm-body{flex:1;padding:12px 0;}
-.thub-mm-body a{display:block;font-size:14px;color:#333;text-decoration:none;padding:12px 24px;font-family:'Inter','Noto Sans JP',sans-serif;transition:background 0.15s;}
-.thub-mm-body a:hover{background:#fafaf8;color:#2D5F3F;}
+.thub-mm-body a{display:block;font-size:14px;color:#333;text-decoration:none;padding:12px 24px;font-family:'DM Sans','Noto Sans JP',sans-serif;transition:background 0.15s;}
+.thub-mm-body a:hover{background:#faf8f5;color:var(--accent);}
 
 .hero {
-  margin-top: 52px;
+  margin-top: 0;
   padding: 72px 24px 56px;
   text-align: center;
   background: var(--white);
@@ -162,7 +163,7 @@ body {
   margin-bottom: 16px;
 }
 .hero h1 {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(32px, 6vw, 56px);
   font-weight: 700;
   color: var(--text);
@@ -191,7 +192,7 @@ body {
   margin-bottom: 8px;
 }
 .sec-h {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: clamp(24px, 4vw, 34px);
   font-weight: 700;
   color: var(--text);
@@ -217,7 +218,7 @@ body {
 }
 .dist-card:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(45,95,63,0.08); transform: translateY(-2px); }
 .dist-card h3 {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 700;
   color: var(--text);
@@ -250,7 +251,7 @@ body {
 }
 .route-card:hover { box-shadow: 0 4px 16px rgba(45,95,63,0.12); transform: translateY(-2px); }
 .route-card h3 {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
   font-weight: 700;
   color: var(--accent);
@@ -271,7 +272,7 @@ body {
   margin-top: 48px;
 }
 .etiquette-box h3 {
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 700;
   color: var(--text);
@@ -289,10 +290,10 @@ body {
 .related-card:hover { border-color: var(--accent); box-shadow: 0 4px 14px rgba(0,0,0,0.04); transform: translateY(-1px); }
 .related-card-icon { font-size: 24px; flex-shrink: 0; }
 .related-card-label { font-size: 11px; color: var(--accent); font-weight: 500; letter-spacing: 0.06em; margin-bottom: 3px; }
-.related-card-title { font-family: 'Shippori Mincho', serif; font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.related-card-title { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
 .related-card-desc { font-size: 12px; color: var(--text-muted); line-height: 1.7; }
 
-.footer { background: #1A3D28; padding: 44px 24px 28px; color: rgba(255,255,255,0.4); font-size: 12px; }
+.footer { background: var(--footer-bg); padding: 44px 24px 28px; color: rgba(255,255,255,0.4); font-size: 12px; }
 .fi { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 28px; margin-bottom: 28px; }
 @media (max-width: 640px) { .fi { grid-template-columns: 1fr; } }
 .ft { font-size: 13px; color: rgba(255,255,255,0.7); margin-bottom: 10px; font-weight: 500; }
@@ -301,7 +302,7 @@ body {
 .footer-bottom { max-width: 900px; margin: 0 auto; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
 
 .tab-bar { display: none; position: fixed; bottom: 0; left: 0; right: 0; z-index: 300; background: rgba(255,255,255,0.97); backdrop-filter: blur(12px); border-top: 1px solid rgba(0,0,0,0.06); padding: 6px 0 env(safe-area-inset-bottom, 8px); justify-content: space-around; align-items: center; }
-.tab-item { display: flex; flex-direction: column; align-items: center; gap: 2px; background: none; border: none; cursor: pointer; padding: 4px 12px; color: #aaa; transition: color 0.15s; font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+.tab-item { display: flex; flex-direction: column; align-items: center; gap: 2px; background: none; border: none; cursor: pointer; padding: 4px 12px; color: #aaa; transition: color 0.15s; font-family: 'DM Sans', sans-serif; -webkit-tap-highlight-color: transparent; }
 .tab-item.active, .tab-item:active { color: var(--accent); }
 .tab-icon { font-size: 22px; line-height: 1; }
 .tab-label { font-size: 10px; font-weight: 500; }
@@ -311,7 +312,22 @@ body {
 }
 
 .divider { border: none; border-top: 1px solid var(--border-light); max-width: 900px; margin: 0 auto; }
+
+/* GUIDE NAV BAR */
+.guide-nav{background:var(--bg);border-bottom:1px solid var(--border);overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+.guide-nav::-webkit-scrollbar{display:none;}
+.guide-nav-inner{display:flex;align-items:center;gap:4px;padding:10px 20px;max-width:1200px;margin:0 auto;white-space:nowrap;}
+.guide-nav a{display:inline-block;font-size:12px;font-weight:500;color:var(--text-muted);text-decoration:none;padding:5px 12px;border-radius:20px;transition:all 0.15s;border:1px solid transparent;}
+.guide-nav a:hover{color:var(--accent);background:var(--accent-pale);border-color:var(--border);}
+.guide-nav a.active{color:var(--accent);background:var(--accent-pale);border-color:var(--accent);font-weight:600;}
 </style>
+<script>
+window.THUB_CONFIG={genre:"whisky",brandColor:"#6B4423",brandColor2:"#A08040",basePath:"/whisky",siteName:"Terroir HUB WHISKY",apiBase:"https://sake.terroirhub.com"};
+</script>
+<meta property="og:image" content="https://whisky.terroirhub.com/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://whisky.terroirhub.com/ogp.png">
 </head>
 
 <body>
@@ -335,9 +351,31 @@ body {
     <button onclick="document.getElementById('thub-mm').classList.remove('open');document.getElementById('thub-mm-ov').classList.remove('open')" class="thub-mm-close">&#10005;</button>
   </div>
   <div class="thub-mm-body">
-    <a href="/whisky/guide/en/">Whisky Guide</a>
-    <a href="/en/">Distillery Search</a>
-    <a href="/">Home (JA)</a>
+    <a href="/whisky/guide/en/index.html">&#128214; Whisky Guide</a>
+    <a href="/whisky/guide/en/types.html">Types</a>
+    <a href="/whisky/guide/en/production.html">Production</a>
+    <a href="/whisky/guide/en/cask.html">Cask Guide</a>
+    <a href="/whisky/guide/en/drinking.html">How to Drink</a>
+    <a href="/whisky/guide/en/pairing.html">Food Pairing</a>
+    <a href="/whisky/guide/en/history.html">History</a>
+    <a href="/whisky/guide/en/distillery-guide.html">Distillery Tours</a>
+    <a href="/whisky/guide/en/glossary.html">Glossary</a>
+    <a href="/">&#127968; Home</a>
+  </div>
+</div>
+
+<!-- GUIDE NAV BAR -->
+<div class="guide-nav" style="margin-top:52px;">
+  <div class="guide-nav-inner">
+    <a href="/whisky/guide/en/index.html">Overview</a>
+    <a href="/whisky/guide/en/types.html">Types</a>
+    <a href="/whisky/guide/en/production.html">Production</a>
+    <a href="/whisky/guide/en/cask.html">Cask Guide</a>
+    <a href="/whisky/guide/en/drinking.html">How to Drink</a>
+    <a href="/whisky/guide/en/pairing.html">Food Pairing</a>
+    <a href="/whisky/guide/en/history.html">History</a>
+    <a href="/whisky/guide/en/distillery-guide.html" class="active">Distilleries</a>
+    <a href="/whisky/guide/en/glossary.html">Glossary</a>
   </div>
 </div>
 
@@ -461,26 +499,32 @@ body {
   <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <div class="fi">
     <div>
-      <div class="ft" style="font-family:'Shippori Mincho',serif;font-size:18px;margin-bottom:12px;">Terroir HUB <span style="color:#6BAF8D;">WHISKY</span></div>
+      <div class="ft" style="font-family:'Cormorant Garamond',serif;font-size:18px;margin-bottom:12px;">Terroir HUB <span style="color:#C8965A;">WHISKY</span></div>
       <div class="fb">A platform to discover, learn, and experience Japanese whisky. Covering distillery data from across Japan.</div>
       <div style="margin-top:14px;">
         <a href="mailto:info@terroirhub.com" style="color:rgba(255,255,255,0.5);font-size:11px;text-decoration:none;">info@terroirhub.com</a>
       </div>
     </div>
     <div>
-      <div class="ft">Content</div>
+      <div class="ft">Whisky Guide</div>
       <div class="fb">
-        <a href="/whisky/guide/en/">Whisky Guide</a><br>
-        <a href="/whisky/guide/en/drinking.html">Drinking Methods</a><br>
+        <a href="/whisky/guide/en/types.html">Types</a><br>
+        <a href="/whisky/guide/en/production.html">Production</a><br>
+        <a href="/whisky/guide/en/cask.html">Cask Guide</a><br>
+        <a href="/whisky/guide/en/drinking.html">How to Drink</a><br>
         <a href="/whisky/guide/en/pairing.html">Food Pairing</a><br>
+        <a href="/whisky/guide/en/history.html">History</a><br>
         <a href="/whisky/guide/en/glossary.html">Glossary</a>
       </div>
     </div>
     <div>
       <div class="ft">Explore</div>
       <div class="fb">
-        <a href="/en/">Home (EN)</a><br>
-        <a href="/whisky/guide/en/distillery-guide.html">Distillery Visits</a>
+        <a href="/">Distillery Search</a><br>
+        <a href="https://sake.terroirhub.com/">Sake</a><br>
+        <a href="https://shochu.terroirhub.com/">Shochu</a><br>
+        <a href="https://liqueur.terroirhub.com/">Liqueur</a><br>
+        <a href="https://wine.terroirhub.com/">Wine</a>
       </div>
       <div style="margin-top:20px;">
         <div class="ft">Company</div>
@@ -492,6 +536,7 @@ body {
     <span style="font-size:10px;color:rgba(255,255,255,0.25);">&copy; 2026 Terroir HUB WHISKY &mdash; FOMUS LLC</span>
     <span style="font-size:10px;color:rgba(255,255,255,0.2);">Discover whisky, freely.</span>
   </div>
+<p style="margin-top:12px"><a href="https://sake.terroirhub.com/sake/brewery/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);font-size:11px;text-decoration:none;letter-spacing:0.04em;">蔵元・生産者の方へ ›</a></p>
 </footer>
 
 <!-- MOBILE TAB BAR -->
@@ -507,5 +552,6 @@ body {
   </button>
 </div>
 
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
 </body>
 </html>
