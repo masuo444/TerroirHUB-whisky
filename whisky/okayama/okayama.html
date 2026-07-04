@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>岡山蒸溜所 — 岡山県の蒸溜所 | Terroir HUB WHISKY</title>
-<meta name="description" content="岡山蒸溜所（岡山市中区）。岡山県のウイスキー蒸溜所。代表銘柄「岡山」。平成23年創業。日本酒・焼酎・ビールも製造する総合酒類メーカー。Terroir HUB WHISKY">
+<meta name="description" content="2011年にウイスキー製造免許を取得した宮下酒造が運営。日本酒・焼酎・ビール・ジンも製造する岡山の総合酒類メーカー。">
 <meta property="og:title" content="岡山蒸溜所 — 岡山県の蒸溜所 | Terroir HUB WHISKY">
-<meta property="og:description" content="岡山蒸溜所（岡山市中区）。岡山県のウイスキー蒸溜所。代表銘柄「岡山」。平成23年創業。日本酒・焼酎・ビールも製造する総合酒類メーカー。Terroir HUB WHISKY">
+<meta property="og:description" content="2011年にウイスキー製造免許を取得した宮下酒造が運営。日本酒・焼酎・ビール・ジンも製造する岡山の総合酒類メーカー。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://whisky.terroirhub.com/whisky/okayama/okayama.html">
 <meta property="og:image" content="https://whisky.terroirhub.com/img/hero.jpg">
@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://whisky.terroirhub.com/whisky/okayama/okayama.html">
     <link rel="alternate" hreflang="ja" href="https://whisky.terroirhub.com/whisky/okayama/okayama.html">
     <link rel="alternate" hreflang="en" href="https://whisky.terroirhub.com/whisky/en/okayama/okayama.html">
-    <link rel="alternate" hreflang="fr" href="https://whisky.terroirhub.com/whisky/fr/okayama/okayama.html">
     <link rel="alternate" hreflang="x-default" href="https://whisky.terroirhub.com/whisky/en/okayama/okayama.html">
 <script type="application/ld+json">
 {
@@ -26,7 +25,7 @@
     {
       "@type": "LocalBusiness",
       "name": "岡山蒸溜所",
-      "description": "岡山蒸溜所（岡山市中区）。岡山県のウイスキー蒸溜所。代表銘柄「岡山」。平成23年創業。日本酒・焼酎・ビールも製造する総合酒類メーカー。Terroir HUB WHISKY",
+      "description": "2011年にウイスキー製造免許を取得した宮下酒造が運営。日本酒・焼酎・ビール・ジンも製造する岡山の総合酒類メーカー。",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "岡山市中区",
@@ -288,7 +287,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/whisky/okayama/okayama.html">日本語</a>
     <a class="lb" href="/whisky/en/okayama/okayama.html">EN</a>
-    <a class="lb" href="/whisky/fr/okayama/okayama.html">FR</a>
   </div>
 </nav>
 
@@ -367,6 +365,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 
 
 
+
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -395,7 +394,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
-<p style="margin-top:12px"><a href="https://sake.terroirhub.com/sake/brewery/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);font-size:11px;text-decoration:none;letter-spacing:0.04em;">蔵元・生産者の方へ ›</a></p>
 </footer>
 
 <!-- FAB -->
@@ -430,19 +428,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='岡山蒸溜所',BB='岡山';
-const SUGS=['岡山ってどんなウイスキー？','蒸留所見学はできる？','おすすめの飲み方は？','岡山蒸溜所の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB WHISKY（ウイスキーのページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "岡山蒸溜所", "brand": "岡山", "pref": "岡山県", "area": "岡山市中区", "founded": "2011", "founded_era": "平成23年", "brands": [], "visit": "酒工房独歩館で工場見学可能", "url": "https://www.msb.co.jp/", "desc": "2011年にウイスキー製造免許を取得した宮下酒造が運営。日本酒・焼酎・ビール・ジンも製造する岡山の総合酒類メーカー。", "suggestions": ["岡山ってどんなウイスキー？", "おすすめの飲み方は？", "見学はできる？", "岡山蒸溜所の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

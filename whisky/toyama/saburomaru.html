@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>三郎丸蒸留所 — 富山県の蒸溜所 | Terroir HUB WHISKY</title>
-<meta name="description" content="三郎丸蒸留所（砺波市）。富山県のウイスキー蒸溜所。代表銘柄「三郎丸」。昭和27年創業。1952年蒸留開始、北陸最古のウイスキー蒸留所。Terroir HUB WHISKY">
+<meta name="description" content="1952年にウイスキー製造を開始した北陸最古のウイスキー蒸留所。創業以来の製造技術と素材を守り続ける。">
 <meta property="og:title" content="三郎丸蒸留所 — 富山県の蒸溜所 | Terroir HUB WHISKY">
-<meta property="og:description" content="三郎丸蒸留所（砺波市）。富山県のウイスキー蒸溜所。代表銘柄「三郎丸」。昭和27年創業。1952年蒸留開始、北陸最古のウイスキー蒸留所。Terroir HUB WHISKY">
+<meta property="og:description" content="1952年にウイスキー製造を開始した北陸最古のウイスキー蒸留所。創業以来の製造技術と素材を守り続ける。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://whisky.terroirhub.com/whisky/toyama/saburomaru.html">
 <meta property="og:image" content="https://whisky.terroirhub.com/img/hero.jpg">
@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://whisky.terroirhub.com/whisky/toyama/saburomaru.html">
     <link rel="alternate" hreflang="ja" href="https://whisky.terroirhub.com/whisky/toyama/saburomaru.html">
     <link rel="alternate" hreflang="en" href="https://whisky.terroirhub.com/whisky/en/toyama/saburomaru.html">
-    <link rel="alternate" hreflang="fr" href="https://whisky.terroirhub.com/whisky/fr/toyama/saburomaru.html">
     <link rel="alternate" hreflang="x-default" href="https://whisky.terroirhub.com/whisky/en/toyama/saburomaru.html">
 <script type="application/ld+json">
 {
@@ -26,7 +25,7 @@
     {
       "@type": "LocalBusiness",
       "name": "三郎丸蒸留所",
-      "description": "三郎丸蒸留所（砺波市）。富山県のウイスキー蒸溜所。代表銘柄「三郎丸」。昭和27年創業。1952年蒸留開始、北陸最古のウイスキー蒸留所。Terroir HUB WHISKY",
+      "description": "1952年にウイスキー製造を開始した北陸最古のウイスキー蒸留所。創業以来の製造技術と素材を守り続ける。",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "砺波市",
@@ -295,7 +294,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/whisky/toyama/saburomaru.html">日本語</a>
     <a class="lb" href="/whisky/en/toyama/saburomaru.html">EN</a>
-    <a class="lb" href="/whisky/fr/toyama/saburomaru.html">FR</a>
   </div>
 </nav>
 
@@ -414,6 +412,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -442,7 +441,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
-<p style="margin-top:12px"><a href="https://sake.terroirhub.com/sake/brewery/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.5);font-size:11px;text-decoration:none;letter-spacing:0.04em;">蔵元・生産者の方へ ›</a></p>
 </footer>
 
 <!-- FAB -->
@@ -477,19 +475,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='三郎丸蒸留所',BB='三郎丸';
-const SUGS=['三郎丸ってどんなウイスキー？','蒸留所見学はできる？','おすすめの飲み方は？','三郎丸蒸留所の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB WHISKY（ウイスキーのページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "三郎丸蒸留所", "brand": "三郎丸", "pref": "富山県", "area": "砺波市", "founded": "1952", "founded_era": "昭和27年", "brands": ["三郎丸", "スーパースモーキーハイボール"], "visit": "工場見学あり（要予約）", "url": "https://www.wakatsuru.co.jp/", "desc": "1952年にウイスキー製造を開始した北陸最古のウイスキー蒸留所。創業以来の製造技術と素材を守り続ける。", "suggestions": ["三郎丸ってどんなウイスキー？", "おすすめの飲み方は？", "見学はできる？", "三郎丸蒸留所の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>
