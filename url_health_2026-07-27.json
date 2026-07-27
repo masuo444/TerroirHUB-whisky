@@ -1,0 +1,485 @@
+[
+ {
+  "key": "chita",
+  "name": "知多蒸溜所",
+  "url": "https://www.suntory.co.jp/chitadistillery/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "kiyosuzakura",
+  "name": "清洲桜醸造 本社工場",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "hekinan",
+  "name": "碧南蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "sudohonke",
+  "name": "須藤本家蒸溜所",
+  "url": "http://www.sudohonke.co.jp/",
+  "code": 200,
+  "final": "http://www.sudohonke.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "umebijin",
+  "name": "梅美人酒造蒸溜所",
+  "url": "https://umebijin.com/",
+  "code": 200,
+  "final": "https://umebijin.com/",
+  "status": "ok"
+ },
+ {
+  "key": "nikka_moji",
+  "name": "ニッカウヰスキー門司工場",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "asakura",
+  "name": "朝倉蒸溜所",
+  "url": "https://asakuradistillery.com/",
+  "code": 200,
+  "final": "https://asakuradistillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "shindo",
+  "name": "新道蒸溜所",
+  "url": "https://shindo-lab.jp/",
+  "code": 200,
+  "final": "https://shindo-lab.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "asaka",
+  "name": "安積蒸溜所",
+  "url": "https://www.sasanokawa.co.jp/asaka-distillery/",
+  "code": 200,
+  "final": "https://www.sasanokawa.co.jp/asaka-distillery/",
+  "status": "ok"
+ },
+ {
+  "key": "hidatakayama",
+  "name": "飛騨高山蒸溜所",
+  "url": "https://www.whisky-hida.com/",
+  "code": 200,
+  "final": "https://www.whisky-hida.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kitakaruizawa",
+  "name": "北軽井沢蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "sakurao",
+  "name": "SAKURAO DISTILLERY（桜尾蒸留所）",
+  "url": "https://www.sakuraodistillery.com/",
+  "code": 200,
+  "final": "https://www.sakuraodistillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "setouchi",
+  "name": "SETOUCHI DISTILLERY（瀬戸内蒸留所）",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "yoichi",
+  "name": "余市蒸溜所",
+  "url": "https://www.nikka.com/distilleries/yoichi/",
+  "code": 200,
+  "final": "https://www.nikka.com/distilleries/yoichi/",
+  "status": "ok"
+ },
+ {
+  "key": "akkeshi",
+  "name": "厚岸蒸溜所",
+  "url": "https://akkeshi-distillery.com/",
+  "code": 200,
+  "final": "https://akkeshi-distillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "niseko",
+  "name": "ニセコ蒸溜所",
+  "url": "https://niseko-distillery.com/",
+  "code": 200,
+  "final": "https://niseko-distillery.com/ja/",
+  "status": "ok"
+ },
+ {
+  "key": "rishiri",
+  "name": "利尻蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "maoi",
+  "name": "馬追蒸溜所",
+  "url": "https://maoidistillery.com/",
+  "code": 200,
+  "final": "https://maoidistillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "sawamachi",
+  "name": "サワマチ蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "di_tripper",
+  "name": "ディ・トリッパー蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "eigashima",
+  "name": "江井ヶ嶋蒸留所",
+  "url": "https://www.ei-sake.jp/",
+  "code": 200,
+  "final": "https://www.ei-sake.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "tamba",
+  "name": "丹波蒸溜所",
+  "url": "https://kizakura.co.jp/tamba/",
+  "status": "unreachable",
+  "error": "URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>"
+ },
+ {
+  "key": "kobe",
+  "name": "神戸蒸溜所",
+  "url": "https://www.kobe-distillery.com/",
+  "code": 200,
+  "final": "https://www.kobe-distillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "rokkosan",
+  "name": "六甲山蒸溜所",
+  "url": "https://rokkosan-distillery.com/",
+  "code": 200,
+  "final": "https://rokkosan-distillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "kaikyo",
+  "name": "海峡蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "yabu",
+  "name": "養父蒸溜所",
+  "url": "https://yabu-distillery.co.jp/",
+  "code": 200,
+  "final": "https://yabu-distillery.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "takazo",
+  "name": "高藏蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "yasato",
+  "name": "八郷蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nanbubijin",
+  "name": "南部美人 本社蔵",
+  "url": "https://www.nanbubijin.co.jp/",
+  "code": 200,
+  "final": "https://www.nanbubijin.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "kanosuke",
+  "name": "嘉之助蒸溜所",
+  "url": "https://kanosuke.com/",
+  "code": 200,
+  "final": "https://kanosuke.com/",
+  "status": "ok"
+ },
+ {
+  "key": "mars_tsunuki",
+  "name": "マルス津貫蒸溜所",
+  "url": "https://www.hombo.co.jp/factory/tsunuki/",
+  "code": 200,
+  "final": "https://www.hombo.co.jp/visiting/",
+  "status": "ok"
+ },
+ {
+  "key": "kyoto_distillery",
+  "name": "京都蒸溜所",
+  "url": "https://kyotodistillery.jp/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "ise",
+  "name": "伊勢蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "miyagikyo",
+  "name": "宮城峡蒸溜所",
+  "url": "https://www.nikka.com/distilleries/miyagikyo/",
+  "code": 200,
+  "final": "https://www.nikka.com/distilleries/miyagikyo/",
+  "status": "ok"
+ },
+ {
+  "key": "mars_komagatake",
+  "name": "マルス駒ヶ岳蒸溜所",
+  "url": "https://www.hombo.co.jp/en/visiting/komagatake/",
+  "code": 200,
+  "final": "https://www.hombo.co.jp/en/visiting/komagatake/",
+  "status": "ok"
+ },
+ {
+  "key": "nozawa_onsen",
+  "name": "野沢温泉蒸留所",
+  "url": "https://nozawaonsendistillery.jp/",
+  "code": 200,
+  "final": "https://nozawaonsendistillery.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "iiyama_mountain_farm",
+  "name": "飯山マウンテンファーム蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "komoro",
+  "name": "小諸蒸留所",
+  "url": "https://komorodistillery.com/",
+  "code": 200,
+  "final": "https://komorodistillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "miyota",
+  "name": "御代田蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "karuizawa_whisky",
+  "name": "軽井沢ウイスキー蒸留所",
+  "url": "https://karuizawadistillers.com/",
+  "code": 200,
+  "final": "https://karuizawadistillers.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hasami",
+  "name": "波佐見蒸留所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "umegae",
+  "name": "梅ヶ枝酒造蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "yoshidadenzai",
+  "name": "吉田電材蒸留所",
+  "url": "https://yoshidadenzai-distillery.com/",
+  "code": 200,
+  "final": "https://yoshidadenzai-distillery.com/",
+  "status": "ok"
+ },
+ {
+  "key": "niigata_kameda",
+  "name": "新潟亀田蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "fukasawahara",
+  "name": "深沢原蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "okayama",
+  "name": "岡山蒸溜所",
+  "url": "https://www.msb.co.jp/",
+  "code": 200,
+  "final": "https://www.msb.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "yamazaki",
+  "name": "山崎蒸溜所",
+  "url": "https://www.suntory.co.jp/factory/yamazaki/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "senshu",
+  "name": "泉州蒸溜所",
+  "url": "https://rikyugura.jp/",
+  "code": 200,
+  "final": "https://rikyugura.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "chichibu",
+  "name": "秩父蒸溜所",
+  "url": "https://www.one-drinks.com/",
+  "code": 200,
+  "final": "https://www.one-drinks.com/",
+  "status": "ok"
+ },
+ {
+  "key": "chichibu_daini",
+  "name": "秩父第2蒸溜所",
+  "url": "https://www.one-drinks.com/",
+  "code": 200,
+  "final": "https://www.one-drinks.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hanyu",
+  "name": "羽生蒸溜所",
+  "url": "https://hanyu-distillery.jp/",
+  "code": 200,
+  "final": "https://hanyu-distillery.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "konosu",
+  "name": "鴻巣蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nagahama",
+  "name": "長濱蒸溜所",
+  "url": "https://www.romanbeer.com/",
+  "code": 200,
+  "final": "https://www.romanbeer.com/",
+  "status": "ok"
+ },
+ {
+  "key": "biwako",
+  "name": "琵琶湖蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "fuji_gotemba",
+  "name": "富士御殿場蒸溜所",
+  "url": "https://www.kirin.co.jp/experience/factory/gotemba/",
+  "code": 200,
+  "final": "https://www.kirin.co.jp/experience/factory/gotemba/",
+  "status": "ok"
+ },
+ {
+  "key": "gaiaflow_shizuoka",
+  "name": "ガイアフロー静岡蒸溜所",
+  "url": "https://shizuoka-distillery.jp/",
+  "code": 200,
+  "final": "https://shizuoka-distillery.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "ikawa",
+  "name": "井川蒸溜所",
+  "url": "https://juzan.co.jp/contents/ikawadistillery/",
+  "code": 200,
+  "final": "https://juzan.co.jp/contents/ikawadistillery/",
+  "status": "ok"
+ },
+ {
+  "key": "water_dragon",
+  "name": "Distillery Water Dragon",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "nikko_kaido_oyama",
+  "name": "日光街道 小山蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "awano",
+  "name": "阿波乃蒸溜所",
+  "url": "https://www.nissin-shurui.co.jp/whiskey.html",
+  "code": 200,
+  "final": "https://www.nissin-shurui.co.jp/whiskey.html",
+  "status": "ok"
+ },
+ {
+  "key": "hachioji",
+  "name": "東京八王子蒸溜所",
+  "url": "https://www.hachioji-distillery.jp/",
+  "code": 200,
+  "final": "https://www.hachioji-distillery.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "saburomaru",
+  "name": "三郎丸蒸留所",
+  "url": "https://www.wakatsuru.co.jp/",
+  "code": 200,
+  "final": "https://www.wakatsuru.co.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "yuza",
+  "name": "遊佐蒸溜所",
+  "url": "https://yuza-disty.jp/",
+  "code": 200,
+  "final": "https://yuza-disty.jp/",
+  "status": "ok"
+ },
+ {
+  "key": "gakkogawa",
+  "name": "月光川蒸留所",
+  "url": "https://gakkogawa.com/",
+  "code": 200,
+  "final": "https://gakkogawa.com/",
+  "status": "ok"
+ },
+ {
+  "key": "hakushu",
+  "name": "白州蒸溜所",
+  "url": "https://www.suntory.co.jp/factory/hakushu/",
+  "code": 403,
+  "status": "http_error"
+ },
+ {
+  "key": "fugaku",
+  "name": "富嶽蒸溜所",
+  "url": "",
+  "status": "empty"
+ },
+ {
+  "key": "far_yeast_genryu",
+  "name": "Far Yeast 源流蒸溜所",
+  "url": "",
+  "status": "empty"
+ }
+]
