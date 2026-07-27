@@ -15,6 +15,17 @@ with open(os.path.join(BASE, 'template_whisky.html'), 'r') as f:
     tmpl = f.read()
 CSS = tmpl[tmpl.find('<style>') + 7:tmpl.find('</style>')]
 
+# 英語の編集コンテンツ（data/en_content.json、県:IDキー）。
+# 存在する蔵はENページの本文を差し替え、noindexを外してhreflangを完全な対にする。
+import os as _os, json as _json
+_enc_path = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), 'data', 'en_content.json')
+EN_CONTENT = {}
+if _os.path.exists(_enc_path):
+    try:
+        EN_CONTENT = {k: v for k, v in _json.load(open(_enc_path, encoding='utf-8')).items() if not k.startswith('_')}
+    except Exception:
+        EN_CONTENT = {}
+
 DOMAIN = 'whisky.terroirhub.com'
 
 PREF_NAMES = {
@@ -218,11 +229,40 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 
     meta_desc = t['meta_desc'].format(name=display_name, pref=pref_en)
 
-    # hreflang tags
-    # ENは未翻訳の殻のためnoindex・hreflang対から除外（EN本物化したら戻す）
-    hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/whisky/{pref_slug}/{bid}.html">
+    # 英語の編集コンテンツがあれば本文を差し替える（EN_CONTENT_GUIDE準拠・事実はJAデータのみ）
+    _ov = EN_CONTENT.get(f"{pref_slug}:{bid}") if lang == 'en' else None
+    _has_real_en = bool(_ov)
+    if _ov:
+        desc = _ov.get('desc_en') or desc
+        features = _ov.get('features_en') or features
+        _bmap = _ov.get('brands_en') or {}
+        if _bmap:
+            _nb = []
+            for _br in brands:
+                if isinstance(_br, str):
+                    _br = {'name': _br, 'specs': ''}
+                if not isinstance(_br, dict):
+                    continue
+                _e = _bmap.get(str(_br.get('name', '')))
+                if _e:
+                    _jn = str(_br.get('name', ''))
+                    _en_name = _e.get('name_en') or _jn
+                    _nb.append({**_br, 'name': _en_name if _en_name == _jn else f"{_en_name}",
+                                'specs': _e.get('specs_en') or _br.get('specs', ''), 'type': ''})
+                else:
+                    _nb.append(_br)
+            brands = _nb
+
+    # hreflang: EN本物化済みはja/enの完全な対にしてnoindexを外す。殻のままなら従来通り除外
+    if lang == 'en' and _has_real_en:
+        hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/whisky/{pref_slug}/{bid}.html">
+    <link rel="alternate" hreflang="en" href="https://{DOMAIN}/whisky/en/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/whisky/{pref_slug}/{bid}.html">'''
-    robots_meta = '<meta name="robots" content="noindex,follow">\n' if lang == 'en' else ''
+        robots_meta = ''
+    else:
+        hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/whisky/{pref_slug}/{bid}.html">
+    <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/whisky/{pref_slug}/{bid}.html">'''
+        robots_meta = '<meta name="robots" content="noindex,follow">\n' if lang == 'en' else ''
 
     # Brands HTML
     brands_html = ''

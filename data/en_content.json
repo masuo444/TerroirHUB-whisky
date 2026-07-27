@@ -1,0 +1,425 @@
+{
+ "_note": "英語本文（EN_CONTENT_GUIDE準拠）。日本語データにある事実のみを英語化。JA側に無い受賞・数値・逸話は書かない。読みが不確実な固有名詞は公式表記が確認できるもののみローマ字化。by=fable, 2026-07-27",
+ "aichi:chita": {
+  "tagline_en": "Japan's largest grain whisky distillery — the quiet engine behind Hibiki and Kakubin.",
+  "desc_en": "Chita is Japan's largest grain whisky distillery, owned by Suntory and long dedicated to producing the grain component of blended whiskies such as Hibiki and Kakubin. Since 2015 its spirit has also been bottled on its own as The Chita, a single grain whisky. The distillery is not open to the public.",
+  "features_en": ["Japan's largest grain whisky distillery", "Produces grain spirit for Hibiki and Kakubin blends", "Bottled as The Chita single grain since 2015"],
+  "brands_en": {"サントリーウイスキー 知多": {"name_en": "The Chita (Suntory Whisky Chita)", "specs_en": "Single grain — 43% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "aichi:kiyosuzakura": {
+  "tagline_en": "A Kiyosu sake and spirits maker whose head plant also turns out blended whisky.",
+  "desc_en": "The head plant of Kiyosuzakura Jozo in Kiyosu, Aichi. Best known as a brewer, the company also produces whisky at this site.",
+  "features_en": ["Head plant of Kiyosuzakura Jozo in Kiyosu", "Whisky made alongside its main brewing business"],
+  "by": "fable", "audited": false
+ },
+ "aichi:hekinan": {
+  "tagline_en": "Aioi Unibio's whisky distillery in the port town of Hekinan.",
+  "desc_en": "A whisky distillery in Hekinan, Aichi, operated by Aioi Unibio, a brewing and fermentation company based in the region.",
+  "features_en": ["Single malt distillery in Hekinan, Aichi", "Operated by Aioi Unibio"],
+  "by": "fable", "audited": false
+ },
+ "chiba:sudohonke": {
+  "tagline_en": "Chiba's first whisky licence, held by a sake house founded in 1885, with Kururi's famed water.",
+  "desc_en": "Sudohonke, a sake brewery founded in 1885, obtained Chiba Prefecture's first whisky production licence in 2018. It makes its whisky with the celebrated spring water of Kururi, the same water that supports its brewing.",
+  "features_en": ["First whisky production licence in Chiba (2018)", "Brewed with the noted spring water of Kururi", "Roots in a sake house founded in 1885"],
+  "brands_en": {"房総ウイスキー": {"name_en": "Boso Whisky", "specs_en": "Single malt"}},
+  "by": "fable", "audited": false
+ },
+ "ehime:umebijin": {
+  "tagline_en": "A 105-year-old Yawatahama sake maker that has added whisky to sake, shochu, liqueurs and gin.",
+  "desc_en": "Umebijin Shuzo of Yawatahama, Ehime — a sake maker with 105 years of history — has expanded into whisky production. The house also makes sake, shochu, liqueurs and craft gin, bringing a broad fermentation practice to its distilling.",
+  "features_en": ["105-year-old sake house turned distiller", "Also makes sake, shochu, liqueurs and craft gin"],
+  "by": "fable", "audited": false
+ },
+ "fukuoka:nikka_moji": {
+  "tagline_en": "Nikka Whisky's production base for Kyushu, at the strait-side district of Moji.",
+  "desc_en": "The Moji plant in Kitakyushu is Nikka Whisky's production base for the Kyushu region, producing blended whisky.",
+  "features_en": ["Nikka Whisky's Kyushu production base", "Located in Moji, Kitakyushu"],
+  "by": "fable", "audited": false
+ },
+ "fukuoka:asakura": {
+  "tagline_en": "Fukuoka's first whisky distillery, opened in 2021 by the long-established sake brewer Shinozaki.",
+  "desc_en": "Asakura Distillery was opened in 2021 by Shinozaki, a long-established sake brewing house in Asakura, Fukuoka, and became the prefecture's first whisky distillery. Distillery tours are offered.",
+  "features_en": ["Fukuoka's first whisky distillery", "Run by the long-established sake brewer Shinozaki", "Distillery tours offered"],
+  "by": "fable", "audited": false
+ },
+ "fukuoka:shindo": {
+  "tagline_en": "Shinozaki's second site, named for the wish to cut a new path in whisky making.",
+  "desc_en": "Shindo Distillery stands near Shinozaki's head office in Asakura, Fukuoka. Its name carries the founders' intent — to open a new road (shindo) in whisky making. Run as SHINDO LAB, it has offered distillery tours and a hand-fill experience since August 2024.",
+  "features_en": ["Run as SHINDO LAB", "Tours and hand-fill bottling experience (from Aug 2024)", "Named for \"a new road\" in whisky making"],
+  "by": "fable", "audited": false
+ },
+ "fukushima:asaka": {
+  "tagline_en": "Tohoku's oldest local whisky distillery, revived in 2016 by a sake house founded in 1765.",
+  "desc_en": "Asaka is the oldest local whisky distillery in the Tohoku region. Its parent, Sasanokawa Shuzo, has brewed sake since 1765 and took its whisky licence in 1946. In 2016 the company renewed the stills and restarted production as a craft whisky distillery. Visits are possible.",
+  "features_en": ["Tohoku's oldest local whisky distillery", "Rooted in a sake house founded in 1765", "Stills renewed and production restarted in 2016"],
+  "brands_en": {"安積 ザ・ファースト": {"name_en": "Asaka The First", "specs_en": "Single malt — 50% ABV"}, "山桜": {"name_en": "Yamazakura", "specs_en": "Blended — 40% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "gifu:hidatakayama": {
+  "tagline_en": "Gifu's first whisky distillery, born inside a closed village school in Hida Takayama.",
+  "desc_en": "Hida Takayama Distillery is Gifu Prefecture's first whisky distillery, created by converting a closed elementary school. It was founded by the Alice Group, which runs inns and a long-established sake brewery in Hida Takayama, with the aim of making a whisky of Hida. Tours are available.",
+  "features_en": ["Gifu's first whisky distillery", "A renovated former elementary school", "Founded by a local inn and sake-brewing group"],
+  "by": "fable", "audited": false
+ },
+ "gunma:kitakaruizawa": {
+  "tagline_en": "Craft distilling begun in 2023 in the cool air at the foot of Mt. Asama.",
+  "desc_en": "A craft whisky distillery in Naganohara, Gunma, that began distilling in 2023, working in the cool climate at the foot of Mt. Asama.",
+  "features_en": ["Began distilling in 2023", "Cool climate at the foot of Mt. Asama"],
+  "by": "fable", "audited": false
+ },
+ "hiroshima:sakurao": {
+  "tagline_en": "Hiroshima's first single malt, distilled within sight of the shrine island of Miyajima.",
+  "desc_en": "Sakurao Distillery was opened in 2018 by Chugoku Jozo — founded in 1918 and now Sakurao Brewery and Distillery — on a site that looks across the water to Miyajima, the World Heritage shrine island. It produced Hiroshima's first single malt whisky and also distils gin. A visitor centre is open.",
+  "features_en": ["Hiroshima's first single malt whisky", "Founded 1918 as Chugoku Jozo", "Faces the World Heritage island of Miyajima"],
+  "brands_en": {"SAKURAO シングルモルト": {"name_en": "Sakurao Single Malt", "specs_en": "Single malt"}, "桜尾ジン": {"name_en": "Sakurao Gin", "specs_en": "Gin — 47% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "hiroshima:setouchi": {
+  "tagline_en": "A distillery opened in Hiroshima by the sake brewer Miyake Honten.",
+  "desc_en": "Setouchi Distillery was opened in Hiroshima Prefecture by Miyake Honten, a sake brewing company.",
+  "features_en": ["Opened by sake brewer Miyake Honten"],
+  "by": "fable", "audited": false
+ },
+ "hokkaido:yoichi": {
+  "tagline_en": "Where Japanese whisky's founding story lives on — Taketsuru's 1934 distillery, still firing its stills with coal.",
+  "desc_en": "Yoichi is the origin of Nikka Whisky, founded in 1934 when Masataka Taketsuru chose this spot at the neck of the Shakotan Peninsula for its resemblance to Scotland. The distillery still practises coal-fired direct-heat distillation — now rare anywhere in the world — producing powerful, weighty malt whisky matured in a maritime climate. Guided tours run by reservation.",
+  "features_en": ["Founded 1934 by Masataka Taketsuru", "Rare coal-fired direct-heat distillation", "Powerful, weighty malt shaped by a maritime climate"],
+  "brands_en": {"シングルモルト余市": {"name_en": "Single Malt Yoichi", "specs_en": "Single malt — 45% ABV, no age statement"}, "シングルモルト余市10年": {"name_en": "Single Malt Yoichi 10 Year Old", "specs_en": "Single malt — 45% ABV, aged 10 years"}, "シングルモルト余市20年": {"name_en": "Single Malt Yoichi 20 Year Old", "specs_en": "Single malt — 52% ABV, aged 20 years"}},
+  "by": "fable", "audited": false
+ },
+ "hokkaido:akkeshi": {
+  "tagline_en": "Islay-style whisky from the cool, damp air of eastern Hokkaido, told through the 24 solar terms.",
+  "desc_en": "Akkeshi Distillery was opened in 2016 by Kenten Jitsugyo in the town of Akkeshi, eastern Hokkaido, where the cool, humid climate resembles that of Islay. Working with peated malt in the Islay style, it has earned international acclaim for its series named after the 24 solar terms of the traditional calendar.",
+  "features_en": ["Cool, damp climate akin to Islay", "Peated, Islay-style single malt", "Internationally acclaimed 24 Solar Terms series"],
+  "brands_en": {"厚岸 二十四節気シリーズ": {"name_en": "Akkeshi 24 Solar Terms Series", "specs_en": "Single malt — 55% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "hokkaido:niseko": {
+  "tagline_en": "Whisky from the underground waters of Mt. Niseko Annupuri, by the group behind Hakkaisan sake.",
+  "desc_en": "Niseko Distillery was opened in 2021 by the Hakkaisan brewing group. It draws fine subsoil water from Mt. Niseko Annupuri and makes whisky in the cool climate of the Niseko highlands. Visits are possible by reservation.",
+  "features_en": ["Run by the Hakkaisan sake group", "Subsoil water from Mt. Niseko Annupuri", "Cool-climate maturation"],
+  "by": "fable", "audited": false
+ },
+ "hokkaido:rishiri": {
+  "tagline_en": "Japan's northernmost whisky distillery, on the island of Rishiri.",
+  "desc_en": "Opened on Rishiri Island in 2022, this is Japan's northernmost whisky distillery, working in the island's cool northern climate.",
+  "features_en": ["Japan's northernmost whisky distillery", "Cool island climate of Rishiri"],
+  "by": "fable", "audited": false
+ },
+ "hokkaido:maoi": {
+  "tagline_en": "A Hokkaido winery reborn as a house of wine, brandy and whisky.",
+  "desc_en": "Maoi Distillery opened in 2022 in Naganuma, Hokkaido, on the site of the former Hokkaido Maoi Jiyu-no-Oka Winery. It produces wine, brandy and whisky.",
+  "features_en": ["Former winery turned distillery", "Makes wine, brandy and whisky"],
+  "by": "fable", "audited": false
+ },
+ "hokkaido:sawamachi": {
+  "tagline_en": "A Hokkaido whisky distillery run by MST LLC.",
+  "desc_en": "A whisky distillery in Hokkaido operated by MST LLC.",
+  "features_en": ["Single malt distillery in Hokkaido"],
+  "by": "fable", "audited": false
+ },
+ "hokkaido:di_tripper": {
+  "tagline_en": "A craft still in Hakodate's historic Motomachi, from the importer Behind The Cask.",
+  "desc_en": "Di-Tripper Distillery opened in 2023 in Motomachi, the historic quarter of Hakodate. It was established by Behind The Cask, a whisky importer, and began distilling in December 2023 in the heart of the city.",
+  "features_en": ["In Hakodate's historic Motomachi district", "Began distilling in December 2023", "Founded by whisky importer Behind The Cask"],
+  "by": "fable", "audited": false
+ },
+ "hyogo:eigashima": {
+  "tagline_en": "A whisky licence held since 1919 — one of Japan's oldest — at a sake house on the Akashi strait.",
+  "desc_en": "Eigashima took its whisky production licence in 1919, making it one of the oldest whisky distilleries in Japan. The company is also known for its sake Kamitaka (God Hawk) and produces a broad range of drinks. Its whisky matures in the mild climate near the Akashi Strait. Guided tours run by reservation.",
+  "features_en": ["Whisky licence since 1919 — among Japan's oldest", "A composite maker of sake, shochu, wine and whisky", "Maturation in the mild Akashi Strait climate"],
+  "brands_en": {"シングルモルトあかし": {"name_en": "Single Malt Akashi", "specs_en": "Single malt — 46% ABV"}, "ホワイトオークあかし": {"name_en": "White Oak Akashi", "specs_en": "Blended — 40% ABV"}, "香掬（カスク）": {"name_en": "Kasuku (Cask)", "specs_en": "Single malt"}},
+  "by": "fable", "audited": false
+ },
+ "hyogo:tamba": {
+  "tagline_en": "Kizakura's whisky venture in the hills of Tamba-Sasayama.",
+  "desc_en": "Tamba Distillery was opened in Tamba-Sasayama, Hyogo, by the sake maker Kizakura, distilling in the natural surroundings of the Tamba hills.",
+  "features_en": ["Run by sake maker Kizakura", "Set in the Tamba-Sasayama countryside"],
+  "by": "fable", "audited": false
+ },
+ "hyogo:kobe": {
+  "tagline_en": "A whisky distillery in the hills of northern Kobe.",
+  "desc_en": "A whisky distillery located in Kita ward, Kobe.",
+  "features_en": ["Single malt distillery in northern Kobe"],
+  "by": "fable", "audited": false
+ },
+ "hyogo:rokkosan": {
+  "tagline_en": "Whisky made on the heights of Mt. Rokko, above Kobe.",
+  "desc_en": "A whisky distillery sited on the upper reaches of Mt. Rokko, the mountain that rises directly behind Kobe.",
+  "features_en": ["Located on the heights of Mt. Rokko"],
+  "by": "fable", "audited": false
+ },
+ "hyogo:kaikyo": {
+  "tagline_en": "Akashi Sake Brewery's distillery beside the strait it is named for.",
+  "desc_en": "Kaikyo Distillery in Akashi, Hyogo, is operated by Akashi Sake Brewery. Its name means \"strait\", after the Akashi Strait nearby.",
+  "features_en": ["Run by Akashi Sake Brewery", "Named for the Akashi Strait"],
+  "by": "fable", "audited": false
+ },
+ "hyogo:yabu": {
+  "tagline_en": "A still among the deep snows of Yabu, beneath Hyogo's highest peak.",
+  "desc_en": "Yabu Distillery stands in Yabu, Hyogo, ringed by mountains including Mt. Hyonosen, the prefecture's highest peak, in one of the snowiest corners of the Kinki region.",
+  "features_en": ["One of the snowiest locations in the Kinki region", "Beneath Mt. Hyonosen, Hyogo's highest peak"],
+  "by": "fable", "audited": false
+ },
+ "ibaraki:takazo": {
+  "tagline_en": "Meiri Shurui's return to whisky making, in the castle town of Mito.",
+  "desc_en": "Takazo Distillery in Mito, Ibaraki, is run by Meiri Shurui, which restarted its whisky production in 2022.",
+  "features_en": ["Run by Meiri Shurui", "Whisky production restarted in 2022"],
+  "by": "fable", "audited": false
+ },
+ "ibaraki:yasato": {
+  "tagline_en": "The Hitachino Nest brewers turning beer-making craft toward single malt.",
+  "desc_en": "Yasato Distillery in Ishioka, Ibaraki, was opened by Kiuchi Brewery, famous for Hitachino Nest craft beer. The company brings its brewing knowledge to whisky making.",
+  "features_en": ["Opened by Kiuchi Brewery of Hitachino Nest fame", "Whisky informed by craft-beer brewing expertise"],
+  "by": "fable", "audited": false
+ },
+ "iwate:nanbubijin": {
+  "tagline_en": "Iwate's first whisky distillery, begun in 2023 by the celebrated sake house Nanbu Bijin.",
+  "desc_en": "Nanbu Bijin, the long-established sake brewery of Ninohe, Iwate, began distilling whisky in 2023 — the first whisky distillery in the prefecture. The house applies its sake-brewing skill to spirit making. Paid tastings are offered at the brewery's own shop, the Hongura.",
+  "features_en": ["Iwate's first whisky distillery", "Whisky built on sake-brewing technique", "Paid tastings at the brewery shop"],
+  "by": "fable", "audited": false
+ },
+ "kagoshima:kanosuke": {
+  "tagline_en": "A shochu family's whisky, maturing in sea air on a sweep of Kagoshima coast.",
+  "desc_en": "Kanosuke Distillery was opened in 2017 by Komasa Jozo, which turned its shochu-making craft to whisky. The site overlooks the sea, and the ocean wind that moves through the maturation warehouse lends the whisky a touch of brine. Three pot stills give the house a wide palette of spirit. It matures in bourbon and sherry casks; tours run by reservation.",
+  "features_en": ["Shochu-making craft applied to whisky", "Sea-breeze warehouse gives a saline cast to maturation", "Three pot stills for a broad range of spirit"],
+  "brands_en": {"嘉之助 シングルモルト": {"name_en": "Kanosuke Single Malt", "specs_en": "Single malt — 48% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "kagoshima:mars_tsunuki": {
+  "tagline_en": "Mars whisky's southern home, where a warm climate hurries the casks along.",
+  "desc_en": "Mars Tsunuki was opened in 2016 by Hombo Shuzo in Minamisatsuma, Kagoshima. In the warm southern climate the whisky matures quickly, and the company draws on its long experience in shochu and wine making. Maturation uses bourbon and sherry casks; visits are possible by reservation.",
+  "features_en": ["Warm climate brings maturation on quickly", "Backed by Hombo Shuzo's shochu and wine experience", "Set in the countryside of southern Satsuma"],
+  "brands_en": {"マルス津貫 シングルモルト": {"name_en": "Mars Tsunuki Single Malt", "specs_en": "Single malt"}},
+  "by": "fable", "audited": false
+ },
+ "kyoto:kyoto_distillery": {
+  "tagline_en": "The house of Ki No Bi gin, now setting its stills to whisky as well.",
+  "desc_en": "The Kyoto Distillery, founded in 2014, is best known as Japan's first dedicated gin distillery and for its Ki No Bi Kyoto Dry Gin, made with Kyoto's famous water. It has since begun distilling whisky as well.",
+  "features_en": ["Japan's first dedicated gin distillery", "Made with Kyoto's noted water", "Now also distilling whisky"],
+  "brands_en": {"季の美 京都ドライジン": {"name_en": "Ki No Bi Kyoto Dry Gin", "specs_en": "Gin — 45.7% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "mie:ise": {
+  "tagline_en": "A whisky distillery in Mie run by Iseman of the IX Holdings group.",
+  "desc_en": "A whisky distillery in Mie Prefecture operated by Iseman, part of IX Holdings.",
+  "features_en": ["Operated by Iseman (IX Holdings group)"],
+  "by": "fable", "audited": false
+ },
+ "miyagi:miyagikyo": {
+  "tagline_en": "Taketsuru's second distillery, set in a green river gorge west of Sendai for a softer, fruitier make.",
+  "desc_en": "Miyagikyo was opened in 1969, when Masataka Taketsuru sought a malt of a different character from Yoichi and chose a lush gorge west of Sendai, blessed by two clear rivers, the Hirose and the Nikkawa. Steam-heated indirect distillation gives a graceful, fruity spirit, and rare Coffey continuous stills produce grain whisky. Tours run by reservation; the visitor centre opens 9:00–16:00.",
+  "features_en": ["Founded 1969 as Taketsuru's second distillery", "Steam-heated stills for an elegant, fruity malt", "Rare Coffey stills producing grain whisky"],
+  "brands_en": {"シングルモルト宮城峡": {"name_en": "Single Malt Miyagikyo", "specs_en": "Single malt — 45% ABV, no age statement"}, "カフェグレーン": {"name_en": "Nikka Coffey Grain", "specs_en": "Grain — 45% ABV"}, "カフェモルト": {"name_en": "Nikka Coffey Malt", "specs_en": "Malt — 45% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "nagano:mars_komagatake": {
+  "tagline_en": "Malt whisky at 798 metres in the Central Alps, heir to the designs of Kiichiro Iwai.",
+  "desc_en": "Mars Komagatake stands at 798 metres above sea level at the foot of Mt. Komagatake in the Central Alps. Renamed from Mars Shinshu in March 2024, the Hombo Shuzo distillery carries on the design philosophy of Kiichiro Iwai. Admission is free, tastings are paid, and the distillery is open 9:00–16:00 (tours accepted until 15:30).",
+  "features_en": ["At 798 m in the Central Alps", "Renamed from Mars Shinshu in 2024", "Carries on Kiichiro Iwai's design philosophy"],
+  "brands_en": {"シングルモルト駒ヶ岳": {"name_en": "Single Malt Komagatake", "specs_en": "Single malt"}, "岩井トラディション": {"name_en": "Iwai Tradition", "specs_en": "Blended — 40% ABV"}, "マルスモルテージ越百": {"name_en": "Mars Maltage Cosmo", "specs_en": "Blended malt — 43% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "nagano:nozawa_onsen": {
+  "tagline_en": "A former cannery in the middle of Nozawa Onsen village, distilling since 2023.",
+  "desc_en": "Nozawa Onsen Distillery began distilling in 2023 inside a converted former cannery in the centre of Nozawa Onsen, the hot-spring village in northern Nagano.",
+  "features_en": ["A converted former cannery", "In the heart of Nozawa Onsen village", "Distilling since 2023"],
+  "by": "fable", "audited": false
+ },
+ "nagano:iiyama_mountain_farm": {
+  "tagline_en": "A distillery in the snow country of Iiyama, run by Kiyokawa.",
+  "desc_en": "A whisky distillery in Iiyama, Nagano, operated by Kiyokawa.",
+  "features_en": ["Single malt distillery in Iiyama, Nagano"],
+  "by": "fable", "audited": false
+ },
+ "nagano:komoro": {
+  "tagline_en": "Clear Asama water and the hand of world-renowned blender Ian Chang.",
+  "desc_en": "Komoro Distillery was built where the foothills of Mt. Asama yield clear, fine water. Ian Chang, the world-renowned blender, has joined the project. Visits are available.",
+  "features_en": ["World-renowned blender Ian Chang on board", "Fine water from the foot of Mt. Asama", "Tours available"],
+  "by": "fable", "audited": false
+ },
+ "nagano:miyota": {
+  "tagline_en": "Totsuka Shuzo's long game: stills running since late 2022, first release aimed at 2032.",
+  "desc_en": "Miyota Distillery, run by Totsuka Shuzo, began operating at the end of 2022 under the Karuizawa Whisky Distillery name, with its first release planned for 2032 — a patient, decade-long bet on maturation.",
+  "features_en": ["Run by Totsuka Shuzo", "Operating since late 2022", "First release planned for 2032"],
+  "by": "fable", "audited": false
+ },
+ "nagano:karuizawa_whisky": {
+  "tagline_en": "A distillery bearing the storied Karuizawa whisky name.",
+  "desc_en": "A distillery carrying the Karuizawa whisky name.",
+  "features_en": ["Bears the Karuizawa whisky name"],
+  "by": "fable", "audited": false
+ },
+ "nagasaki:hasami": {
+  "tagline_en": "A whisky distillery in Hasami, the porcelain town of Nagasaki.",
+  "desc_en": "A whisky distillery located in the town of Hasami, Nagasaki Prefecture.",
+  "features_en": ["Single malt distillery in Hasami, Nagasaki"],
+  "by": "fable", "audited": false
+ },
+ "nagasaki:umegae": {
+  "tagline_en": "The whisky arm of Nagasaki's Umegae Shuzo.",
+  "desc_en": "A whisky distillery in Nagasaki Prefecture belonging to the brewer Umegae Shuzo.",
+  "features_en": ["Whisky distillery of Umegae Shuzo"],
+  "by": "fable", "audited": false
+ },
+ "niigata:yoshidadenzai": {
+  "tagline_en": "An electrical-parts maker's unlikely still, dedicated to Japanese craft grain whisky.",
+  "desc_en": "Yoshidadenzai Distillery in Nagaoka, Niigata, was founded as a domestic craft grain whisky distillery — unusual twice over, for its grain-whisky focus and for its parent, an electrical materials manufacturer.",
+  "features_en": ["Dedicated to Japanese craft grain whisky", "Founded by an electrical materials maker"],
+  "by": "fable", "audited": false
+ },
+ "niigata:niigata_kameda": {
+  "tagline_en": "A craft whisky distillery in Kameda, on the edge of Niigata city.",
+  "desc_en": "A craft whisky distillery in the Kameda district of Niigata city.",
+  "features_en": ["Craft single malt distillery in Niigata city"],
+  "by": "fable", "audited": false
+ },
+ "niigata:fukasawahara": {
+  "tagline_en": "Hakkaisan's whisky project in the snow country of Minamiuonuma.",
+  "desc_en": "Fukasawahara Distillery in Minamiuonuma, Niigata, was opened by Hakkaisan Brewery, the sake house famed for Hakkaisan. The company brings its sake-brewing technique to whisky.",
+  "features_en": ["Opened by Hakkaisan Brewery", "Whisky drawing on sake-brewing technique"],
+  "by": "fable", "audited": false
+ },
+ "okayama:okayama": {
+  "tagline_en": "Whisky from Miyashita Shuzo, the Okayama house that brews sake, beer and everything between.",
+  "desc_en": "Okayama Distillery is run by Miyashita Shuzo, which took its whisky production licence in 2011. A true composite maker, the company also produces sake, shochu, beer and gin, and matures its whisky in Okayama's climate. Tours are available at its Doppo-kan brewery hall.",
+  "features_en": ["Composite maker of sake, shochu, beer and whisky", "Whisky licence since 2011", "Tours at the Doppo-kan brewery hall"],
+  "by": "fable", "audited": false
+ },
+ "osaka:yamazaki": {
+  "tagline_en": "Japan's first malt whisky distillery, set in 1923 where three rivers meet beneath Mt. Tenno.",
+  "desc_en": "Yamazaki was founded in 1923 by Shinjiro Torii as Japan's first malt whisky distillery. It stands at the foot of Mt. Tenno where the Katsura, Uji and Kizu rivers meet — a humid site chosen for maturation. Diverse pot stills yield a wide range of spirit, and casks of Japanese mizunara oak give a signature accent alongside sherry and bourbon wood. Paid tours run by reservation; the Yamazaki Whisky Museum can be visited free (reservation required), 10:00–16:45.",
+  "features_en": ["Japan's first malt whisky distillery (1923)", "Humid site where three rivers meet", "Mizunara-oak maturation among diverse casks"],
+  "brands_en": {"山崎 NAS": {"name_en": "Yamazaki", "specs_en": "Single malt — 43% ABV, no age statement"}, "山崎 12年": {"name_en": "Yamazaki 12 Year Old", "specs_en": "Single malt — 43% ABV, aged 12 years"}, "山崎 18年": {"name_en": "Yamazaki 18 Year Old", "specs_en": "Single malt — 43% ABV, aged 18 years"}, "山崎 25年": {"name_en": "Yamazaki 25 Year Old", "specs_en": "Single malt — 43% ABV, aged 25 years"}},
+  "by": "fable", "audited": false
+ },
+ "osaka:senshu": {
+  "tagline_en": "Southern Osaka's first whisky distillery, opened in 2025 — and experimenting with peach-wood casks.",
+  "desc_en": "Senshu Distillery opened in March 2025 in Kishiwada as the first whisky distillery in southern Osaka. Among its experiments is maturation in casks made of peach wood.",
+  "features_en": ["First whisky distillery in southern Osaka", "Opened March 2025", "Experimenting with peach-wood casks"],
+  "by": "fable", "audited": false
+ },
+ "saitama:chichibu": {
+  "tagline_en": "Ichiro Akuto's Chichibu — the craft distillery that put Japanese whisky's new wave on the world map.",
+  "desc_en": "Chichibu Distillery was founded by Ichiro Akuto in 2004, with distilling begun in February 2008. It is the home of Ichiro's Malt, a whisky held in the highest international regard. Maturation runs through a wide range of casks including Japanese mizunara oak, and Chichibu's four sharply drawn seasons shape the whisky's character. Tours run by reservation, 9:00–17:00.",
+  "features_en": ["Home of the world-acclaimed Ichiro's Malt", "Founded by Ichiro Akuto; distilling since 2008", "Mizunara and varied casks in a four-season climate"],
+  "brands_en": {"イチローズモルト&グレーン ホワイトラベル": {"name_en": "Ichiro's Malt & Grain White Label", "specs_en": "Blended — 46% ABV"}, "イチローズモルト ミズナラウッドリザーブ": {"name_en": "Ichiro's Malt Mizunara Wood Reserve", "specs_en": "Blended malt — 46% ABV"}, "イチローズモルト ダブルディスティラリーズ": {"name_en": "Ichiro's Malt Double Distilleries", "specs_en": "Blended malt — 46% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "saitama:chichibu_daini": {
+  "tagline_en": "Chichibu's second site, built to carry the house's craft at greater scale.",
+  "desc_en": "Venture Whisky opened this second distillery in Chichibu in 2019 to expand production capacity, carrying over the techniques of the first Chichibu distillery.",
+  "features_en": ["Second distillery built for expanded production", "Inherits the craft of Chichibu No.1"],
+  "by": "fable", "audited": false
+ },
+ "saitama:hanyu": {
+  "tagline_en": "The storied Hanyu still, silent for years, running again since 2021.",
+  "desc_en": "Hanyu Distillery was established in 1980 by Toa Shuzo. After a long pause, distilling resumed in 2021, and a visitor centre now welcomes guests (tours by reservation).",
+  "features_en": ["Established 1980 by Toa Shuzo", "Distilling resumed in 2021 after a long silence", "Visitor centre open; tours by reservation"],
+  "by": "fable", "audited": false
+ },
+ "saitama:konosu": {
+  "tagline_en": "Japan's first foreign-founded craft whisky distillery, distilling since 2020.",
+  "desc_en": "Konosu Distillery began distilling in 2020. Founded by Eric Chhoa, CEO of a UK-headquartered precision chemicals maker, it is the first Japanese craft whisky distillery established with foreign capital.",
+  "features_en": ["First foreign-founded craft whisky distillery in Japan", "Distilling since 2020"],
+  "by": "fable", "audited": false
+ },
+ "shiga:nagahama": {
+  "tagline_en": "One of Japan's smallest stills, run on the creed of one brew, one cask.",
+  "desc_en": "Nagahama Distillery, founded in 2016, makes craft whisky on pot stills among the smallest in Japan. Its philosophy — one brew, one cask — aims at whisky that will delight drinkers a hundred years from now, and the house is known for a wide range of collaboration bottlings. Distillery tours are offered.",
+  "features_en": ["Among the smallest pot stills in Japan", "\"One brew, one cask\" philosophy", "Known for collaboration whiskies"],
+  "brands_en": {"AMAHAGAN": {"name_en": "Amahagan", "specs_en": "Blended malt — 47% ABV"}, "長濱シングルモルト": {"name_en": "Nagahama Single Malt", "specs_en": "Single malt"}},
+  "by": "fable", "audited": false
+ },
+ "shiga:biwako": {
+  "tagline_en": "Kawashima Shuzo's whisky distillery near Lake Biwa.",
+  "desc_en": "A whisky distillery in Shiga Prefecture operated by the brewer Kawashima Shuzo.",
+  "features_en": ["Whisky distillery of Kawashima Shuzo in Shiga"],
+  "by": "fable", "audited": false
+ },
+ "shizuoka:fuji_gotemba": {
+  "tagline_en": "Malt and grain under one roof at 620 metres on the slopes of Mt. Fuji.",
+  "desc_en": "Fuji Gotemba was established in 1973 as a joint venture of Kirin, Seagram and Chivas Brothers. At about 620 metres on the foot of Mt. Fuji, it is one of the rare distilleries making both malt and grain whisky on one site, using Mt. Fuji's subsoil water and maturing spirit in a humid climate that averages 13°C across the year. Paid tours run by reservation.",
+  "features_en": ["Both malt and grain whisky under one roof", "Mt. Fuji subsoil water at 620 m elevation", "Cool, humid maturation averaging 13°C"],
+  "brands_en": {"キリン シングルグレーンウイスキー 富士": {"name_en": "Kirin Single Grain Whisky Fuji", "specs_en": "Single grain — 46% ABV"}, "キリン シングルモルトウイスキー 富士": {"name_en": "Kirin Single Malt Whisky Fuji", "specs_en": "Single malt — 46% ABV"}, "富士山麓": {"name_en": "Fuji-Sanroku", "specs_en": "Blended — 50% ABV"}},
+  "by": "fable", "audited": false
+ },
+ "shizuoka:gaiaflow_shizuoka": {
+  "tagline_en": "The first still in the world clad in Japanese cedar, fed by South Alps spring water.",
+  "desc_en": "Shizuoka Distillery was opened by Gaiaflow in 2016. It is the first distillery in the world to use Japanese cedar in its distilling equipment, draws spring water from the Southern Alps, and lets the seasons' microclimate work on its maturing casks. Paid tours, a tasting room and a whisky school are offered.",
+  "features_en": ["World's first cedar-clad distilling equipment", "Southern Alps spring water", "Tours, tasting room and whisky school"],
+  "brands_en": {"シングルモルト SHIZUOKA": {"name_en": "Single Malt Shizuoka", "specs_en": "Single malt"}, "ブレンデッドウイスキー M": {"name_en": "Blended Whisky M", "specs_en": "Blended"}},
+  "by": "fable", "audited": false
+ },
+ "shizuoka:ikawa": {
+  "tagline_en": "Japan's highest distillery, 1,200 metres up in the Southern Alps.",
+  "desc_en": "Ikawa Distillery was founded in 2020 by Juzan, part of the Tokushu Tokai Paper group. Deep in the Southern Alps at about 1,200 metres, it is the highest-altitude whisky distillery in Japan, distilling since November 2020.",
+  "features_en": ["Japan's highest distillery at ~1,200 m", "Deep in the Southern Alps", "Distilling since November 2020"],
+  "by": "fable", "audited": false
+ },
+ "shizuoka:water_dragon": {
+  "tagline_en": "A single-malt whisky distillery in Shizuoka.",
+  "desc_en": "A whisky distillery located in Shizuoka Prefecture.",
+  "features_en": ["Single malt distillery in Shizuoka"],
+  "by": "fable", "audited": false
+ },
+ "tochigi:nikko_kaido_oyama": {
+  "tagline_en": "Sake brewer Nishibori's whisky venture on the old Nikko highway.",
+  "desc_en": "Nikko Kaido Oyama Distillery in Oyama, Tochigi, is run by the sake brewer Nishibori Shuzo, which began distilling whisky in 2022.",
+  "features_en": ["Run by sake brewer Nishibori Shuzo", "Distilling since 2022"],
+  "by": "fable", "audited": false
+ },
+ "tokushima:awano": {
+  "tagline_en": "An Edo-period drinks house in Awa, turning to whisky in 2023.",
+  "desc_en": "Awano Distillery is run by Nissin Shurui, a composite drinks maker in Tokushima whose history reaches back to the Edo period. The company began whisky production in March 2023.",
+  "features_en": ["Run by an Edo-period-founded drinks maker", "Whisky production since March 2023"],
+  "by": "fable", "audited": false
+ },
+ "tokyo:hachioji": {
+  "tagline_en": "A whisky distillery within Tokyo, in the western city of Hachioji.",
+  "desc_en": "A whisky distillery located in Hachioji, in western Tokyo.",
+  "features_en": ["A whisky distillery within Tokyo"],
+  "by": "fable", "audited": false
+ },
+ "toyama:saburomaru": {
+  "tagline_en": "The oldest whisky distillery in the Hokuriku region, distilling since 1952.",
+  "desc_en": "Saburomaru began whisky production in 1952, making it the oldest whisky distillery in the Hokuriku region. Run by the sake brewer Wakatsuru Shuzo, it keeps to the production techniques and materials it has used since the start. Tours run by reservation.",
+  "features_en": ["Hokuriku's oldest whisky distillery (since 1952)", "Run by sake brewer Wakatsuru Shuzo", "Faithful to its original techniques and materials"],
+  "brands_en": {"三郎丸": {"name_en": "Saburomaru", "specs_en": "Single malt"}, "スーパースモーキーハイボール": {"name_en": "Super Smoky Highball", "specs_en": "Canned highball"}},
+  "by": "fable", "audited": false
+ },
+ "yamagata:yuza": {
+  "tagline_en": "Yamagata's first true whisky distillery, drawing the underground waters of Mt. Chokai.",
+  "desc_en": "Yuza Distillery was completed in 2018 and began production the following month as Yamagata's first full-scale whisky distillery. It draws the abundant subsoil water of Mt. Chokai and is run by Kinryu, a company jointly funded by nine local sake makers.",
+  "features_en": ["Yamagata's first full-scale whisky distillery", "Subsoil water of Mt. Chokai", "Jointly funded by nine local sake makers"],
+  "brands_en": {"YUZA シングルモルト": {"name_en": "Yuza Single Malt", "specs_en": "Single malt"}},
+  "by": "fable", "audited": false
+ },
+ "yamagata:gakkogawa": {
+  "tagline_en": "Shonai's terroir and time, set to work in a craft still since 2023.",
+  "desc_en": "Gakkogawa Distillery began distilling in 2023 in the Shonai region of Yamagata, aiming at a whisky born of the local landscape and the passage of time.",
+  "features_en": ["Distilling since 2023", "Whisky shaped by the Shonai region's terroir"],
+  "by": "fable", "audited": false
+ },
+ "yamanashi:hakushu": {
+  "tagline_en": "Suntory's forest distillery at 700 metres, running on South Alps snowmelt.",
+  "desc_en": "Hakushu was opened by Suntory in 1973 at the foot of the Southern Alps. Known as the forest distillery, it sits at about 700 metres surrounded by deep woodland and draws the natural water of the Southern Alps for its fresh, verdant style of whisky. A whisky museum stands on the grounds; paid tours run by reservation, with a restaurant and bar on site.",
+  "features_en": ["The \"forest distillery\" at ~700 m elevation", "Southern Alps natural water", "Fresh, verdant house style; museum on site"],
+  "brands_en": {"白州 NAS": {"name_en": "Hakushu", "specs_en": "Single malt — 43% ABV, no age statement"}, "白州 12年": {"name_en": "Hakushu 12 Year Old", "specs_en": "Single malt — 43% ABV, aged 12 years"}, "白州 18年": {"name_en": "Hakushu 18 Year Old", "specs_en": "Single malt — 43% ABV, aged 18 years"}, "白州 25年": {"name_en": "Hakushu 25 Year Old", "specs_en": "Single malt — 43% ABV, aged 25 years"}},
+  "by": "fable", "audited": false
+ },
+ "yamanashi:fugaku": {
+  "tagline_en": "Craft whisky at the foot of Mt. Fuji, distilling since 2023.",
+  "desc_en": "Fugaku Distillery is a craft whisky distillery in Fujiyoshida, Yamanashi, at the foot of Mt. Fuji, distilling since 2023.",
+  "features_en": ["Distilling since 2023", "At the foot of Mt. Fuji"],
+  "by": "fable", "audited": false
+ },
+ "yamanashi:far_yeast_genryu": {
+  "tagline_en": "Craft brewer Far Yeast's move from beer into whisky, in the Yamanashi headwaters.",
+  "desc_en": "Far Yeast Genryu Distillery was opened in Yamanashi by Far Yeast Brewing, the craft beer maker — genryu means headwaters.",
+  "features_en": ["Opened by craft brewer Far Yeast Brewing"],
+  "by": "fable", "audited": false
+ }
+}

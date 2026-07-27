@@ -3,6 +3,14 @@
 sitemap.xmlを全ページから自動生成。
 """
 
+import json as _json, os as _os
+_enc = _os.path.join(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))), 'data', 'en_content.json')
+EN_CONTENT = set()
+if _os.path.exists(_enc):
+    try:
+        EN_CONTENT = {k for k in _json.load(open(_enc, encoding='utf-8')) if not k.startswith('_')}
+    except Exception:
+        EN_CONTENT = set()
 import json
 import glob
 import os
@@ -62,9 +70,16 @@ for jf in json_files:
         if not d.get('id'):
             continue
         ja_path = f'/whisky/{pref}/{d["id"]}.html'
-        # 殻ENページはnoindexのためsitemapから除外（EN本物化したら戻す）
-        langs = {'ja': ja_path, 'x-default': ja_path}
-        add(ja_path, '0.6', 'monthly', langs)
+        en_path = f'/whisky/en/{pref}/{d["id"]}.html'
+        # EN本物化済み（data/en_content.jsonに本文がある蔵）はENもsitemapとhreflangに載せる。
+        # 殻のままの蔵は従来通り除外（noindexページをsitemapに載せない）
+        if f'{pref}:{d["id"]}' in EN_CONTENT:
+            langs = {'ja': ja_path, 'en': en_path, 'x-default': ja_path}
+            add(ja_path, '0.6', 'monthly', langs)
+            add(en_path, '0.6', 'monthly', langs)
+        else:
+            langs = {'ja': ja_path, 'x-default': ja_path}
+            add(ja_path, '0.6', 'monthly', langs)
 
 # Build XML
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']
