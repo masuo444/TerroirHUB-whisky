@@ -90,6 +90,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山梨県富士吉田市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "月江寺",
+   "line": "富士急行線",
+   "distance_m": 1100,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -123,6 +130,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "山梨県",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "甲府",
+   "line": "JR身延線",
+   "distance_m": 330,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

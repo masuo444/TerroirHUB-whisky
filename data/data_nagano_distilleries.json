@@ -85,6 +85,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "長野県下高井郡野沢温泉村",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "上境",
+   "line": "JR飯山線",
+   "distance_m": 2540,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -152,6 +159,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "長野県小諸市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "小諸",
+   "line": "JR小海線",
+   "distance_m": 370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -187,6 +201,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "長野県北佐久郡御代田町",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "御代田",
+   "line": "しなの鉄道線",
+   "distance_m": 420,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },

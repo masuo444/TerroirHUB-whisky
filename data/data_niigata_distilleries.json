@@ -32,6 +32,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "新潟県長岡市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "長岡",
+   "line": "上越新幹線",
+   "distance_m": 260,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -63,6 +70,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "新潟県新潟市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "白山",
+   "line": "JR越後線",
+   "distance_m": 750,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -98,6 +112,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "新潟県南魚沼市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "六日町",
+   "line": "北越急行ほくほく線",
+   "distance_m": 170,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

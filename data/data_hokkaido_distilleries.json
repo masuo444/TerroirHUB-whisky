@@ -92,6 +92,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "北海道厚岸町宮園四丁目１０９番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "厚岸",
+   "line": "JR根室本線",
+   "distance_m": 2630,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -127,6 +134,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "北海道ニセコ町ニセコ",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "ニセコ",
+   "line": "JR函館本線",
+   "distance_m": 4370,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -198,6 +212,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "北海道夕張郡長沼町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "由仁",
+   "line": "JR室蘭本線",
+   "distance_m": 7380,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -229,6 +250,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "北海道",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "さっぽろ",
+   "line": "札幌市東豊線",
+   "distance_m": 360,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -264,6 +292,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "北海道函館市元町３１番２０号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "末広町",
+   "line": "函館市電本線",
+   "distance_m": 300,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

@@ -39,6 +39,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "愛知県知多市北浜町",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "朝倉",
+   "line": "名鉄常滑線",
+   "distance_m": 920,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -71,6 +78,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "愛知県清須市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "新川橋",
+   "line": "名鉄名古屋本線",
+   "distance_m": 470,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -102,6 +116,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "愛知県碧南市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "碧南中央",
+   "line": "名鉄三河線",
+   "distance_m": 480,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

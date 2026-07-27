@@ -44,6 +44,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "富山県砺波市三郎丸２０８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "油田",
+   "line": "JR城端線",
+   "distance_m": 110,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

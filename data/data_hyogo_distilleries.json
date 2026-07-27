@@ -84,6 +84,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県丹波篠山市今田町本荘",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "草野",
+   "line": "JR福知山線",
+   "distance_m": 6780,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -115,6 +122,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県神戸市北区大沢町上大沢２１５０番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "道場南口",
+   "line": "神戸電鉄三田線",
+   "distance_m": 3240,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -150,6 +164,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県神戸市灘区六甲山町南六甲１０３４番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "六甲山上",
+   "line": "六甲ケーブル線",
+   "distance_m": 1080,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -181,6 +202,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県明石市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "人丸前",
+   "line": "山陽電鉄本線",
+   "distance_m": 670,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -216,6 +244,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県養父市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "八鹿",
+   "line": "JR山陰本線",
+   "distance_m": 1650,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

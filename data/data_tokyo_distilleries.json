@@ -31,6 +31,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "東京都八王子市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西八王子",
+   "line": "JR中央線",
+   "distance_m": 1160,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

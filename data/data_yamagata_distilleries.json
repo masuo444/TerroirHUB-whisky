@@ -39,6 +39,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山形県遊佐町吉出",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "遊佐",
+   "line": "JR羽越本線",
+   "distance_m": 9440,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -73,6 +80,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "山形県遊佐町菅里菅野３７番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "吹浦",
+   "line": "JR羽越本線",
+   "distance_m": 530,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

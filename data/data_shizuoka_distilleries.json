@@ -134,6 +134,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "静岡県静岡市葵区田代",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "井川",
+   "line": "大井川鉄道井川線",
+   "distance_m": 4740,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -165,6 +172,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "静岡県",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "新静岡",
+   "line": "静岡鉄道静岡清水線",
+   "distance_m": 420,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

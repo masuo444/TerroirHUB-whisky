@@ -32,6 +32,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "徳島県阿波市土成町秋月",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西麻植",
+   "line": "JR徳島線",
+   "distance_m": 4120,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

@@ -76,6 +76,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "広島県",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "県庁前",
+   "line": "アストラムライン",
+   "distance_m": 130,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

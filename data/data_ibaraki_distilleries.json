@@ -32,6 +32,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "茨城県水戸市",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "水戸",
+   "line": "鹿島臨海鉄道線",
+   "distance_m": 730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -66,6 +73,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "茨城県石岡市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "石岡",
+   "line": "JR常磐線",
+   "distance_m": 660,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }
