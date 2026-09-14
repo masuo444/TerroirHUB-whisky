@@ -24,7 +24,7 @@ from whisky_filter import is_whisky_item   # ウイスキー以外を弾く共�
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CFG = json.load(open(os.path.join(BASE, 'scripts', 'rakuten_config.json'), encoding='utf-8'))
-ENDPOINT = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601'
+ENDPOINT = 'https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701'
 OUT_PATH = os.path.join(BASE, 'whisky', 'rakuten_items.json')
 
 GRID_ITEMS = 6
@@ -107,11 +107,19 @@ def items_from(data):
         name = it.get('itemName', '').strip()
         if not is_whisky_item(name):   # ウイスキー以外は除外
             continue
-        out.append({
+        rec = {
             'name': name,
             'image': img,
             'url': it.get('affiliateUrl') or it.get('itemUrl'),
-        })
+        }
+        # ふるさと納税は寄付金額で選ぶ行動が支配的。取得できた場合のみ price を持たせる
+        try:
+            p = int(it.get('itemPrice') or 0)
+            if p > 0:
+                rec['price'] = p
+        except (TypeError, ValueError):
+            pass
+        out.append(rec)
     return out
 
 

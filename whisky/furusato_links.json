@@ -1,0 +1,182 @@
+{
+ "hekinan": {
+  "city": "碧南市",
+  "pref": "愛知県",
+  "url": "https://www.terroirhub.com/furusato/aichi/hekinan/",
+  "count": 5
+ },
+ "kyoto_distillery": {
+  "city": "京都市",
+  "pref": "京都府",
+  "url": "https://www.terroirhub.com/furusato/kyoto/kameoka/",
+  "count": 3
+ },
+ "asaka": {
+  "city": "郡山市",
+  "pref": "福島県",
+  "url": "https://www.terroirhub.com/furusato/fukushima/koriyama/",
+  "count": 1
+ },
+ "di_tripper": {
+  "city": "函館市",
+  "pref": "北海道",
+  "url": "https://www.terroirhub.com/furusato/hokkaido/hakodate/",
+  "count": 1
+ },
+ "rokkosan": {
+  "city": "神戸市",
+  "pref": "兵庫県",
+  "url": "https://www.terroirhub.com/furusato/hyogo/kobe/",
+  "count": 3
+ },
+ "tamba": {
+  "city": "丹波篠山市",
+  "pref": "兵庫県",
+  "url": "https://www.terroirhub.com/furusato/hyogo/tambasasayama/",
+  "count": 2
+ },
+ "eigashima": {
+  "city": "明石市",
+  "pref": "兵庫県",
+  "url": "https://www.terroirhub.com/furusato/hyogo/akashi/",
+  "count": 2
+ },
+ "okayama": {
+  "city": "井原市",
+  "pref": "岡山県",
+  "url": "https://www.terroirhub.com/furusato/okayama/ibara/",
+  "count": 2
+ },
+ "far_yeast_genryu": {
+  "city": "亀岡市",
+  "pref": "京都府",
+  "url": "https://www.terroirhub.com/furusato/kyoto/kameoka/",
+  "count": 2
+ },
+ "ise": {
+  "city": "明和町",
+  "pref": "三重県",
+  "url": "https://www.terroirhub.com/furusato/mie/meiwa/",
+  "count": 1
+ },
+ "miyagikyo": {
+  "city": "仙台市",
+  "pref": "宮城県",
+  "url": "https://www.terroirhub.com/furusato/miyagi/sendai/",
+  "count": 2
+ },
+ "nozawa_onsen": {
+  "city": "野沢温泉村",
+  "pref": "長野県",
+  "url": "https://www.terroirhub.com/furusato/nagano/nozawaonsen/",
+  "count": 5
+ },
+ "komoro": {
+  "city": "小諸市",
+  "pref": "長野県",
+  "url": "https://www.terroirhub.com/furusato/nagano/komoro/",
+  "count": 2
+ },
+ "chichibu": {
+  "city": "秩父市",
+  "pref": "埼玉県",
+  "url": "https://www.terroirhub.com/furusato/saitama/chichibu/",
+  "count": 1
+ },
+ "chichibu_daini": {
+  "city": "秩父市",
+  "pref": "埼玉県",
+  "url": "https://www.terroirhub.com/furusato/saitama/chichibu/",
+  "count": 1
+ },
+ "hanyu": {
+  "city": "羽生市",
+  "pref": "埼玉県",
+  "url": "https://www.terroirhub.com/furusato/saitama/hanyu/",
+  "count": 1
+ },
+ "nagahama": {
+  "city": "長浜市",
+  "pref": "滋賀県",
+  "url": "https://www.terroirhub.com/furusato/shiga/nagahama/",
+  "count": 6
+ },
+ "gaiaflow_shizuoka": {
+  "city": "静岡市",
+  "pref": "静岡県",
+  "url": "https://www.terroirhub.com/furusato/shizuoka/izu/",
+  "count": 3
+ },
+ "senshu": {
+  "city": "岸和田市",
+  "pref": "大阪府",
+  "url": "https://www.terroirhub.com/furusato/osaka/kishiwada/",
+  "count": 6
+ },
+ "chita": {
+  "city": "知多市",
+  "pref": "愛知県",
+  "url": "https://www.terroirhub.com/furusato/aichi/chita/",
+  "count": 1
+ },
+ "sakurao": {
+  "city": "廿日市市",
+  "pref": "広島県",
+  "url": "https://www.terroirhub.com/furusato/hiroshima/hatsukaichi/",
+  "count": 1
+ },
+ "yoichi": {
+  "city": "さくら市",
+  "pref": "栃木県",
+  "url": "https://www.terroirhub.com/furusato/tochigi/sakura/",
+  "count": 1
+ },
+ "niseko": {
+  "city": "倶知安町",
+  "pref": "北海道",
+  "url": "https://www.terroirhub.com/furusato/hokkaido/kutchan/",
+  "count": 2
+ },
+ "rishiri": {
+  "city": "利尻富士町",
+  "pref": "北海道",
+  "url": "https://www.terroirhub.com/furusato/hokkaido/rishirifuji/",
+  "count": 3
+ },
+ "yabu": {
+  "city": "養父市",
+  "pref": "兵庫県",
+  "url": "https://www.terroirhub.com/furusato/hyogo/yabu/",
+  "count": 4
+ },
+ "yasato": {
+  "city": "石岡市",
+  "pref": "茨城県",
+  "url": "https://www.terroirhub.com/furusato/ibaraki/ishioka/",
+  "count": 2
+ },
+ "kanosuke": {
+  "city": "日置市",
+  "pref": "鹿児島県",
+  "url": "https://www.terroirhub.com/furusato/kagoshima/hioki/",
+  "count": 2
+ },
+ "mars_komagatake": {
+  "city": "駒ヶ根市",
+  "pref": "長野県",
+  "url": "https://www.terroirhub.com/furusato/nagano/komagane/",
+  "count": 2
+ },
+ "fuji_gotemba": {
+  "city": "富士市",
+  "pref": "静岡県",
+  "url": "https://www.terroirhub.com/furusato/shizuoka/fuji/",
+  "count": 1
+ },
+ "hachioji": {
+  "city": "八王子市",
+  "pref": "東京都",
+  "url": "https://www.terroirhub.com/furusato/tokyo/hachioji/",
+  "count": 1
+ }
+}
