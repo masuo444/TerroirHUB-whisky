@@ -84,6 +84,72 @@ def generate_pref_index(pref_slug, distilleries):
         _c += '</a>'
         cards_html += _c
 
+    # ── 県ガイド本文（検索で「{県} ウイスキー」を探す人向け。データにある事実だけを出す）──
+    _furusato_exists = os.path.exists(os.path.join(BASE, 'whisky', 'furusato', f'{pref_slug}.html'))
+    _visitable = [d for d in distilleries if (d.get('visit') or '').strip() and '不可' not in d.get('visit', '')]
+    _closed = [d for d in distilleries if '不可' in (d.get('visit') or '')]
+    guide_items = ''
+    for d in distilleries:
+        rows = []
+        if d.get('company') and d.get('company') != d.get('name'):
+            rows.append(('運営', esc(d['company'])))
+        if d.get('address'):
+            rows.append(('所在地', esc(d['address'])))
+        if d.get('founded'):
+            rows.append(('創業', esc(str(d['founded'])) + '年'))
+        _brands = [(b.get('name') if isinstance(b, dict) else str(b)) for b in (d.get('brands') or [])]
+        _brands = [b for b in _brands if b] or ([d['brand']] if d.get('brand') else [])
+        if _brands:
+            rows.append(('代表銘柄', '、'.join(esc(b) for b in _brands[:3])))
+        if (d.get('visit') or '').strip():
+            rows.append(('見学', esc(d['visit'])))
+        if d.get('nearest_station'):
+            rows.append(('最寄駅', esc(d['nearest_station'])))
+        elif d.get('nearest_station_calc'):
+            _c = d['nearest_station_calc']
+            if isinstance(_c, dict) and _c.get('station'):
+                _t = f"{_c.get('line','')} {_c['station']}駅".strip()
+                if _c.get('distance_m'):
+                    _t += f"（直線で約{_c['distance_m']:,}m）"
+                rows.append(('最寄駅', esc(_t) + '<span class="calc">※座標からの算出</span>'))
+        _rows = ''.join(f'<tr><th>{k}</th><td>{v}</td></tr>' for k, v in rows)
+        def _ftext(x):
+            if isinstance(x, dict):
+                return next((str(v) for k, v in x.items() if isinstance(v, str) and v.strip()), '')
+            return str(x or '')
+        _feat = ''.join(f'<li>{esc(t)}</li>' for t in (_ftext(x) for x in (d.get('features') or [])[:3]) if t)
+        _links = f'<a href="/whisky/{pref_slug}/{esc(d["id"])}.html">詳しく見る →</a>'
+        if d.get('url'):
+            _links += f' <a href="{esc(d["url"])}" target="_blank" rel="noopener">公式サイト</a>'
+        _src = f'<p class="gsrc">出典：<a href="{esc(d["source"])}" target="_blank" rel="noopener">{esc(d["source"])}</a></p>' if d.get('source') else ''
+        guide_items += (f'<article class="gitem"><h3>{esc(d.get("name",""))}</h3>'
+                        + (f'<p>{esc(d["desc"])}</p>' if d.get('desc') else '')
+                        + (f'<table class="gtable">{_rows}</table>' if _rows else '')
+                        + (f'<ul class="gfeat">{_feat}</ul>' if _feat else '')
+                        + f'<p class="glinks">{_links}</p>{_src}</article>')
+
+    _names = '、'.join(d.get('name', '') for d in distilleries)
+    faq = [(f'{pref_name}にウイスキー蒸留所はいくつありますか？',
+            f'Terroir HUB では{pref_name}のウイスキー蒸留所を{count}か所収録しています（{_names}）。')]
+    if _visitable:
+        faq.append((f'{pref_name}で見学できるウイスキー蒸留所は？',
+                    '公式情報で見学に関する案内が確認できるのは、' + '、'.join(d['name'] for d in _visitable)
+                    + 'です。受付状況や予約の要否は変わることがあるため、各公式サイトでご確認ください。'))
+    elif _closed:
+        faq.append((f'{pref_name}のウイスキー蒸留所は見学できますか？',
+                    '、'.join(d['name'] for d in _closed) + 'は、公式情報で一般見学を受け付けていないとされています。'
+                    'その他の蒸留所は、見学の可否を当サイトでは確認できていません。各公式サイトでご確認ください。'))
+    faq_html = ''.join(f'<div class="gfaq"><h3>{esc(q)}</h3><p>{esc(a)}</p></div>' for q, a in faq)
+    faq_schema = json.dumps({"@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq]},
+        ensure_ascii=False)
+    _fz = (f'<p class="gfz">{esc(pref_name)}のウイスキーは、ふるさと納税の返礼品としても提供されています。'
+           f'<a href="/whisky/furusato/{pref_slug}.html">{esc(pref_name)}のウイスキー返礼品を見る →</a></p>') if _furusato_exists else ''
+    guide_html = (f'<section class="guide"><h2>{esc(pref_name)}のウイスキー蒸留所ガイド</h2>'
+                  f'<p class="glead">{esc(pref_name)}で Terroir HUB が収録しているウイスキー蒸留所は{count}か所です。'
+                  '掲載は各蒸留所の公式情報などにもとづき、確認できない項目は載せていません。</p>'
+                  f'{guide_items}{_fz}<h2>よくある質問</h2>{faq_html}</section>')
+
     items_schema = []
     for i, d in enumerate(distilleries):
         items_schema.append({
@@ -101,7 +167,7 @@ def generate_pref_index(pref_slug, distilleries):
         "itemListElement": items_schema
     }, ensure_ascii=False)
 
-    title_text = f"{pref_name}のウイスキー蒸留所一覧（{count}蔵）— Terroir HUB"
+    title_text = f"{pref_name}のウイスキー蒸留所{count}か所｜銘柄・見学情報まとめ — Terroir HUB"
 
     return f'''<!DOCTYPE html>
 <html lang="ja">
@@ -109,12 +175,13 @@ def generate_pref_index(pref_slug, distilleries):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title_text)}</title>
-<meta name="description" content="{esc(pref_name)}のウイスキー蒸留所{count}蔵を一覧表示。蒸留所名・銘柄・タイプ・地域で検索・フィルタリング。Terroir HUB WHISKY。">
+<meta name="description" content="{esc(pref_name)}のウイスキー蒸留所{count}か所（{esc(_names[:80])}）の所在地・代表銘柄・見学情報を、公式情報にもとづいてまとめました。">
 <link rel="canonical" href="https://{DOMAIN}/whisky/{pref_slug}/">
 <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/whisky/{pref_slug}/">
 <link rel="alternate" hreflang="en" href="https://{DOMAIN}/whisky/en/{pref_slug}/">
 <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/whisky/en/{pref_slug}/">
 <script type="application/ld+json">{schema}</script>
+<script type="application/ld+json">{faq_schema}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -129,6 +196,26 @@ body{{background:#FAF8F5;color:#1A1814;font-family:'Noto Sans JP','DM Sans',sans
 .nav-r a:hover{{opacity:0.7;}}
 .main{{max-width:1100px;margin:0 auto;padding:78px 24px 48px;}}
 .breadcrumb{{font-size:13px;color:#8A8070;margin-bottom:24px;}}
+.guide{{margin-top:48px;border-top:1px solid #E5DDD5;padding-top:36px;}}
+.guide h2{{font-family:'Shippori Mincho',serif;font-size:clamp(20px,3vw,26px);margin:28px 0 12px;}}
+.glead{{color:#3D3830;margin-bottom:20px;}}
+.gitem{{background:#fff;border:1px solid #E5DDD5;border-radius:10px;padding:22px 24px;margin-bottom:16px;}}
+.gitem h3{{font-family:'Shippori Mincho',serif;font-size:19px;margin-bottom:8px;}}
+.gitem p{{font-size:15px;color:#3D3830;}}
+.gtable{{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px;}}
+.gtable th{{text-align:left;width:6.5em;color:#8A8070;font-weight:500;padding:5px 0;vertical-align:top;}}
+.gtable td{{padding:5px 0;}}
+.calc{{font-size:12px;color:#8A8070;}}
+.gfeat{{margin:8px 0 0 1.2em;font-size:14px;color:#3D3830;}}
+.glinks{{margin-top:10px;font-size:14px;}}
+.glinks a{{color:#6B4423;margin-right:12px;}}
+.gsrc{{font-size:12px!important;color:#8A8070!important;margin-top:6px;word-break:break-all;}}
+.gsrc a{{color:#8A8070;}}
+.gfz{{background:#fff;border:1px solid #E5DDD5;border-radius:10px;padding:16px 20px;margin:8px 0 16px;font-size:15px;}}
+.gfz a{{color:#6B4423;font-weight:500;}}
+.gfaq{{background:#fff;border:1px solid #E5DDD5;border-radius:10px;padding:16px 20px;margin-bottom:10px;}}
+.gfaq h3{{font-size:15px;margin-bottom:4px;}}
+.gfaq p{{font-size:14px;color:#3D3830;}}
 .breadcrumb a{{color:#6B4423;text-decoration:none;}}
 .breadcrumb a:hover{{text-decoration:underline;}}
 .header{{margin-bottom:32px;}}
@@ -175,6 +262,7 @@ footer a{{color:rgba(255,255,255,0.5);text-decoration:none;}}
   </div>
   <div class="filters" id="filters"></div>
   <div class="grid" id="grid">{cards_html}</div>
+  {guide_html}
 </main>
 <div style="max-width:1080px;margin:36px auto 0;padding:0 24px;text-align:center;"><a href="https://www.terroirhub.com/terroir/{pref_slug}.html" style="font-size:13px;color:#6B4423;text-decoration:none;letter-spacing:0.03em;">{esc(pref_name)}のテロワールを見る — 日本酒・ワイン・焼酎・ウイスキーを横断 →</a></div>
 <footer>
