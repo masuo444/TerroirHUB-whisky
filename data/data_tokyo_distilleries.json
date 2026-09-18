@@ -38,6 +38,15 @@
    "distance_m": 1160,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://airrsv.net/hachioji-distillery/calendar",
+   "facility": "東京八王子蒸溜所",
+   "notes_ja": "蒸溜所ツアーは不定期開催かつ予約制。日程・予約は特設ページで案内。",
+   "source": "https://www.hachioji-distillery.jp/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

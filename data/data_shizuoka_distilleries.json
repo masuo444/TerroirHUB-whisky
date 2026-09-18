@@ -50,6 +50,19 @@
    "by": "国土地理院 住所検索API",
    "matched": "静岡県御殿場市柴怒田９７０番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://kirinfactory.revn.jp/?label=12",
+   "tasting": "paid",
+   "fee": "基本ツアー：1名様500円 税込（20歳以上の方）／プレミアムツアー（グレーンウイスキー編）：1名様5,000円 税込（20歳以上限定）",
+   "duration": "基本ツアー：約80分（テイスティング時間含む）／プレミアムツアー：約110分（テイスティング時間含む）",
+   "shop": true,
+   "facility": "富士御殿場蒸溜所",
+   "notes_ja": "休館日：月曜休館（祝日の場合は営業、次の平日が休館）、年末年始休館・臨時休館あり。",
+   "source": "https://www.kirin.co.jp/experience/factory/gotemba/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -97,6 +110,18 @@
    "by": "国土地理院 住所検索API",
    "matched": "静岡県静岡市葵区落合",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "english": "materials",
+   "tasting": "paid",
+   "fee": "20歳以上：おひとり様1,100円（税込）。20歳未満は無料",
+   "duration": "見学60分＋有料試飲タイム（試飲室で最長60分）",
+   "facility": "ガイアフロー静岡蒸溜所",
+   "notes_ja": "ご案内は日本語のみだが英語の解説書、10ヶ国語対応オーディオガイドあり。土曜・日曜および夏季（8月上旬～9月下旬）はウイスキー製造を休止。3月末・9月末にダイヤ改正あり。電話での申込は受付不可、予約サイトのみ。",
+   "source": "https://shizuoka-distillery.jp/tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {

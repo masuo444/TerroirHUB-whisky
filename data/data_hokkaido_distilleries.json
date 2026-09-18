@@ -50,6 +50,18 @@
    "by": "国土地理院 住所検索API",
    "matched": "北海道余市町黒川町七丁目６番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://distillery.nikka.com/yoichi/reservation",
+   "tasting": "paid",
+   "fee": "ガイドツアーは無料(試飲あり)です",
+   "shop": true,
+   "facility": "ニッカウヰスキー余市蒸溜所",
+   "notes_ja": "予約不要でも楽しめる見学スポット（ニッカミュージアム、有料テイスティングバー、ディスティラリーショップ）あり。最終入場15:30。1～9名まで入場可。レストランRITA'S KITCHEN 10:00～15:50(L.O.15:20)。休業日：12月23日～翌年1月7日、6月11日。",
+   "source": "https://www.nikka.com/distilleries/yoichi/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -142,6 +154,17 @@
    "distance_m": 4370,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://niseko-distillery.rsvsys.jp",
+   "tasting": "paid",
+   "shop": true,
+   "facility": "SHOP&BAR",
+   "notes_ja": "蒸溜所ツアーはスタッフが製造工程を案内後、バーカウンターで有料試飲。SHOP&BARは予約不要・入場無料、無休、営業時間は通常10:00～17:00、冬季(12～3月)は10:00～18:00。",
+   "source": "https://niseko-distillery.com/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -219,6 +242,16 @@
    "distance_m": 7380,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "not_required",
+   "duration": "10分程度",
+   "shop": true,
+   "facility": "馬追蒸溜所",
+   "notes_ja": "個人見学は予約不要（バスや団体の見学は事前予約が必要）。営業時間：土曜日・日曜日・祝日13:00～15:00（1回目13:30～、2回目14:30～）。最大10名までで受付終了の場合あり。年末年始・繁忙期・収穫期など変更の可能性あり。",
+   "source": "https://maoidistillery.com/tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {

@@ -33,6 +33,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "岐阜県高山市高根町下之向",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://airrsv.net/whisky-hida/calendar",
+   "tasting": "available",
+   "shop": true,
+   "facility": "飛騨高山蒸溜所（廃校となった小学校を活用）",
+   "notes_ja": "完全事前予約制で、飛び込みでの来場・見学は受付不可。不定期開催でInstagram・Facebook・NEWSで告知。2026年の一般見学は10月末まで。ニューポットの試飲可能だがドライバーは試飲不可。ツアーは日本語での対応のみ。原則20歳以上が対象。",
+   "source": "https://www.whisky-hida.com/tour/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

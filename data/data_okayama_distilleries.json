@@ -39,6 +39,18 @@
    "distance_m": 360,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "paid",
+   "fee": "工場見学：無料／プレミアム酒蔵見学：1,100円／トワイライト酒蔵見学：2,200円／各専門コース：3,300円～5,500円",
+   "duration": "約30分",
+   "shop": true,
+   "facility": "酒工房独歩館（岡山蒸溜所併設）",
+   "notes_ja": "事前予約制。ビール・ウイスキー・日本酒の試飲あり。ショップ10:00～19:00、レストラン11:30～21:00（L.O.20:30）。定休日：水曜日（祝日の場合は翌日）、第1・第3・第5火曜日。10名様以上は要電話。",
+   "source": "https://www.doppokan.jp/tour",
+   "last_checked": "2026-09-18"
   }
  }
 ]

@@ -49,6 +49,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県明石市大久保町西島",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "duration": "1時間半程度",
+   "tasting": "available",
+   "shop": true,
+   "facility": "江井ヶ嶋蒸留所",
+   "notes_ja": "毎月ご予約制にて実施、不定期開催（週一回程度）、午後2時～開始。収容15名様前後（1グループ4名様まで）、8名以上は別途相談。予約は予約フォームまたは電話078-946-1001。",
+   "source": "https://www.ei-sake.jp/tours.html",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -171,6 +182,18 @@
    "distance_m": 1080,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "fee": "入場料1名3,000円",
+   "duration": "1時間",
+   "tasting": "paid",
+   "shop": true,
+   "facility": "六甲山蒸溜所",
+   "notes_ja": "開催日はホームページまたはInstagramで案内（例：9月21日10:30～／13:00～／15:00～）。4種の試飲付き。毎回10名様までの入場。20歳未満・ペットの入館不可。併設ショップ営業時間：平日・祝日AM10:00～PM15:00。",
+   "source": "https://rokkosan-distillery.com/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -252,6 +275,18 @@
    "distance_m": 1650,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://reserva.be/yabudistillery",
+   "fee": "大人1名／3,000円(20歳以上のみ)",
+   "duration": "約1時間(試飲体験含む)",
+   "tasting": "available",
+   "facility": "養父蒸溜所",
+   "notes_ja": "ニューポット・ニューボーンウイスキーから2種類（10ml）を選んで無料試飲。開催日時はツアー予約サイトを参照。",
+   "source": "https://yabu-distillery.co.jp/pages/tour",
+   "last_checked": "2026-09-18"
   }
  }
 ]

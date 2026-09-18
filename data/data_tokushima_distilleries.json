@@ -39,6 +39,12 @@
    "distance_m": 4120,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "closed",
+   "notes_ja": "「普段は一般公開（通常見学）を行っておりません」と明記。既存倉庫をリノベーションして開設したため内部スペースが限られ、安全上の理由から見学通路等を設けていない。今後は自社ウイスキーイベント等の際に見学対応を予定。酒類業関係者は事前予約の上で個別対応。直売所での初回販売は予定していない。",
+   "source": "https://www.nissin-shurui.co.jp/whiskey.html",
+   "last_checked": "2026-09-18"
   }
  }
 ]

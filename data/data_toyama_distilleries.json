@@ -51,6 +51,19 @@
    "distance_m": 110,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "english": "tour",
+   "tasting": "available",
+   "fee": "蒸留所見学ツアー：参加費5,000円(税込)／ハンドフィル付きツアー：参加費30,000円(税込)／団体見学：団体料30,000円（税込）＋見学料（お一人様）1,000円（税込）",
+   "duration": "見学ツアー1時間／ハンドフィル付きツアー1時間～／団体見学2時間～",
+   "shop": true,
+   "facility": "三郎丸蒸留所",
+   "notes_ja": "英語版の予約ページ（Tour reservation (ENG ver.)）あり。本ツアーは飲酒（テイスティング）を伴うため運転者は割愛。大正蔵での試飲・お買い物あり。水曜定休。",
+   "source": "https://www.wakatsuru.co.jp/saburomaru/factory/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

@@ -49,6 +49,18 @@
    "by": "国土地理院 住所検索API",
    "matched": "長野県上伊那郡宮田村",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "not_required",
+   "fee": "Factory tours are free, but tastings are charged.（工場見学は無料、試飲は有料）",
+   "duration": "Distillery (Self-guided Tour): About 20 minutes / Visitor Building (Bar & Shop): About 30 minutes",
+   "tasting": "paid",
+   "shop": true,
+   "facility": "マルス駒ヶ岳蒸溜所",
+   "notes_ja": "営業時間9:00 AM – 4:00 PM（受付・バーは3:30PMまで）。混雑時は予約者が優先される場合あり。試飲は1回限り、1人3杯まで。休館日：12/29～1/3。",
+   "source": "https://www.hombo.co.jp/en/visiting/komagatake/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -92,6 +104,17 @@
    "distance_m": 2540,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "english": "tour",
+   "tasting": "paid",
+   "fee": "おひとり様1,000円",
+   "duration": "45分",
+   "notes_ja": "蒸溜所そのものの見学ツアーの記載はなく、「ジンのテイスティング」体験（定番4種類のジン各10ML試飲）としての予約制。TableCheckで予約。参加者が1名のみでもグループ全員分の予約が必要。日本語・英語対応。",
+   "source": "https://nozawaonsendistillery.jp/pages/experiences",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -166,6 +189,19 @@
    "distance_m": 370,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "recommended",
+   "reservation_url": "https://cloud-pass.jp/get/komorodistillery",
+   "tasting": "paid",
+   "shop": true,
+   "fee": "KOMORO EXPERIENCE：¥2,500（税込）／KOMORO ACADEMY：¥3,800~（税込）／KOMORO EXPERIENCE PLUS+：¥6,000（税込）／バー利用のみ：¥800（税込）",
+   "duration": "製造ツアー約20分（プランによりテイスティングセミナー約60分、熟成庫見学ツアー等を含め最大約60分）",
+   "facility": "小諸蒸留所",
+   "notes_ja": "営業時間10:00～19:00（最終入場18:00、Bar L.O.18:30）。基本的に事前予約が必要だが空き状況により当日入場も可。ショップ利用のみは無料で入場可。",
+   "source": "https://komorodistillery.com/visit/",
+   "last_checked": "2026-09-18"
   }
  },
  {

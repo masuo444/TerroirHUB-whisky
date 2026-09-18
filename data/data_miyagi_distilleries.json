@@ -50,6 +50,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮城県仙台市青葉区ニッカ",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://distillery.nikka.com/miyagikyo/reservation",
+   "shop": true,
+   "tasting": "available",
+   "facility": "宮城峡蒸溜所 ビジターセンター",
+   "notes_ja": "ビジターセンター9:00～16:00、ギフトショップ9:15～16:15（最終入場16:00）、貯蔵庫9:15～16:00。予約不要で楽しめる見学スポットもあり。休館日：12月23日～翌年1月7日、8月18日～8月20日。",
+   "source": "https://www.nikka.com/distilleries/miyagikyo/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

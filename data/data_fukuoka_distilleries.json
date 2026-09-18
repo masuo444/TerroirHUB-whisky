@@ -122,6 +122,18 @@
    "distance_m": 5520,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://coubic.com/shindo-distillery-tour",
+   "english": "tour",
+   "tasting": "paid",
+   "fee": "5,000円（税込）",
+   "duration": "約2時間（試飲含む）",
+   "notes_ja": "1ツアーにつき上限10人。試飲をされない場合でも料金の減額はいたしかねます。英語でのご説明が可能なガイドと日本語のみの対応となるガイドがいます。車椅子をご利用のお客様はご案内が困難な場合があります。",
+   "source": "https://shindo-lab.jp/distillery/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

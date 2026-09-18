@@ -51,6 +51,18 @@
    "distance_m": 660,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "fee": "無料コースは無料。プレミアムコースはお一人様11,000円（税込み）",
+   "duration": "無料コース1時間、プレミアムコース2時間",
+   "shop": true,
+   "facility": "笹の川酒造 安積蒸溜所",
+   "notes_ja": "無料コース：毎週水曜日13:30～14:30（祝日を除く／12月は繁忙期のため休止）、1週間前までの事前予約、先着5名。プレミアムコース：毎月第2金曜日13:30～15:30（祝日の場合は第3金曜日／12月休止）、前月1日～25日に応募し抽選、定員6名、ゲストルーム・セパレーター体験・ハンドフィル・試飲あり。ショップは事務所横に併設、平日9:00～16:00（土日祝・年末年始・お盆・9月9日は休み）。",
+   "source": "https://www.sasanokawa.co.jp/contents/factory_tour.html",
+   "last_checked": "2026-09-18"
   }
  }
 ]

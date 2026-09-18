@@ -39,6 +39,16 @@
    "distance_m": 1620,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "tasting": "paid",
+   "fee": "コインサーバー利用100円（12種類の日本酒から選択、1杯ごと）",
+   "shop": true,
+   "facility": "本蔵（南部美人直営店）",
+   "notes_ja": "営業時間09:00～16:00、年中無休。木造土壁の酒蔵を案内。直営店限定商品や日本酒・リキュール・蒸留酒を販売。",
+   "source": "https://hongura-nanbubijin.com/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

@@ -46,6 +46,17 @@
    "distance_m": 9440,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://reserva.be/yuza",
+   "fee": "20歳以上　お一人様5,500円（税込）",
+   "duration": "所要時間90分",
+   "facility": "遊佐蒸溜所",
+   "notes_ja": "「令和8年4月1日より、一般見学の受付を開始いたします」と告知。開催日は毎週火・水・木・金曜（金曜は13:30～のみ）。",
+   "source": "https://yuza-disty.jp/reserve/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -88,6 +99,18 @@
    "distance_m": 530,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://gakkogawa.square.site/",
+   "tasting": "available",
+   "fee": "20歳以上：おひとり様5,500円（税込）／20歳未満：無料",
+   "duration": "AM10:30から約1時間（最大1時間30分程度）",
+   "facility": "月光川蒸留所",
+   "notes_ja": "見学ご希望日1週間前までに申込が必要。開催日は毎週月・水・金・土曜（祝日の場合は予約カレンダーを確認）。ゲストルームで原酒・熟成中ウイスキーの試飲体験あり。",
+   "source": "https://gakkogawa.com/tour/",
+   "last_checked": "2026-09-18"
   }
  }
 ]

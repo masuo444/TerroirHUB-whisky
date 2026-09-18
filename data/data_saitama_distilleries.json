@@ -135,6 +135,17 @@
    "distance_m": 370,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "fee": "20歳以上1名1,500円(税込)　テイスティングを含む",
+   "shop": true,
+   "facility": "羽生蒸溜所",
+   "notes_ja": "完全予約制による見学コース。見学後半にテイスティングあり。売店ではウイスキーや東亜酒造の清酒・リキュール・グッズ等を販売。休館日：毎週火・水曜日、年末年始、臨時休館あり（火・水が祝日の場合は翌日休館）。",
+   "source": "https://hanyu-distillery.jp/distillery-tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {

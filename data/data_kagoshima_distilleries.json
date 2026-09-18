@@ -46,6 +46,19 @@
    "distance_m": 5140,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://reserva.be/kanosukedistillery",
+   "english": "tour",
+   "tasting": "paid",
+   "fee": "60分コース：大人2,000円、子供500円／100分コース：大人5,000円／120分ブレンディング体験：大人15,000円（自分でブレンドした500mlボトル1本付き）／ハンドフィル体験：13,200円（500ml1本）",
+   "shop": true,
+   "facility": "嘉之助蒸溜所",
+   "notes_ja": "見学予約はコースにより1～3ヶ月前から受付。ハンドフィル体験は8/1～予約不要・当日受付。英語ツアーは木曜・金曜10:30。ショップ営業：火～日10:00～16:30（月曜休、一部営業日あり）、ショップのみの利用も可。",
+   "source": "https://kanosuke.com/pages/visit-us",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -95,6 +108,18 @@
    "distance_m": 8580,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "recommended",
+   "fee": "入館無料（試飲は全て有料）",
+   "duration": "蒸溜所（自由見学）約30分、寶常（有料試飲・売店）約15分",
+   "tasting": "paid",
+   "shop": true,
+   "facility": "寶常 Cafe Bar＆Shop",
+   "notes_ja": "営業時間9:00～16:00。10名様以上の場合は5日前までに予約。休館日：12/30～1/3、臨時休業あり。ペット同伴不可（身体障害者補助犬を除く）。大型バスの駐車場対応可。",
+   "source": "https://www.hombo.co.jp/visiting/tsunuki/",
+   "last_checked": "2026-09-18"
   }
  }
 ]
