@@ -42,6 +42,7 @@ def add(loc, priority, changefreq='monthly', langs=None):
 # Homepage
 add('/', '1.0', 'weekly', {'ja': '/', 'en': '/en/'})
 add('/en/', '0.9', 'weekly')
+add('/whisky/blog/visit-guide.html', '0.9', 'monthly')
 # 見学ガイド（2026-09-18追加）。実在するページだけを載せる
 import glob as _glob
 for _vp in sorted(_glob.glob(os.path.join(BASE, 'whisky', 'visit', '**', 'index.html'), recursive=True)):
