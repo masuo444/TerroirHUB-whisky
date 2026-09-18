@@ -70,7 +70,7 @@
   "url": "https://rikyugura.jp/",
   "area": "岸和田市",
   "desc": "2025年3月に開所した南大阪初のウイスキー蒸留所。桃の木樽での熟成にも挑戦。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -98,6 +98,11 @@
    "distance_m": 470,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://rikyugura.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  }
 ]

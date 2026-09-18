@@ -75,7 +75,7 @@
   "url": "https://kizakura.co.jp/tamba/",
   "area": "丹波篠山市",
   "desc": "日本酒メーカー黄桜が丹波篠山に開設したウイスキー蒸留所。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -102,6 +102,11 @@
    "distance_m": 6780,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://kizakura.co.jp/tamba/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -117,7 +122,7 @@
   "url": "https://www.kobe-distillery.com/",
   "area": "神戸市北区",
   "desc": "神戸市北区に所在するウイスキー蒸留所。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -141,6 +146,11 @@
    "distance_m": 3240,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.kobe-distillery.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {

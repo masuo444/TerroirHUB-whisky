@@ -260,7 +260,7 @@
   "url": "https://karuizawadistillers.com/",
   "area": "",
   "desc": "軽井沢ウイスキーの名を冠する蒸留所。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -270,6 +270,11 @@
   "features": [],
   "nearest_station": "",
   "source": "https://jwic.jp/distillery/",
-  "name_en": "Karuizawa Whisky Distillery"
+  "name_en": "Karuizawa Whisky Distillery",
+  "visit_checked": {
+   "url": "https://karuizawadistillers.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
+  }
  }
 ]

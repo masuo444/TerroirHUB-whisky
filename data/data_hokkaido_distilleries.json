@@ -77,7 +77,7 @@
   "url": "https://akkeshi-distillery.com/",
   "area": "厚岸町",
   "desc": "2016年に堅展実業が北海道厚岸町に開設。スコットランド・アイラ島に似た冷涼で湿潤な気候を活かしたウイスキー造り。二十四節気シリーズで高い評価を得る。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -111,6 +111,11 @@
    "distance_m": 2630,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://akkeshi-distillery.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {

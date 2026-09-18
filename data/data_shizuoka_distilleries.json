@@ -137,7 +137,7 @@
   "url": "https://juzan.co.jp/contents/ikawadistillery/",
   "area": "静岡市葵区",
   "desc": "特種東海製紙グループの十山が2020年に設立。南アルプスの山中、標高約1,200mに位置する日本最高所の蒸留所。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -166,6 +166,11 @@
    "distance_m": 4740,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://juzan.co.jp/contents/ikawadistillery/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {

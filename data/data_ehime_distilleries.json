@@ -12,7 +12,7 @@
   "url": "https://umebijin.com/",
   "area": "八幡浜市",
   "desc": "創業105年の梅美人酒造がウイスキー製造に参入。日本酒・焼酎・リキュール・クラフトジンも製造。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -38,6 +38,11 @@
    "distance_m": 1310,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://umebijin.com/sake-brewery/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  }
 ]

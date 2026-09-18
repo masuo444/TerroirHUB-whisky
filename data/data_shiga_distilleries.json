@@ -12,7 +12,7 @@
   "url": "https://www.romanbeer.com/",
   "area": "長浜市",
   "desc": "日本最小クラスのポットスチルで造られるクラフトウイスキー。「一醸一樽」の哲学で、100年後に世界中のウイスキーファンに喜ばれることを目指す。",
-  "visit": "蒸留所見学ツアーあり",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt,blended_malt",
   "cask_type": "",
@@ -44,6 +44,12 @@
    "by": "国土地理院 住所検索API",
    "matched": "滋賀県長浜市朝日町１４番１号",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "蒸留所見学ツアーあり",
+  "visit_checked": {
+   "url": "https://www.romanbeer.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {

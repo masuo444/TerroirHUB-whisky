@@ -53,7 +53,7 @@
   "url": "https://asakuradistillery.com/",
   "area": "朝倉市",
   "desc": "福岡県朝倉市の老舗日本酒蔵元「篠崎」が2021年に開設した福岡県初のウイスキー蒸留所。",
-  "visit": "蒸留所ツアーあり",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "malt",
   "whisky_type": "single_malt",
   "cask_type": "",
@@ -80,6 +80,12 @@
    "distance_m": 5520,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "蒸留所ツアーあり",
+  "visit_checked": {
+   "url": "https://asakuradistillery.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
