@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1919 — 明石市, Hyogo</p>
     <p class="hero-tagline">Eigashima took its whisky production licence in 1919, making it one of the oldest whisky distilleries in Japan. The company is also known for its sake Kamitaka (God Hawk) and produces a broad range of drinks. Its whisky matures in the mild climate near the Akashi Strait. Guided tours run by reservation.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.ei-sake.jp/'">Official Website</button>
     </div>
   </div>
@@ -374,37 +374,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Eigashima Distillery", "url": "https://whisky.terroirhub.com/whisky/en/hyogo/eigashima.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "江井ヶ嶋蒸留所", "foundingDate": "1919", "sameAs": "https://www.ei-sake.jp/", "brand": {"@type": "Brand", "name": "Single Malt Akashi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Eigashima Distillery", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/eigashima.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Eigashima Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Distillery produces Single Malt Akashi, White Oak Akashi, Kasuku (Cask)."}}, {"@type": "Question", "name": "When was Eigashima Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Distillery was founded in 1919 in Hyogo, Japan."}}, {"@type": "Question", "name": "Does Eigashima Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.ei-sake.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "江井ヶ嶋蒸留所", "display_name": "Eigashima Distillery", "brand": "あかし", "pref": "hyogo", "area": "明石市", "founded": "1919", "brands": ["Single Malt Akashi", "White Oak Akashi", "Kasuku (Cask)"], "url": "https://www.ei-sake.jp/", "desc": "Eigashima took its whisky production licence in 1919, making it one of the oldest whisky distilleries in Japan. The company is also known for its sake Kamitaka (God Hawk) and produces a broad range of drinks. Its whisky matures in the mild climate near the Akashi Strait. Guided tours run by reservation.", "suggestions": ["Tell me about Eigashima Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Eigashima Distillery", "url": "https://whisky.terroirhub.com/whisky/en/hyogo/eigashima.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "江井ヶ嶋蒸留所", "foundingDate": "1919", "sameAs": "https://www.ei-sake.jp/", "brand": {"@type": "Brand", "name": "Single Malt Akashi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Eigashima Distillery", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/eigashima.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Eigashima Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Distillery produces Single Malt Akashi, White Oak Akashi, Kasuku (Cask)."}}, {"@type": "Question", "name": "When was Eigashima Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Distillery was founded in 1919 in Hyogo, Japan."}}, {"@type": "Question", "name": "Does Eigashima Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.ei-sake.jp/."}}]}]}</script></body>
 </html>

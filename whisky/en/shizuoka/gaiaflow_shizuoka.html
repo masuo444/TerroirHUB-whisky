@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2016 — 静岡市葵区, Shizuoka</p>
     <p class="hero-tagline">Shizuoka Distillery was opened by Gaiaflow in 2016. It is the first distillery in the world to use Japanese cedar in its distilling equipment, draws spring water from the Southern Alps, and lets the seasons' microclimate work on its maturing casks. Paid tours, a tasting room and a whisky school are offered.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://shizuoka-distillery.jp/'">Official Website</button>
     </div>
   </div>
@@ -364,37 +364,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Gaiaflow Shizuoka Distillery", "url": "https://whisky.terroirhub.com/whisky/en/shizuoka/gaiaflow_shizuoka.html", "address": {"@type": "PostalAddress", "addressRegion": "Shizuoka", "addressCountry": "JP"}, "alternateName": "ガイアフロー静岡蒸溜所", "foundingDate": "2016", "sameAs": "https://shizuoka-distillery.jp/", "brand": {"@type": "Brand", "name": "Single Malt Shizuoka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Shizuoka", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/"}, {"@type": "ListItem", "position": 3, "name": "Gaiaflow Shizuoka Distillery", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/gaiaflow_shizuoka.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Gaiaflow Shizuoka Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Gaiaflow Shizuoka Distillery produces Single Malt Shizuoka, Blended Whisky M."}}, {"@type": "Question", "name": "When was Gaiaflow Shizuoka Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Gaiaflow Shizuoka Distillery was founded in 2016 in Shizuoka, Japan."}}, {"@type": "Question", "name": "Does Gaiaflow Shizuoka Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shizuoka-distillery.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "ガイアフロー静岡蒸溜所", "display_name": "Gaiaflow Shizuoka Distillery", "brand": "静岡", "pref": "shizuoka", "area": "静岡市葵区", "founded": "2016", "brands": ["Single Malt Shizuoka", "Blended Whisky M"], "url": "https://shizuoka-distillery.jp/", "desc": "Shizuoka Distillery was opened by Gaiaflow in 2016. It is the first distillery in the world to use Japanese cedar in its distilling equipment, draws spring water from the Southern Alps, and lets the seasons' microclimate work on its maturing casks. Paid tours, a tasting room and a whisky school are offered.", "suggestions": ["Tell me about Gaiaflow Shizuoka Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Gaiaflow Shizuoka Distillery", "url": "https://whisky.terroirhub.com/whisky/en/shizuoka/gaiaflow_shizuoka.html", "address": {"@type": "PostalAddress", "addressRegion": "Shizuoka", "addressCountry": "JP"}, "alternateName": "ガイアフロー静岡蒸溜所", "foundingDate": "2016", "sameAs": "https://shizuoka-distillery.jp/", "brand": {"@type": "Brand", "name": "Single Malt Shizuoka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Shizuoka", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/"}, {"@type": "ListItem", "position": 3, "name": "Gaiaflow Shizuoka Distillery", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/gaiaflow_shizuoka.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Gaiaflow Shizuoka Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Gaiaflow Shizuoka Distillery produces Single Malt Shizuoka, Blended Whisky M."}}, {"@type": "Question", "name": "When was Gaiaflow Shizuoka Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Gaiaflow Shizuoka Distillery was founded in 2016 in Shizuoka, Japan."}}, {"@type": "Question", "name": "Does Gaiaflow Shizuoka Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shizuoka-distillery.jp/."}}]}]}</script></body>
 </html>

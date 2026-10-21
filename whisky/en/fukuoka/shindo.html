@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     
     <p class="hero-tagline">Shindo Distillery stands near Shinozaki's head office in Asakura, Fukuoka. Its name carries the founders' intent — to open a new road (shindo) in whisky making. Run as SHINDO LAB, it has offered distillery tours and a hand-fill experience since August 2024.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://shindo-lab.jp/'">Official Website</button>
     </div>
   </div>
@@ -328,37 +328,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Shindo Distillery", "url": "https://whisky.terroirhub.com/whisky/en/fukuoka/shindo.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "新道蒸溜所", "sameAs": "https://shindo-lab.jp/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://whisky.terroirhub.com/whisky/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Shindo Distillery", "item": "https://whisky.terroirhub.com/whisky/en/fukuoka/shindo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does Shindo Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shindo-lab.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "新道蒸溜所", "display_name": "Shindo Distillery", "brand": "新道", "pref": "fukuoka", "area": "朝倉市", "founded": "", "brands": [], "url": "https://shindo-lab.jp/", "desc": "Shindo Distillery stands near Shinozaki's head office in Asakura, Fukuoka. Its name carries the founders' intent — to open a new road (shindo) in whisky making. Run as SHINDO LAB, it has offered distillery tours and a hand-fill experience since August 2024.", "suggestions": ["Tell me about Shindo Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Shindo Distillery", "url": "https://whisky.terroirhub.com/whisky/en/fukuoka/shindo.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "新道蒸溜所", "sameAs": "https://shindo-lab.jp/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://whisky.terroirhub.com/whisky/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Shindo Distillery", "item": "https://whisky.terroirhub.com/whisky/en/fukuoka/shindo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does Shindo Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shindo-lab.jp/."}}]}]}</script></body>
 </html>

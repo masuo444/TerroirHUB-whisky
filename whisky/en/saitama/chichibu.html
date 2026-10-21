@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2008 — 秩父市, Saitama</p>
     <p class="hero-tagline">Chichibu Distillery was founded by Ichiro Akuto in 2004, with distilling begun in February 2008. It is the home of Ichiro's Malt, a whisky held in the highest international regard. Maturation runs through a wide range of casks including Japanese mizunara oak, and Chichibu's four sharply drawn seasons shape the whisky's character. Tours run by reservation, 9:00–17:00.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.one-drinks.com/'">Official Website</button>
     </div>
   </div>
@@ -374,37 +374,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chichibu Distillery", "url": "https://whisky.terroirhub.com/whisky/en/saitama/chichibu.html", "address": {"@type": "PostalAddress", "addressRegion": "Saitama", "addressCountry": "JP"}, "alternateName": "秩父蒸溜所", "foundingDate": "2008", "sameAs": "https://www.one-drinks.com/", "brand": {"@type": "Brand", "name": "Ichiro's Malt & Grain White Label"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saitama", "item": "https://whisky.terroirhub.com/whisky/en/saitama/"}, {"@type": "ListItem", "position": 3, "name": "Chichibu Distillery", "item": "https://whisky.terroirhub.com/whisky/en/saitama/chichibu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chichibu Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chichibu Distillery produces Ichiro's Malt & Grain White Label, Ichiro's Malt Mizunara Wood Reserve, Ichiro's Malt Double Distilleries."}}, {"@type": "Question", "name": "When was Chichibu Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chichibu Distillery was founded in 2008 in Saitama, Japan."}}, {"@type": "Question", "name": "Does Chichibu Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.one-drinks.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "秩父蒸溜所", "display_name": "Chichibu Distillery", "brand": "イチローズモルト", "pref": "saitama", "area": "秩父市", "founded": "2008", "brands": ["Ichiro's Malt & Grain White Label", "Ichiro's Malt Mizunara Wood Reserve", "Ichiro's Malt Double Distilleries"], "url": "https://www.one-drinks.com/", "desc": "Chichibu Distillery was founded by Ichiro Akuto in 2004, with distilling begun in February 2008. It is the home of Ichiro's Malt, a whisky held in the highest international regard. Maturation runs through a wide range of casks including Japanese mizunara oak, and Chichibu's four sharply drawn seasons shape the whisky's character. Tours run by reservation, 9:00–17:00.", "suggestions": ["Tell me about Chichibu Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chichibu Distillery", "url": "https://whisky.terroirhub.com/whisky/en/saitama/chichibu.html", "address": {"@type": "PostalAddress", "addressRegion": "Saitama", "addressCountry": "JP"}, "alternateName": "秩父蒸溜所", "foundingDate": "2008", "sameAs": "https://www.one-drinks.com/", "brand": {"@type": "Brand", "name": "Ichiro's Malt & Grain White Label"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saitama", "item": "https://whisky.terroirhub.com/whisky/en/saitama/"}, {"@type": "ListItem", "position": 3, "name": "Chichibu Distillery", "item": "https://whisky.terroirhub.com/whisky/en/saitama/chichibu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chichibu Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chichibu Distillery produces Ichiro's Malt & Grain White Label, Ichiro's Malt Mizunara Wood Reserve, Ichiro's Malt Double Distilleries."}}, {"@type": "Question", "name": "When was Chichibu Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chichibu Distillery was founded in 2008 in Saitama, Japan."}}, {"@type": "Question", "name": "Does Chichibu Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.one-drinks.com/."}}]}]}</script></body>
 </html>

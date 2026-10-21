@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2018 — 遊佐町, Yamagata</p>
     <p class="hero-tagline">Yuza Distillery was completed in 2018 and began production the following month as Yamagata's first full-scale whisky distillery. It draws the abundant subsoil water of Mt. Chokai and is run by Kinryu, a company jointly funded by nine local sake makers.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://yuza-disty.jp/'">Official Website</button>
     </div>
   </div>
@@ -354,37 +354,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yuza Distillery", "url": "https://whisky.terroirhub.com/whisky/en/yamagata/yuza.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamagata", "addressCountry": "JP"}, "alternateName": "遊佐蒸溜所", "foundingDate": "2018", "sameAs": "https://yuza-disty.jp/", "brand": {"@type": "Brand", "name": "Yuza Single Malt"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamagata", "item": "https://whisky.terroirhub.com/whisky/en/yamagata/"}, {"@type": "ListItem", "position": 3, "name": "Yuza Distillery", "item": "https://whisky.terroirhub.com/whisky/en/yamagata/yuza.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yuza Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yuza Distillery produces Yuza Single Malt."}}, {"@type": "Question", "name": "When was Yuza Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yuza Distillery was founded in 2018 in Yamagata, Japan."}}, {"@type": "Question", "name": "Does Yuza Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://yuza-disty.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "遊佐蒸溜所", "display_name": "Yuza Distillery", "brand": "YUZA", "pref": "yamagata", "area": "遊佐町", "founded": "2018", "brands": ["Yuza Single Malt"], "url": "https://yuza-disty.jp/", "desc": "Yuza Distillery was completed in 2018 and began production the following month as Yamagata's first full-scale whisky distillery. It draws the abundant subsoil water of Mt. Chokai and is run by Kinryu, a company jointly funded by nine local sake makers.", "suggestions": ["Tell me about Yuza Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yuza Distillery", "url": "https://whisky.terroirhub.com/whisky/en/yamagata/yuza.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamagata", "addressCountry": "JP"}, "alternateName": "遊佐蒸溜所", "foundingDate": "2018", "sameAs": "https://yuza-disty.jp/", "brand": {"@type": "Brand", "name": "Yuza Single Malt"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamagata", "item": "https://whisky.terroirhub.com/whisky/en/yamagata/"}, {"@type": "ListItem", "position": 3, "name": "Yuza Distillery", "item": "https://whisky.terroirhub.com/whisky/en/yamagata/yuza.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yuza Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yuza Distillery produces Yuza Single Malt."}}, {"@type": "Question", "name": "When was Yuza Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yuza Distillery was founded in 2018 in Yamagata, Japan."}}, {"@type": "Question", "name": "Does Yuza Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://yuza-disty.jp/."}}]}]}</script></body>
 </html>

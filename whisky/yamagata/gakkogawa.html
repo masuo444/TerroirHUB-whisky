@@ -305,7 +305,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2023 — 遊佐町, 山形県</p>
     <p class="hero-tagline">2023年に蒸留を開始した山形県庄内地方のクラフトウイスキー蒸留所。山形・庄内の風土と時が生むウイスキーを目指す。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://gakkogawa.com/'">公式サイト</button>
     </div>
   </div>
@@ -402,39 +402,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="月光川蒸留所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB WHISKY（ウイスキーのページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "月光川蒸留所", "brand": "月光川", "pref": "山形県", "area": "遊佐町", "founded": "2023", "founded_era": "令和5年", "brands": [], "visit": "", "url": "https://gakkogawa.com/", "desc": "2023年に蒸留を開始した山形県庄内地方のクラフトウイスキー蒸留所。山形・庄内の風土と時が生むウイスキーを目指す。", "suggestions": ["月光川ってどんなウイスキー？", "おすすめの飲み方は？", "見学はできる？", "月光川蒸留所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

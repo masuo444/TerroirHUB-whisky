@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1985 — 宮田村, Nagano</p>
     <p class="hero-tagline">Mars Komagatake stands at 798 metres above sea level at the foot of Mt. Komagatake in the Central Alps. Renamed from Mars Shinshu in March 2024, the Hombo Shuzo distillery carries on the design philosophy of Kiichiro Iwai. Admission is free, tastings are paid, and the distillery is open 9:00–16:00 (tours accepted until 15:30).</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hombo.co.jp/en/visiting/komagatake/'">Official Website</button>
     </div>
   </div>
@@ -374,37 +374,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mars Komagatake Distillery", "url": "https://whisky.terroirhub.com/whisky/en/nagano/mars_komagatake.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagano", "addressCountry": "JP"}, "alternateName": "マルス駒ヶ岳蒸溜所", "foundingDate": "1985", "sameAs": "https://www.hombo.co.jp/en/visiting/komagatake/", "brand": {"@type": "Brand", "name": "Single Malt Komagatake"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagano", "item": "https://whisky.terroirhub.com/whisky/en/nagano/"}, {"@type": "ListItem", "position": 3, "name": "Mars Komagatake Distillery", "item": "https://whisky.terroirhub.com/whisky/en/nagano/mars_komagatake.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mars Komagatake Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mars Komagatake Distillery produces Single Malt Komagatake, Iwai Tradition, Mars Maltage Cosmo."}}, {"@type": "Question", "name": "When was Mars Komagatake Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mars Komagatake Distillery was founded in 1985 in Nagano, Japan."}}, {"@type": "Question", "name": "Does Mars Komagatake Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hombo.co.jp/en/visiting/komagatake/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "マルス駒ヶ岳蒸溜所", "display_name": "Mars Komagatake Distillery", "brand": "駒ヶ岳", "pref": "nagano", "area": "宮田村", "founded": "1985", "brands": ["Single Malt Komagatake", "Iwai Tradition", "Mars Maltage Cosmo"], "url": "https://www.hombo.co.jp/en/visiting/komagatake/", "desc": "Mars Komagatake stands at 798 metres above sea level at the foot of Mt. Komagatake in the Central Alps. Renamed from Mars Shinshu in March 2024, the Hombo Shuzo distillery carries on the design philosophy of Kiichiro Iwai. Admission is free, tastings are paid, and the distillery is open 9:00–16:00 (tours accepted until 15:30).", "suggestions": ["Tell me about Mars Komagatake Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mars Komagatake Distillery", "url": "https://whisky.terroirhub.com/whisky/en/nagano/mars_komagatake.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagano", "addressCountry": "JP"}, "alternateName": "マルス駒ヶ岳蒸溜所", "foundingDate": "1985", "sameAs": "https://www.hombo.co.jp/en/visiting/komagatake/", "brand": {"@type": "Brand", "name": "Single Malt Komagatake"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagano", "item": "https://whisky.terroirhub.com/whisky/en/nagano/"}, {"@type": "ListItem", "position": 3, "name": "Mars Komagatake Distillery", "item": "https://whisky.terroirhub.com/whisky/en/nagano/mars_komagatake.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mars Komagatake Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mars Komagatake Distillery produces Single Malt Komagatake, Iwai Tradition, Mars Maltage Cosmo."}}, {"@type": "Question", "name": "When was Mars Komagatake Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mars Komagatake Distillery was founded in 1985 in Nagano, Japan."}}, {"@type": "Question", "name": "Does Mars Komagatake Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hombo.co.jp/en/visiting/komagatake/."}}]}]}</script></body>
 </html>

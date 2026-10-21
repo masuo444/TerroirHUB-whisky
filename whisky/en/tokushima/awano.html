@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2023 — 阿波市, Tokushima</p>
     <p class="hero-tagline">Awano Distillery is run by Nissin Shurui, a composite drinks maker in Tokushima whose history reaches back to the Edo period. The company began whisky production in March 2023.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.nissin-shurui.co.jp/whiskey.html'">Official Website</button>
     </div>
   </div>
@@ -328,37 +328,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Awano Distillery", "url": "https://whisky.terroirhub.com/whisky/en/tokushima/awano.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokushima", "addressCountry": "JP"}, "alternateName": "阿波乃蒸溜所", "foundingDate": "2023", "sameAs": "https://www.nissin-shurui.co.jp/whiskey.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokushima", "item": "https://whisky.terroirhub.com/whisky/en/tokushima/"}, {"@type": "ListItem", "position": 3, "name": "Awano Distillery", "item": "https://whisky.terroirhub.com/whisky/en/tokushima/awano.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When was Awano Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Awano Distillery was founded in 2023 in Tokushima, Japan."}}, {"@type": "Question", "name": "Does Awano Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.nissin-shurui.co.jp/whiskey.html."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "阿波乃蒸溜所", "display_name": "Awano Distillery", "brand": "阿波乃", "pref": "tokushima", "area": "阿波市", "founded": "2023", "brands": [], "url": "https://www.nissin-shurui.co.jp/whiskey.html", "desc": "Awano Distillery is run by Nissin Shurui, a composite drinks maker in Tokushima whose history reaches back to the Edo period. The company began whisky production in March 2023.", "suggestions": ["Tell me about Awano Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Awano Distillery", "url": "https://whisky.terroirhub.com/whisky/en/tokushima/awano.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokushima", "addressCountry": "JP"}, "alternateName": "阿波乃蒸溜所", "foundingDate": "2023", "sameAs": "https://www.nissin-shurui.co.jp/whiskey.html"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokushima", "item": "https://whisky.terroirhub.com/whisky/en/tokushima/"}, {"@type": "ListItem", "position": 3, "name": "Awano Distillery", "item": "https://whisky.terroirhub.com/whisky/en/tokushima/awano.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When was Awano Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Awano Distillery was founded in 2023 in Tokushima, Japan."}}, {"@type": "Question", "name": "Does Awano Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.nissin-shurui.co.jp/whiskey.html."}}]}]}</script></body>
 </html>

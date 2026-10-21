@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2022 — 高山市, Gifu</p>
     <p class="hero-tagline">Hida Takayama Distillery is Gifu Prefecture's first whisky distillery, created by converting a closed elementary school. It was founded by the Alice Group, which runs inns and a long-established sake brewery in Hida Takayama, with the aim of making a whisky of Hida. Tours are available.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.whisky-hida.com/'">Official Website</button>
     </div>
   </div>
@@ -335,37 +335,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hida Takayama Distillery", "url": "https://whisky.terroirhub.com/whisky/en/gifu/hidatakayama.html", "address": {"@type": "PostalAddress", "addressRegion": "Gifu", "addressCountry": "JP"}, "alternateName": "飛騨高山蒸溜所", "foundingDate": "2022", "sameAs": "https://www.whisky-hida.com/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Gifu", "item": "https://whisky.terroirhub.com/whisky/en/gifu/"}, {"@type": "ListItem", "position": 3, "name": "Hida Takayama Distillery", "item": "https://whisky.terroirhub.com/whisky/en/gifu/hidatakayama.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When was Hida Takayama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hida Takayama Distillery was founded in 2022 in Gifu, Japan."}}, {"@type": "Question", "name": "Does Hida Takayama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.whisky-hida.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "飛騨高山蒸溜所", "display_name": "Hida Takayama Distillery", "brand": "飛騨高山", "pref": "gifu", "area": "高山市", "founded": "2022", "brands": [], "url": "https://www.whisky-hida.com/", "desc": "Hida Takayama Distillery is Gifu Prefecture's first whisky distillery, created by converting a closed elementary school. It was founded by the Alice Group, which runs inns and a long-established sake brewery in Hida Takayama, with the aim of making a whisky of Hida. Tours are available.", "suggestions": ["Tell me about Hida Takayama Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hida Takayama Distillery", "url": "https://whisky.terroirhub.com/whisky/en/gifu/hidatakayama.html", "address": {"@type": "PostalAddress", "addressRegion": "Gifu", "addressCountry": "JP"}, "alternateName": "飛騨高山蒸溜所", "foundingDate": "2022", "sameAs": "https://www.whisky-hida.com/"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Gifu", "item": "https://whisky.terroirhub.com/whisky/en/gifu/"}, {"@type": "ListItem", "position": 3, "name": "Hida Takayama Distillery", "item": "https://whisky.terroirhub.com/whisky/en/gifu/hidatakayama.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When was Hida Takayama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hida Takayama Distillery was founded in 2022 in Gifu, Japan."}}, {"@type": "Question", "name": "Does Hida Takayama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.whisky-hida.com/."}}]}]}</script></body>
 </html>

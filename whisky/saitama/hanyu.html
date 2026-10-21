@@ -313,7 +313,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1980 — 羽生市, 埼玉県</p>
     <p class="hero-tagline">1980年に東亜酒造によって設立された蒸留所。一時休止後、2021年に蒸留を再開。ビジターセンターも開設。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://hanyu-distillery.jp/'">公式サイト</button>
     </div>
   </div>
@@ -437,39 +437,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="羽生蒸溜所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB WHISKY（ウイスキーのページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "羽生蒸溜所", "brand": "羽生", "pref": "埼玉県", "area": "羽生市", "founded": "1980", "founded_era": "昭和55年", "brands": [], "visit": "ビジターセンターあり（見学ツアー要予約）", "url": "https://hanyu-distillery.jp/", "desc": "1980年に東亜酒造によって設立された蒸留所。一時休止後、2021年に蒸留を再開。ビジターセンターも開設。", "suggestions": ["羽生ってどんなウイスキー？", "おすすめの飲み方は？", "見学はできる？", "羽生蒸溜所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

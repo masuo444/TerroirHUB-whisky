@@ -322,7 +322,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1985 — 宮田村, 長野県</p>
     <p class="hero-tagline">本坊酒造が中央アルプス駒ヶ岳の麓、標高798mに開設したモルトウイスキー蒸溜所。2024年3月にマルス信州蒸溜所から名称変更。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hombo.co.jp/en/visiting/komagatake/'">公式サイト</button>
     </div>
   </div>
@@ -505,39 +505,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="マルス駒ヶ岳蒸溜所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB WHISKY（ウイスキーのページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "マルス駒ヶ岳蒸溜所", "brand": "駒ヶ岳", "pref": "長野県", "area": "宮田村", "founded": "1985", "founded_era": "昭和60年", "brands": ["シングルモルト駒ヶ岳", "岩井トラディション", "マルスモルテージ越百"], "visit": "入館無料、試飲有料、営業時間 9:00-16:00（見学受付15:30迄）", "url": "https://www.hombo.co.jp/en/visiting/komagatake/", "desc": "本坊酒造が中央アルプス駒ヶ岳の麓、標高798mに開設したモルトウイスキー蒸溜所。2024年3月にマルス信州蒸溜所から名称変更。", "suggestions": ["駒ヶ岳ってどんなウイスキー？", "おすすめの飲み方は？", "見学はできる？", "マルス駒ヶ岳蒸溜所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

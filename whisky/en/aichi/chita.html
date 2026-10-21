@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1972 — 知多市, Aichi</p>
     <p class="hero-tagline">Chita is Japan's largest grain whisky distillery, owned by Suntory and long dedicated to producing the grain component of blended whiskies such as Hibiki and Kakubin. Since 2015 its spirit has also been bottled on its own as The Chita, a single grain whisky. The distillery is not open to the public.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.suntory.co.jp/chitadistillery/'">Official Website</button>
     </div>
   </div>
@@ -354,37 +354,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chita Distillery", "url": "https://whisky.terroirhub.com/whisky/en/aichi/chita.html", "address": {"@type": "PostalAddress", "addressRegion": "Aichi", "addressCountry": "JP"}, "alternateName": "知多蒸溜所", "foundingDate": "1972", "sameAs": "https://www.suntory.co.jp/chitadistillery/", "brand": {"@type": "Brand", "name": "The Chita (Suntory Whisky Chita)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Aichi", "item": "https://whisky.terroirhub.com/whisky/en/aichi/"}, {"@type": "ListItem", "position": 3, "name": "Chita Distillery", "item": "https://whisky.terroirhub.com/whisky/en/aichi/chita.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chita Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chita Distillery produces The Chita (Suntory Whisky Chita)."}}, {"@type": "Question", "name": "When was Chita Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chita Distillery was founded in 1972 in Aichi, Japan."}}, {"@type": "Question", "name": "Does Chita Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.suntory.co.jp/chitadistillery/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "知多蒸溜所", "display_name": "Chita Distillery", "brand": "知多", "pref": "aichi", "area": "知多市", "founded": "1972", "brands": ["The Chita (Suntory Whisky Chita)"], "url": "https://www.suntory.co.jp/chitadistillery/", "desc": "Chita is Japan's largest grain whisky distillery, owned by Suntory and long dedicated to producing the grain component of blended whiskies such as Hibiki and Kakubin. Since 2015 its spirit has also been bottled on its own as The Chita, a single grain whisky. The distillery is not open to the public.", "suggestions": ["Tell me about Chita Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chita Distillery", "url": "https://whisky.terroirhub.com/whisky/en/aichi/chita.html", "address": {"@type": "PostalAddress", "addressRegion": "Aichi", "addressCountry": "JP"}, "alternateName": "知多蒸溜所", "foundingDate": "1972", "sameAs": "https://www.suntory.co.jp/chitadistillery/", "brand": {"@type": "Brand", "name": "The Chita (Suntory Whisky Chita)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Aichi", "item": "https://whisky.terroirhub.com/whisky/en/aichi/"}, {"@type": "ListItem", "position": 3, "name": "Chita Distillery", "item": "https://whisky.terroirhub.com/whisky/en/aichi/chita.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chita Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chita Distillery produces The Chita (Suntory Whisky Chita)."}}, {"@type": "Question", "name": "When was Chita Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chita Distillery was founded in 1972 in Aichi, Japan."}}, {"@type": "Question", "name": "Does Chita Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.suntory.co.jp/chitadistillery/."}}]}]}</script></body>
 </html>

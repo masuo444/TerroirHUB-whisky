@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     
     <p class="hero-tagline">Kaikyo Distillery in Akashi, Hyogo, is operated by Akashi Sake Brewery. Its name means &quot;strait&quot;, after the Akashi Strait nearby.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -321,37 +321,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kaikyo Distillery", "url": "https://whisky.terroirhub.com/whisky/en/hyogo/kaikyo.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "海峡蒸溜所"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Kaikyo Distillery", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/kaikyo.html"}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "海峡蒸溜所", "display_name": "Kaikyo Distillery", "brand": "海峡", "pref": "hyogo", "area": "明石市", "founded": "", "brands": [], "url": "", "desc": "Kaikyo Distillery in Akashi, Hyogo, is operated by Akashi Sake Brewery. Its name means \"strait\", after the Akashi Strait nearby.", "suggestions": ["Tell me about Kaikyo Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kaikyo Distillery", "url": "https://whisky.terroirhub.com/whisky/en/hyogo/kaikyo.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "海峡蒸溜所"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Kaikyo Distillery", "item": "https://whisky.terroirhub.com/whisky/en/hyogo/kaikyo.html"}]}]}</script></body>
 </html>

@@ -235,7 +235,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1973 — 御殿場市, Shizuoka</p>
     <p class="hero-tagline">Fuji Gotemba was established in 1973 as a joint venture of Kirin, Seagram and Chivas Brothers. At about 620 metres on the foot of Mt. Fuji, it is one of the rare distilleries making both malt and grain whisky on one site, using Mt. Fuji's subsoil water and maturing spirit in a humid climate that averages 13°C across the year. Paid tours run by reservation.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kirin.co.jp/experience/factory/gotemba/'">Official Website</button>
     </div>
   </div>
@@ -374,37 +374,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">whisky.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fuji Gotemba Distillery", "url": "https://whisky.terroirhub.com/whisky/en/shizuoka/fuji_gotemba.html", "address": {"@type": "PostalAddress", "addressRegion": "Shizuoka", "addressCountry": "JP"}, "alternateName": "富士御殿場蒸溜所", "foundingDate": "1973", "sameAs": "https://www.kirin.co.jp/experience/factory/gotemba/", "brand": {"@type": "Brand", "name": "Kirin Single Grain Whisky Fuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Shizuoka", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/"}, {"@type": "ListItem", "position": 3, "name": "Fuji Gotemba Distillery", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/fuji_gotemba.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fuji Gotemba Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fuji Gotemba Distillery produces Kirin Single Grain Whisky Fuji, Kirin Single Malt Whisky Fuji, Fuji-Sanroku."}}, {"@type": "Question", "name": "When was Fuji Gotemba Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fuji Gotemba Distillery was founded in 1973 in Shizuoka, Japan."}}, {"@type": "Question", "name": "Does Fuji Gotemba Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kirin.co.jp/experience/factory/gotemba/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB WHISKY (ウイスキー page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "富士御殿場蒸溜所", "display_name": "Fuji Gotemba Distillery", "brand": "富士", "pref": "shizuoka", "area": "御殿場市", "founded": "1973", "brands": ["Kirin Single Grain Whisky Fuji", "Kirin Single Malt Whisky Fuji", "Fuji-Sanroku"], "url": "https://www.kirin.co.jp/experience/factory/gotemba/", "desc": "Fuji Gotemba was established in 1973 as a joint venture of Kirin, Seagram and Chivas Brothers. At about 620 metres on the foot of Mt. Fuji, it is one of the rare distilleries making both malt and grain whisky on one site, using Mt. Fuji's subsoil water and maturing spirit in a humid climate that averages 13°C across the year. Paid tours run by reservation.", "suggestions": ["Tell me about Fuji Gotemba Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fuji Gotemba Distillery", "url": "https://whisky.terroirhub.com/whisky/en/shizuoka/fuji_gotemba.html", "address": {"@type": "PostalAddress", "addressRegion": "Shizuoka", "addressCountry": "JP"}, "alternateName": "富士御殿場蒸溜所", "foundingDate": "1973", "sameAs": "https://www.kirin.co.jp/experience/factory/gotemba/", "brand": {"@type": "Brand", "name": "Kirin Single Grain Whisky Fuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://whisky.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Shizuoka", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/"}, {"@type": "ListItem", "position": 3, "name": "Fuji Gotemba Distillery", "item": "https://whisky.terroirhub.com/whisky/en/shizuoka/fuji_gotemba.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fuji Gotemba Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fuji Gotemba Distillery produces Kirin Single Grain Whisky Fuji, Kirin Single Malt Whisky Fuji, Fuji-Sanroku."}}, {"@type": "Question", "name": "When was Fuji Gotemba Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fuji Gotemba Distillery was founded in 1973 in Shizuoka, Japan."}}, {"@type": "Question", "name": "Does Fuji Gotemba Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kirin.co.jp/experience/factory/gotemba/."}}]}]}</script></body>
 </html>
