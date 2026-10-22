@@ -350,7 +350,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
       <a href="/whisky/guide/">ウイスキーガイド</a>
       <a href="https://terroirhub.com/quest/">クエスト</a>
       
-      <a href="#plans">プラン</a>
+      
       <a href="https://www.terroirhub.com/business/">事業者向け</a>
       <a href="https://www.terroirhub.com/listing-update/">掲載修正</a>
     </div>
@@ -385,7 +385,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
     
     <div class="mm-divider"></div>
     <a href="#why" onclick="closeMM()"><span class="mm-icon">&#10024;</span>楽しみ方</a>
-    <a href="#plans" onclick="closeMM()"><span class="mm-icon">&#128142;</span>プラン</a>
+    
     <div class="mm-divider"></div>
     <a href="https://sake.terroirhub.com/" onclick="closeMM()"><span class="mm-icon">&#127862;</span>日本酒版はこちら</a>
     <a href="https://shochu.terroirhub.com/" onclick="closeMM()"><span class="mm-icon">&#127866;</span>焼酎版はこちら</a>
@@ -546,49 +546,6 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 <hr class="sec-divider">
 
 <!-- PLANS -->
-<section class="sec plans-sec" id="plans">
-  <div class="sec-center">
-    <div class="sec-tag">Plans</div>
-    <div class="sec-h">まずは無料で。もっと使いたくなったら。</div>
-    <div class="sec-sub">登録は無料。教科書の全機能はPro以上で。</div>
-  </div>
-  <div class="plan-grid">
-    <div class="plan">
-      <div class="plan-name">Free</div>
-      <div class="plan-price">&#165;0 <span>/月</span></div>
-      <div class="plan-desc">蒸留所検索・ガイドの前半</div>
-      <ul class="plan-features">
-        <li>全67蒸留所の情報を閲覧</li>
-        <li>蒸留所名・銘柄・地域で検索</li>
-      </ul>
-      <button class="plan-btn secondary" onclick="showAuth('signup')">無料で始める</button>
-    </div>
-    <div class="plan featured">
-      <div class="plan-name">Pro</div>
-      <div class="plan-price">&#165;500 <span>/月</span></div>
-      <div class="plan-desc">ガイド全章・テイスティング記録</div>
-      <ul class="plan-features">
-        <li>ウイスキーガイド 全章</li>
-        <li>テイスティングノート・バッジ</li>
-      </ul>
-      <button class="plan-btn primary" onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){thubSubscribe('pro')}else{sessionStorage.setItem('thub_pending_plan','pro');showAuth('signup')}">Proを始める</button>
-    </div>
-    <div class="plan premium">
-      <div class="plan-name">Premium</div>
-      <div class="plan-price">&#165;1,500 <span>/月</span></div>
-      <div class="plan-desc">Proの全機能＋レポート・英語・大容量</div>
-      <ul class="plan-features">
-        <li>蒸留所の詳細レポート生成</li>
-        <li>英語対応・クレジット追加購入</li>
-      </ul>
-      <button class="plan-btn premium-btn" onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){thubSubscribe('premium')}else{sessionStorage.setItem('thub_pending_plan','premium');showAuth('signup')}">Premiumを始める</button>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:20px;">
-    <a href="/whisky/plans/" style="font-size:13px;color:#2D5F3F;text-decoration:none;font-weight:500;">プランの詳細を比較する &#8594;</a>
-  </div>
-</section>
-
 <!-- ABOUT -->
 <section class="sec about-sec sec-center" id="about">
   <div class="sec-tag">WHY TERROIR HUB</div>

@@ -84,6 +84,26 @@
       "source": "/fr/:path*",
       "destination": "/en/:path*",
       "permanent": true
+    },
+    {
+      "source": "/whisky/plans",
+      "destination": "/whisky/",
+      "permanent": true
+    },
+    {
+      "source": "/whisky/plans/(.*)",
+      "destination": "/whisky/",
+      "permanent": true
+    },
+    {
+      "source": "/whisky/en/plans",
+      "destination": "/whisky/en/",
+      "permanent": true
+    },
+    {
+      "source": "/whisky/en/plans/(.*)",
+      "destination": "/whisky/en/",
+      "permanent": true
     }
   ]
 }
