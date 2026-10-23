@@ -71,6 +71,17 @@
   ],
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "terroir-hub-whisky.vercel.app"
+        }
+      ],
+      "destination": "https://whisky.terroirhub.com/$1",
+      "permanent": true
+    },
+    {
       "source": "/whisky/fr/:path*",
       "destination": "/whisky/en/:path*",
       "permanent": true
