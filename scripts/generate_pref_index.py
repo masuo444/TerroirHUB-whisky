@@ -190,12 +190,12 @@ body{{background:#FAF8F5;color:#1A1814;font-family:'Noto Sans JP','DM Sans',sans
 .nav{{position:fixed;top:0;left:0;right:0;z-index:100;height:54px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;background:rgba(250,248,245,0.96);backdrop-filter:blur(20px);border-bottom:1px solid #E5DDD5;}}
 .nav-brand{{display:flex;align-items:center;gap:9px;text-decoration:none;}}
 .nav-logo{{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;letter-spacing:0.06em;color:#1A1814;}}
-.nav-logo-sub{{font-size:10px;color:#8A8070;letter-spacing:0.06em;margin-left:8px;}}
+.nav-logo-sub{{font-size:10px;color:#786F61;letter-spacing:0.06em;margin-left:8px;}}
 .nav-r{{display:flex;gap:12px;}}
 .nav-r a{{font-size:13px;color:#6B4423;text-decoration:none;font-weight:500;}}
 .nav-r a:hover{{opacity:0.7;}}
 .main{{max-width:1100px;margin:0 auto;padding:78px 24px 48px;}}
-.breadcrumb{{font-size:13px;color:#8A8070;margin-bottom:24px;}}
+.breadcrumb{{font-size:13px;color:#786F61;margin-bottom:24px;}}
 .guide{{margin-top:48px;border-top:1px solid #E5DDD5;padding-top:36px;}}
 .guide h2{{font-family:'Shippori Mincho',serif;font-size:clamp(20px,3vw,26px);margin:28px 0 12px;}}
 .glead{{color:#3D3830;margin-bottom:20px;}}
@@ -203,14 +203,14 @@ body{{background:#FAF8F5;color:#1A1814;font-family:'Noto Sans JP','DM Sans',sans
 .gitem h3{{font-family:'Shippori Mincho',serif;font-size:19px;margin-bottom:8px;}}
 .gitem p{{font-size:15px;color:#3D3830;}}
 .gtable{{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px;}}
-.gtable th{{text-align:left;width:6.5em;color:#8A8070;font-weight:500;padding:5px 0;vertical-align:top;}}
+.gtable th{{text-align:left;width:6.5em;color:#786F61;font-weight:500;padding:5px 0;vertical-align:top;}}
 .gtable td{{padding:5px 0;}}
-.calc{{font-size:12px;color:#8A8070;}}
+.calc{{font-size:12px;color:#786F61;}}
 .gfeat{{margin:8px 0 0 1.2em;font-size:14px;color:#3D3830;}}
 .glinks{{margin-top:10px;font-size:14px;}}
 .glinks a{{color:#6B4423;margin-right:12px;}}
-.gsrc{{font-size:12px!important;color:#8A8070!important;margin-top:6px;word-break:break-all;}}
-.gsrc a{{color:#8A8070;}}
+.gsrc{{font-size:12px!important;color:#786F61!important;margin-top:6px;word-break:break-all;}}
+.gsrc a{{color:#786F61;}}
 .gfz{{background:#fff;border:1px solid #E5DDD5;border-radius:10px;padding:16px 20px;margin:8px 0 16px;font-size:15px;}}
 .gfz a{{color:#6B4423;font-weight:500;}}
 .gfaq{{background:#fff;border:1px solid #E5DDD5;border-radius:10px;padding:16px 20px;margin-bottom:10px;}}
@@ -220,7 +220,7 @@ body{{background:#FAF8F5;color:#1A1814;font-family:'Noto Sans JP','DM Sans',sans
 .breadcrumb a:hover{{text-decoration:underline;}}
 .header{{margin-bottom:32px;}}
 .header h1{{font-family:'Shippori Mincho',serif;font-size:clamp(26px,4vw,36px);font-weight:700;color:#1A1814;margin-bottom:6px;}}
-.header .count{{font-size:14px;color:#8A8070;}}
+.header .count{{font-size:14px;color:#786F61;}}
 .filters{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px;}}
 .filter-btn{{background:#fff;border:1px solid #E5DDD5;color:#3D3830;font-size:13px;padding:6px 14px;border-radius:6px;cursor:pointer;transition:all 0.15s;font-family:'Noto Sans JP',sans-serif;}}
 .filter-btn:hover,.filter-btn.active{{border-color:#6B4423;color:#6B4423;background:rgba(107,68,35,0.06);}}
@@ -231,11 +231,11 @@ body{{background:#FAF8F5;color:#1A1814;font-family:'Noto Sans JP','DM Sans',sans
 .card:hover{{border-color:#6B4423;box-shadow:0 4px 16px rgba(0,0,0,0.04);transform:translateY(-2px);}}
 .card-name{{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:#1A1814;margin-bottom:2px;}}
 .card-brand{{font-size:13px;color:#6B4423;font-weight:500;margin-bottom:4px;}}
-.card-meta{{font-size:12px;color:#8A8070;margin-bottom:6px;}}
-.card-desc{{font-size:12px;color:#8A8070;line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}}
+.card-meta{{font-size:12px;color:#786F61;margin-bottom:6px;}}
+.card-desc{{font-size:12px;color:#786F61;line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}}
 .card-tags{{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px;}}
 .tag{{font-size:10px;padding:2px 8px;border-radius:3px;background:rgba(107,68,35,0.06);color:#6B4423;border:1px solid rgba(107,68,35,0.12);}}
-.empty{{text-align:center;padding:48px;color:#8A8070;font-size:14px;}}
+.empty{{text-align:center;padding:48px;color:#786F61;font-size:14px;}}
 footer{{background:#1A1814;padding:32px 24px;text-align:center;margin-top:48px;}}
 footer p{{font-size:12px;color:rgba(255,255,255,0.3);}}
 footer a{{color:rgba(255,255,255,0.5);text-decoration:none;}}
